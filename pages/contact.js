@@ -15,10 +15,10 @@ const Contact = () => {
                                 <div className="py-12">
                                     <div className="max-w-lg lg:max-w-md mx-auto lg:mx-0 mb-8 text-center lg:text-left">
                                         <h2 className="text-3xl lg:text-5xl mb-4 font-bold font-heading wow animate__animatedanimated animate__fadeIn">
-                                            Committed to <span className="text-blue-500">People</span>, and the future
+                                            Committed to <span className="text-brightRed">People</span>, and the future
                                         </h2>
                                         <div className="text-blueGray-400 leading-relaxed wow animate__animatedanimated animate__fadeIn">
-                                            We are <strong className="text-blue-500">Monst</strong>, a Creative Design{" "}
+                                            We are <strong className="text-brightRed">Monst</strong>, a Creative Design{" "}
                                             <div className="typewrite d-inline text-brand">
                                                 <TextEffect text1="Web Agency" text2="Social Marketing" />
                                             </div>
@@ -27,7 +27,7 @@ const Contact = () => {
                                     </div>
                                     <div className="text-center lg:text-left">
                                         <Link href="/about" legacyBehavior>
-                                            <a className="tracking-wide hover-up-2 block sm:inline-block py-4 px-8 mb-4 sm:mb-0 sm:mr-3 text-xs text-white text-center font-semibold leading-none bg-blue-400 hover:bg-blue-500 rounded wow animate__animatedanimated animate__fadeIn">About Us</a>
+                                            <a className="tracking-wide hover-up-2 block sm:inline-block py-4 px-8 mb-4 sm:mb-0 sm:mr-3 text-xs text-white text-center font-semibold leading-none bg-brightRed/90 hover:bg-brightRed rounded wow animate__animatedanimated animate__fadeIn">About Us</a>
                                         </Link>
                                         <Link href="/services" legacyBehavior>
                                             <a className="block hover-up-2 sm:inline-block py-4 px-8 text-xs text-blueGray-500 hover:text-blueGray-600 text-center font-semibold leading-none bg-white border border-blueGray-200 hover:border-blueGray-300 rounded wow animate__animatedanimated animate__fadeIn" data-wow-delay=".3s">
@@ -49,11 +49,11 @@ const Contact = () => {
                     <div className="container">
                         <div className="max-w-2xl mx-auto text-center">
                             <div className="max-w-md mb-8 mx-auto">
-                                <span className="inline-block py-1 px-3 text-xs font-semibold bg-blue-100 text-blue-600 rounded-xl wow animate__animatedanimated animate__fadeIn" data-wow-delay=".1s">
+                                <span className="inline-block py-1 px-3 text-xs font-semibold bg-brightRed/20 text-brightRed rounded-xl wow animate__animatedanimated animate__fadeIn" data-wow-delay=".1s">
                                     Contact Us
                                 </span>
                                 <h2 className="mt-2 text-4xl font-bold font-heading wow animate__animatedanimated animate__fadeIn" data-wow-delay=".s">
-                                    We will <span className="text-blue-500">be glad</span> to hear from you!
+                                    We will <span className="text-brightRed">be glad</span> to hear from you!
                                 </h2>
                             </div>
                             <div>
@@ -92,7 +92,7 @@ const Contact = () => {
                                             <input className="mr-1" type="checkbox" name="terms" value="1" />
                                             <span className="text-sm font-semibold">I agree to terms and conditions.</span>
                                         </label>
-                                        <button className="py-4 px-8 text-sm text-white font-semibold leading-none bg-blue-500 hover:bg-blue-700 rounded" type="submit">
+                                        <button className="py-4 px-8 text-sm text-white font-semibold leading-none bg-brightRed hover:bg-blue-700 rounded" type="submit">
                                             Submit
                                         </button>
                                     </div>
@@ -102,24 +102,24 @@ const Contact = () => {
                     </div>
                 </section>
 
-                <section className="py-20 bg-blue-500">
+                <section className="py-20 bg-brightRed">
                     <div className="container">
                         <div className="text-center max-w-xl mx-auto">
                             <h2 className="mb-4 text-3xl lg:text-3xl text-white font-bold font-heading">
                                 <span>Subscribe now to </span>
-                                <span className="text-blue-200">Our Newsletter</span> <br />
+                                <span className="text-brightRed/40">Our Newsletter</span> <br />
                                 <span>and get the Coupon code.</span>
                             </h2>
                             <p className="mb-8 text-blueGray-200">All your information is completely confidential</p>
                             <div className="flex flex-wrap max-w-lg mx-auto">
-                                <div className="flex w-full md:w-2/3 px-3 mb-3 md:mb-0 md:mr-6 bg-blue-500 border border-blue-300 rounded">
+                                <div className="flex w-full md:w-2/3 px-3 mb-3 md:mb-0 md:mr-6 bg-brightRed border border-blue-300 rounded">
                                     <svg className="h-6 w-6 my-auto text-blue-300" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
                                         <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"></path>
                                         <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"></path>
                                     </svg>
-                                    <input className="w-full pl-3 py-4 text-xs text-white placeholder-white font-semibold leading-none bg-blue-500 outline-none" type="text" placeholder="Type your e-mail" />
+                                    <input className="w-full pl-3 py-4 text-xs text-white placeholder-white font-semibold leading-none bg-brightRed outline-none" type="text" placeholder="Type your e-mail" />
                                 </div>
-                                <button className="w-full md:w-auto py-4 px-8 text-xs text-white text-blue-800 hover:text-white font-semibold leading-none border border-blue-300 hover:border-blue-300 bg-white hover:bg-blue-500 rounded transition duration-300 ease-in-out" type="submit">
+                                <button className="w-full md:w-auto py-4 px-8 text-xs  text-brightRed hover:text-white font-semibold leading-none border border-blue-300 hover:border-brightRed/30 bg-white hover:bg-brightRed rounded transition duration-300 ease-in-out" type="submit">
                                     Sign Up
                                 </button>
                             </div>

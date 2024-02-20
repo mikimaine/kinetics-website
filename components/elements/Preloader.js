@@ -5,7 +5,7 @@ const Preloader = () => {
         <>
             <div id="preloader-active">
             <div className="preloader flex-1 content-center">
-                <div className="logo absolute inset-y-1/4 jump">
+                <div className="logo absolute inset-y-2/4 jump">
                     <img src="/favicon.ico" alt="Kinetics Business Intelligence" />
                 </div>
             </div>

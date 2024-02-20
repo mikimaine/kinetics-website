@@ -18,7 +18,7 @@ const Contact = () => {
                                             Committed to <span className="text-brightRed">People</span>, and the future
                                         </h2>
                                         <div className="text-blueGray-400 leading-relaxed wow animate__animatedanimated animate__fadeIn">
-                                            We are <strong className="text-brightRed">Monst</strong>, a Creative Design{" "}
+                                            We are <strong className="text-brightRed">KBI</strong>, a Creative Design{" "}
                                             <div className="typewrite d-inline text-brand">
                                                 <TextEffect text1="Web Agency" text2="Social Marketing" />
                                             </div>
@@ -39,7 +39,7 @@ const Contact = () => {
                             </div>
                             <div className="w-full lg:w-1/2 px-3 lg:bg-blueGray-10 mb-12 lg:mb-0 pb-10">
                                 <div className="flex items-center justify-center">
-                                    <img className="lg:max-w-lg" src="/assets/imgs/illustrations/team.svg" alt="Monst" />
+                                    <img className="lg:max-w-lg" src="/assets/imgs/illustrations/team.svg" alt="KBI" />
                                 </div>
                             </div>
                         </div>

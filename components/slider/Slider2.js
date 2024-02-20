@@ -17,15 +17,15 @@ const Slider2 = () => {
             >
 
                 <SwiperSlide>
-                    <img className="rounded" src="/assets/imgs/placeholders/img-6.png" alt="Monst" />
+                    <img className="rounded" src="/assets/imgs/placeholders/img-6.png" alt="KBI" />
                 </SwiperSlide>
                 <SwiperSlide>
 
-                    <img className="rounded" src="/assets/imgs/placeholders/img-7.png" alt="Monst" />
+                    <img className="rounded" src="/assets/imgs/placeholders/img-7.png" alt="KBI" />
                 </SwiperSlide>
                 <SwiperSlide>
 
-                    <img className="rounded" src="/assets/imgs/placeholders/img-8.png" alt="Monst" />
+                    <img className="rounded" src="/assets/imgs/placeholders/img-8.png" alt="KBI" />
                 </SwiperSlide>
             </Swiper>
 

@@ -55,9 +55,9 @@ function Home() {
                         </div>
                     </div>
                     <div className="relative max-w-6xl mt-16 md:mt-8 mb-8 mx-auto">
-                        <img src="/assets/imgs/elements/pattern.png" alt="Monst" />
+                        <img src="/assets/imgs/elements/pattern.png" alt="KBI" />
                         <div className="absolute" style={{ top: "9%", left: "14%", width: "72%", height: "66%" }}>
-                            <img className="jump rounded wow animate__animated animate__fadeIn" src="/assets/imgs/placeholders/dashboard.png" alt="Monst" />
+                            <img className="jump rounded wow animate__animated animate__fadeIn" src="/assets/imgs/placeholders/dashboard.png" alt="KBI" />
                         </div>
                     </div>
                     <div className="container px-4 mx-auto">
@@ -174,9 +174,9 @@ function Home() {
                             </div>
                             <div className="relative w-full lg:w-1/2 my-12 lg:my-0">
                                 <div className="wow animate__animated animate__fadeIn" data-wow-delay=".5s">
-                                    <img className="jump relative mx-auto rounded-xl w-full z-10" src="/assets/imgs/placeholders/img-1.png" alt="Monst" />
-                                    <img className="absolute top-0 left-0 w-40 -ml-12 -mt-12" src="/assets/imgs/elements/blob-tear.svg" alt="Monst" />
-                                    <img className="absolute bottom-0 right-0 w-40 -mr-12 -mb-12" src="/assets/imgs/elements/blob-tear.svg" alt="Monst" />
+                                    <img className="jump relative mx-auto rounded-xl w-full z-10" src="/assets/imgs/placeholders/img-1.png" alt="KBI" />
+                                    <img className="absolute top-0 left-0 w-40 -ml-12 -mt-12" src="/assets/imgs/elements/blob-tear.svg" alt="KBI" />
+                                    <img className="absolute bottom-0 right-0 w-40 -mr-12 -mb-12" src="/assets/imgs/elements/blob-tear.svg" alt="KBI" />
                                 </div>
                             </div>
                         </div>
@@ -202,7 +202,7 @@ function Home() {
                             <div className="hover-up-5 w-full md:w-1/2 lg:w-1/3 px-3 mb-6 wow animate__animated animate__fadeIn" data-wow-delay=".3s">
                                 <div className="p-12 bg-white shadow rounded">
                                     <div className="flex w-12 h-12 mx-auto items-center justify-center text-brightRed font-bold font-heading bg-brightRed/20 rounded-full">1</div>
-                                    <img className="h-36 mx-auto my-4" src="/assets/imgs/illustrations/eating.svg" alt="Monst" />
+                                    <img className="h-36 mx-auto my-4" src="/assets/imgs/illustrations/eating.svg" alt="KBI" />
                                     <h3 className="mb-2 font-bold font-heading text-xl">Project Initialization</h3>
                                     <p className="text-sm text-blueGray-400 leading-relaxed">Project initiation ensures that you lay a strong foundation for a new project in your company our team.</p>
                                 </div>
@@ -210,7 +210,7 @@ function Home() {
                             <div className="hover-up-5 w-full md:w-1/2 lg:w-1/3 px-3 mb-6 wow animate__animated animate__fadeIn" data-wow-delay=".5s">
                                 <div className="p-12 bg-white shadow rounded">
                                     <div className="flex w-12 h-12 mx-auto items-center justify-center text-brightRed font-bold font-heading bg-brightRed/20 rounded-full">2</div>
-                                    <img className="h-36 mx-auto my-4" src="/assets/imgs/illustrations/space.svg" alt="Monst" />
+                                    <img className="h-36 mx-auto my-4" src="/assets/imgs/illustrations/space.svg" alt="KBI" />
                                     <h3 className="mb-2 font-bold font-heading text-xl">Project planning</h3>
                                     <p className="text-sm text-blueGray-400 leading-relaxed">A project plan is essential to keep everything related to the project organized, methodical, and on track.</p>
                                 </div>
@@ -218,7 +218,7 @@ function Home() {
                             <div className="hover-up-5 w-full lg:w-1/3 px-3 mb-6">
                                 <div className="p-12 bg-white shadow rounded wow animate__animated animate__fadeIn" data-wow-delay=".7s">
                                     <div className="flex w-12 h-12 mx-auto items-center justify-center text-brightRed font-bold font-heading bg-brightRed/20 rounded-full">3</div>
-                                    <img className="h-36 mx-auto my-4" src="/assets/imgs/illustrations/tasks.svg" alt="Monst" />
+                                    <img className="h-36 mx-auto my-4" src="/assets/imgs/illustrations/tasks.svg" alt="KBI" />
                                     <h3 className="mb-2 font-bold font-heading text-xl">Project organization</h3>
                                     <p className="text-sm text-blueGray-400 leading-relaxed">Moving forward you will be able to keep yourself and your team on track, and address challenges early.</p>
                                 </div>
@@ -264,7 +264,7 @@ function Home() {
                         <div className="flex flex-wrap -mx-3">
                             <div className="w-full md:w-1/2 lg:w-1/3 px-3 mb-6">
                                 <div className="hover-up-5 pt-16 pb-8 px-4 text-center bg-white rounded shadow wow animate__animated animate__fadeIn" data-wow-delay=".2s">
-                                    <img className="h-20 mb-6 mx-auto" src="/assets/imgs/icons/startup.svg" alt="Monst" />
+                                    <img className="h-20 mb-6 mx-auto" src="/assets/imgs/icons/startup.svg" alt="KBI" />
                                     <h3 className="mb-2 text-4xl font-bold font-heading">Startup</h3>
                                     <span className="text-4xl text-brightRed font-bold font-heading">$45.99</span>
                                     <p className="mt-2 mb-8 text-blueGray-400">user per month</p>
@@ -308,7 +308,7 @@ function Home() {
                             </div>
                             <div className="w-full md:w-1/2 lg:w-1/3 px-3 mb-6">
                                 <div className="hover-up-5 pt-16 pb-8 px-4 text-center text-white bg-darkblue rounded shadow wow animate__animated animate__fadeIn" data-wow-delay=".4s">
-                                    <img className="h-20 mb-6 mx-auto" src="/assets/imgs/icons/agency.svg" alt="Monst" />
+                                    <img className="h-20 mb-6 mx-auto" src="/assets/imgs/icons/agency.svg" alt="KBI" />
                                     <h3 className="mb-2 text-4xl font-bold font-heading">Agency</h3>
                                     <span className="text-4xl font-bold font-heading">$65.99</span>
                                     <p className="mt-2 mb-8">user per month</p>
@@ -352,7 +352,7 @@ function Home() {
                             </div>
                             <div className="w-full lg:w-1/3 px-3 mb-6">
                                 <div className="hover-up-5 pt-16 pb-8 px-4 text-center bg-white rounded shadow wow animate__animated animate__fadeIn" data-wow-delay=".6s">
-                                    <img className="h-20 mb-6 mx-auto" src="/assets/imgs/icons/enterprise.svg" alt="Monst" />
+                                    <img className="h-20 mb-6 mx-auto" src="/assets/imgs/icons/enterprise.svg" alt="KBI" />
                                     <h3 className="mb-2 text-4xl font-bold font-heading">Enterprise</h3>
                                     <span className="text-4xl text-brightRed font-bold font-heading">$85.99</span>
                                     <p className="mt-2 mb-8 text-blueGray-400">user per month</p>

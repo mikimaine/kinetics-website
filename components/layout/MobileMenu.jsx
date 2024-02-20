@@ -152,16 +152,16 @@ const MobileMenu = ({ hiddenClass, handleRemove }) => {
                     {/* <div className="mt-auto">
                         <p className="my-4 text-xs text-blueGray-400">
                             <span>Get in Touch</span>
-                            <span className="text-blue-500 hover:text-blue-500 underline">contact@monst.com</span>
+                            <span className="text-blue-500 hover:text-blue-500 underline">contact@KBI.com</span>
                         </p>
                         <a className="inline-block px-1" href="https://facebook.com">
-                            <img src="/assets/imgs/icons/facebook-blue.svg" alt="Monst" />
+                            <img src="/assets/imgs/icons/facebook-blue.svg" alt="KBI" />
                         </a>
                         <a className="inline-block px-1" href="https://twitter.com">
-                            <img src="/assets/imgs/icons/twitter-blue.svg" alt="Monst" />
+                            <img src="/assets/imgs/icons/twitter-blue.svg" alt="KBI" />
                         </a>
                         <a className="inline-block px-1" href="https://www.instagram.com">
-                            <img src="/assets/imgs/icons/instagram-blue.svg" alt="Monst" />
+                            <img src="/assets/imgs/icons/instagram-blue.svg" alt="KBI" />
                         </a>
                     </div> */}
                 </nav>

@@ -25,7 +25,7 @@ const Slider1 = () => {
                 <SwiperSlide>
                     <div className="px-3 pb-5">
                         <div className="card-slider group">
-                            <img className="rounded-xl" src="/assets/imgs/placeholders/img-2.jpg" alt="Monst" />
+                            <img className="rounded-xl" src="/assets/imgs/placeholders/img-2.jpg" alt="KBI" />
                             <div className="flex justify-between items-end">
                                 <div>
                                     <h1 className="mt-5 text-xl font-semibold group-hover:text-brightRed">
@@ -47,7 +47,7 @@ const Slider1 = () => {
                 <SwiperSlide>
                     <div className="px-3 pb-5">
                         <div className="card-slider group">
-                            <img className="rounded-xl" src="/assets/imgs/placeholders/img-3.jpg" alt="Monst" />
+                            <img className="rounded-xl" src="/assets/imgs/placeholders/img-3.jpg" alt="KBI" />
                             <div className="flex justify-between items-end">
                                 <div>
                                     <h1 className="mt-5 text-xl font-semibold group-hover:text-brightRed">
@@ -69,7 +69,7 @@ const Slider1 = () => {
                 <SwiperSlide>
                     <div className="px-3 pb-5">
                         <div className="card-slider group">
-                            <img className="rounded-xl" src="/assets/imgs/placeholders/img-4.jpg" alt="Monst" />
+                            <img className="rounded-xl" src="/assets/imgs/placeholders/img-4.jpg" alt="KBI" />
                             <div className="flex justify-between items-end">
                                 <div>
                                     <h1 className="mt-5 text-xl font-semibold group-hover:text-brightRed">
@@ -91,7 +91,7 @@ const Slider1 = () => {
                 <SwiperSlide>
                     <div className="px-3 pb-5">
                         <div className="card-slider group">
-                            <img className="rounded-xl" src="/assets/imgs/placeholders/img-5.jpg" alt="Monst" />
+                            <img className="rounded-xl" src="/assets/imgs/placeholders/img-5.jpg" alt="KBI" />
                             <div className="flex justify-between items-end">
                                 <div>
                                     <h1 className="mt-5 text-xl font-semibold group-hover:text-brightRed">

@@ -26,7 +26,7 @@ const Footer = () => {
                         <div className="w-full lg:w-1/5 px-3">
                             <p className="mb-2 lg:mb-4 lg:text-lg font-bold font-heading text-blueGray-800">Contacts</p>
                             <p className="lg:text-lg text-blueGray-400">(+01) 234 568</p>
-                            <p className="lg:text-lg text-blueGray-400">contact@monst.com</p>
+                            <p className="lg:text-lg text-blueGray-400">contact@KBI.com</p>
                         </div>
                     </div>
                     <div className="flex flex-col lg:flex-row items-center lg:justify-between">

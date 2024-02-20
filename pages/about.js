@@ -39,7 +39,7 @@ const About = () => {
                                             Committed to <span className="text-blue-500">People</span> and the future
                                         </h2>
                                         <p className="text-blueGray-400 leading-relaxed wow animate__animatedanimated animate__fadeIn">
-                                            We are <strong className="text-blue-500">Monst</strong>, a Creative Design <span className="typewrite d-inline text-brand" data-period="3000" data-type='["Web Agency", "Social Marketing" ]'></span>
+                                            We are <strong className="text-blue-500">KBI</strong>, a Creative Design <span className="typewrite d-inline text-brand" data-period="3000" data-type='["Web Agency", "Social Marketing" ]'></span>
                                         </p>
                                         <p className="text-blueGray-400 leading-relaxed wow animate__animatedanimated animate__fadeIn mt-3 text-sm">Helping you maximize operations management with digitization</p>
                                     </div>
@@ -57,7 +57,7 @@ const About = () => {
                             </div>
                             <div className="w-full lg:w-1/2 px-3 lg:bg-blueGray-10 mb-12 lg:mb-0 pb-10">
                                 <div className="flex items-center justify-center">
-                                    <img className="lg:max-w-lg" src="/assets/imgs/illustrations/team.svg" alt="Monst" />
+                                    <img className="lg:max-w-lg" src="/assets/imgs/illustrations/team.svg" alt="KBI" />
                                 </div>
                             </div>
                         </div>
@@ -82,7 +82,7 @@ const About = () => {
                             <div className="hover-up-5 w-full md:w-1/2 lg:w-1/3 px-3 mb-6 wow animate__animated animate__fadeIn" data-wow-delay=".3s">
                                 <div className="p-12 bg-white shadow rounded">
                                     <div className="flex w-12 h-12 mx-auto items-center justify-center text-blue-800 font-bold font-heading bg-blue-200 rounded-full">1</div>
-                                    <img className="h-36 mx-auto my-4" src="/assets/imgs/illustrations/eating.svg" alt="Monst" />
+                                    <img className="h-36 mx-auto my-4" src="/assets/imgs/illustrations/eating.svg" alt="KBI" />
                                     <h3 className="mb-2 font-bold font-heading text-xl">Project Initialization</h3>
                                     <p className="text-sm text-blueGray-400 leading-relaxed">Project initiation ensures that you lay a strong foundation for a new project in your company our team.</p>
                                 </div>
@@ -90,7 +90,7 @@ const About = () => {
                             <div className="hover-up-5 w-full md:w-1/2 lg:w-1/3 px-3 mb-6 wow animate__animated animate__fadeIn" data-wow-delay=".5s">
                                 <div className="p-12 bg-white shadow rounded">
                                     <div className="flex w-12 h-12 mx-auto items-center justify-center text-blue-800 font-bold font-heading bg-blue-200 rounded-full">2</div>
-                                    <img className="h-36 mx-auto my-4" src="/assets/imgs/illustrations/space.svg" alt="Monst" />
+                                    <img className="h-36 mx-auto my-4" src="/assets/imgs/illustrations/space.svg" alt="KBI" />
                                     <h3 className="mb-2 font-bold font-heading text-xl">Project planning</h3>
                                     <p className="text-sm text-blueGray-400 leading-relaxed">A project plan is essential to keep everything related to the project organized, methodical, and on track.</p>
                                 </div>
@@ -98,7 +98,7 @@ const About = () => {
                             <div className="hover-up-5 w-full lg:w-1/3 px-3 mb-6">
                                 <div className="p-12 bg-white shadow rounded wow animate__animated animate__fadeIn" data-wow-delay=".7s">
                                     <div className="flex w-12 h-12 mx-auto items-center justify-center text-blue-800 font-bold font-heading bg-blue-200 rounded-full">3</div>
-                                    <img className="h-36 mx-auto my-4" src="/assets/imgs/illustrations/tasks.svg" alt="Monst" />
+                                    <img className="h-36 mx-auto my-4" src="/assets/imgs/illustrations/tasks.svg" alt="KBI" />
                                     <h3 className="mb-2 font-bold font-heading text-xl">Project organization</h3>
                                     <p className="text-sm text-blueGray-400 leading-relaxed">Moving forward you will be able to keep yourself and your team on track, and address challenges early.</p>
                                 </div>
@@ -173,56 +173,56 @@ const About = () => {
                         <div className="flex flex-wrap -mx-5">
                             <div className="w-1/2 lg:w-1/4 px-5 mb-12">
                                 <div className="hover-up-5 pt-8 pb-8 px-4 text-center bg-white rounded shadow wow animate__animated animate__fadeIn animated border border-gray-100 hover:border-gray-200" data-wow-delay=".1s">
-                                    <img className="mb-6 h-24 w-24 mx-auto rounded-full object-cover object-top" src="/assets/imgs/placeholders/avatar-1.png" alt="Monst" />
+                                    <img className="mb-6 h-24 w-24 mx-auto rounded-full object-cover object-top" src="/assets/imgs/placeholders/avatar-1.png" alt="KBI" />
                                     <strong className="mt-6 mb-2 text-md">Geraldine Tusoy</strong>
                                     <p className="text-gray-500 text-xs mt-3">CEO, Co Founders</p>
                                 </div>
                             </div>
                             <div className="w-1/2 lg:w-1/4 px-5 mb-12">
                                 <div className="hover-up-5 pt-8 pb-8 px-4 text-center bg-white rounded shadow wow animate__animated animate__fadeIn animated border border-gray-100 hover:border-gray-200" data-wow-delay=".3s">
-                                    <img className="mb-6 h-24 w-24 mx-auto rounded-full object-cover object-top" src="/assets/imgs/placeholders/avatar-2.png" alt="Monst" />
+                                    <img className="mb-6 h-24 w-24 mx-auto rounded-full object-cover object-top" src="/assets/imgs/placeholders/avatar-2.png" alt="KBI" />
                                     <strong className="mt-6 mb-2 text-md">Clara Kolawole</strong>
                                     <p className="text-gray-500 text-xs mt-3">CEO-Founder</p>
                                 </div>
                             </div>
                             <div className="w-1/2 lg:w-1/4 px-5 mb-12">
                                 <div className="hover-up-5 pt-8 pb-8 px-4 text-center bg-white rounded shadow wow animate__animated animate__fadeIn animated border border-gray-100 hover:border-gray-200" data-wow-delay=".5s">
-                                    <img className="mb-6 h-24 w-24 mx-auto rounded-full object-cover object-top" src="/assets/imgs/placeholders/avatar-3.png" alt="Monst" />
+                                    <img className="mb-6 h-24 w-24 mx-auto rounded-full object-cover object-top" src="/assets/imgs/placeholders/avatar-3.png" alt="KBI" />
                                     <strong className="mt-6 mb-2 text-md">Chris Fulton</strong>
                                     <p className="text-gray-500 text-xs mt-3">Project-Manager</p>
                                 </div>
                             </div>
                             <div className="w-1/2 lg:w-1/4 px-5 mb-12">
                                 <div className="hover-up-5 pt-8 pb-8 px-4 text-center bg-white rounded shadow wow animate__animated animate__fadeIn animated border border-gray-100 hover:border-gray-200" data-wow-delay=".7s">
-                                    <img className="mb-6 h-24 w-24 mx-auto rounded-full object-cover object-top" src="/assets/imgs/placeholders/avatar-4.png" alt="Monst" />
+                                    <img className="mb-6 h-24 w-24 mx-auto rounded-full object-cover object-top" src="/assets/imgs/placeholders/avatar-4.png" alt="KBI" />
                                     <strong className="mt-6 mb-2 text-md">Dany Connolly</strong>
                                     <p className="text-gray-500 text-xs mt-3">Direct-Founder</p>
                                 </div>
                             </div>
                             <div className="w-1/2 lg:w-1/4 px-5">
                                 <div className="hover-up-5 pt-8 pb-8 px-4 text-center bg-white rounded shadow wow animate__animated animate__fadeIn animated border border-gray-100 hover:border-gray-200" data-wow-delay=".1s">
-                                    <img className="mb-6 h-24 w-24 mx-auto rounded-full object-cover object-top" src="/assets/imgs/placeholders/avatar-5.png" alt="Monst" />
+                                    <img className="mb-6 h-24 w-24 mx-auto rounded-full object-cover object-top" src="/assets/imgs/placeholders/avatar-5.png" alt="KBI" />
                                     <strong className="mt-6 mb-2 text-md">Al-amin Bishash</strong>
                                     <p className="text-gray-500 text-xs mt-3">Director</p>
                                 </div>
                             </div>
                             <div className="w-1/2 lg:w-1/4 px-5">
                                 <div className="hover-up-5 pt-8 pb-8 px-4 text-center bg-white rounded shadow wow animate__animated animate__fadeIn animated border border-gray-100 hover:border-gray-200" data-wow-delay=".3s">
-                                    <img className="mb-6 h-24 w-24 mx-auto rounded-full object-cover object-top" src="/assets/imgs/placeholders/avatar-6.png" alt="Monst" />
+                                    <img className="mb-6 h-24 w-24 mx-auto rounded-full object-cover object-top" src="/assets/imgs/placeholders/avatar-6.png" alt="KBI" />
                                     <strong className="mt-6 mb-2 text-md">Sanuya Santa</strong>
                                     <p className="text-gray-500 text-xs mt-3">Marketing</p>
                                 </div>
                             </div>
                             <div className="w-1/2 lg:w-1/4 px-5">
                                 <div className="hover-up-5 pt-8 pb-8 px-4 text-center bg-white rounded shadow wow animate__animated animate__fadeIn animated border border-gray-100 hover:border-gray-200" data-wow-delay=".5s">
-                                    <img className="mb-6 h-24 w-24 mx-auto rounded-full object-cover object-top" src="/assets/imgs/placeholders/avatar-7.png" alt="Monst" />
+                                    <img className="mb-6 h-24 w-24 mx-auto rounded-full object-cover object-top" src="/assets/imgs/placeholders/avatar-7.png" alt="KBI" />
                                     <strong className="mt-6 mb-2 text-md">Steven Job</strong>
                                     <p className="text-gray-500 text-xs mt-3">Designer</p>
                                 </div>
                             </div>
                             <div className="w-1/2 lg:w-1/4 px-5">
                                 <div className="hover-up-5 pt-8 pb-8 px-4 text-center bg-white rounded shadow wow animate__animated animate__fadeIn animated border border-gray-100 hover:border-gray-200" data-wow-delay=".7s">
-                                    <img className="mb-6 h-24 w-24 mx-auto rounded-full object-cover object-top" src="/assets/imgs/placeholders/avatar-8.png" alt="Monst" />
+                                    <img className="mb-6 h-24 w-24 mx-auto rounded-full object-cover object-top" src="/assets/imgs/placeholders/avatar-8.png" alt="KBI" />
                                     <strong className="mt-6 mb-2 text-md">Romario</strong>
                                     <p className="text-gray-500 text-xs mt-3">Designer</p>
                                 </div>

@@ -15,23 +15,23 @@ const Contact = () => {
                                 <div className="py-12">
                                     <div className="max-w-lg lg:max-w-md mx-auto lg:mx-0 mb-8 text-center lg:text-left">
                                         <h2 className="text-3xl lg:text-5xl mb-4 font-bold font-heading wow animate__animatedanimated animate__fadeIn">
-                                            Committed to <span className="text-brightRed">People</span>, and the future
+                                        Leaders in <span className="text-lightBlue">Data Analytics</span> and Visualizations
                                         </h2>
                                         <div className="text-blueGray-400 leading-relaxed wow animate__animatedanimated animate__fadeIn">
-                                            We are <strong className="text-brightRed">KBI</strong>, a Creative Design{" "}
+                                            We are <strong className="text-lightBlue">KBI</strong>, a Creative Design{" "}
                                             <div className="typewrite d-inline text-brand">
-                                                <TextEffect text1="Web Agency" text2="Social Marketing" />
+                                                <TextEffect text1="Data Processing and Visualization" text2="Enabling Informed Decision-making" />
                                             </div>
                                         </div>
-                                        <p className="text-blueGray-400 leading-relaxed wow animate__animatedanimated animate__fadeIn mt-3 text-sm">Helping you maximize operations management with digitization</p>
+                                        <p className="text-blueGray-400 leading-relaxed wow animate__animatedanimated animate__fadeIn mt-3 text-sm">Transforming Data into actionable insights for your success</p>
                                     </div>
                                     <div className="text-center lg:text-left">
                                         <Link href="/about" legacyBehavior>
                                             <a className="tracking-wide hover-up-2 block sm:inline-block py-4 px-8 mb-4 sm:mb-0 sm:mr-3 text-xs text-white text-center font-semibold leading-none bg-brightRed/90 hover:bg-brightRed rounded wow animate__animatedanimated animate__fadeIn">About Us</a>
                                         </Link>
-                                        <Link href="/services" legacyBehavior>
+                                        <Link href="/products" legacyBehavior>
                                             <a className="block hover-up-2 sm:inline-block py-4 px-8 text-xs text-blueGray-500 hover:text-blueGray-600 text-center font-semibold leading-none bg-white border border-blueGray-200 hover:border-blueGray-300 rounded wow animate__animatedanimated animate__fadeIn" data-wow-delay=".3s">
-                                                Our Services
+                                                Our Products
                                             </a>
                                         </Link>
                                     </div>
@@ -39,7 +39,7 @@ const Contact = () => {
                             </div>
                             <div className="w-full lg:w-1/2 px-3 lg:bg-blueGray-10 mb-12 lg:mb-0 pb-10">
                                 <div className="flex items-center justify-center">
-                                    <img className="lg:max-w-lg" src="/assets/imgs/illustrations/team.svg" alt="KBI" />
+                                    <img className="lg:max-w-lg" src="/assets/imgs/illustrations/contact-blue.svg" alt="KBI" />
                                 </div>
                             </div>
                         </div>
@@ -53,22 +53,11 @@ const Contact = () => {
                                     Contact Us
                                 </span>
                                 <h2 className="mt-2 text-4xl font-bold font-heading wow animate__animatedanimated animate__fadeIn" data-wow-delay=".s">
-                                    We will <span className="text-brightRed">be glad</span> to hear from you!
+                                    We will <span className="text-lightBlue">be glad</span> to hear from you!
                                 </h2>
                             </div>
                             <div>
                                 <form>
-                                    <div className="mb-4 text-sm wow animate__animatedanimated animate__fadeIn" data-wow-delay=".5s">
-                                        <span className="mr-4 font-semibold">Departament:</span>
-                                        <label className="mr-4">
-                                            <input className="mr-1" type="radio" name="department" value="1" />
-                                            <span>Support</span>
-                                        </label>
-                                        <label>
-                                            <input className="mr-1" type="radio" name="department" value="2" />
-                                            <span>Sales</span>
-                                        </label>
-                                    </div>
                                     <div className="mb-4 wow animate__animatedanimated animate__fadeIn" data-wow-delay=".3s">
                                         <input className="w-full p-4 text-xs font-semibold leading-none bg-blueGray-50 rounded outline-none" type="text" placeholder="Subject" />
                                     </div>
@@ -102,24 +91,24 @@ const Contact = () => {
                     </div>
                 </section>
 
-                <section className="py-20 bg-brightRed">
+                <section className="py-20 bg-darkblue">
                     <div className="container">
                         <div className="text-center max-w-xl mx-auto">
                             <h2 className="mb-4 text-3xl lg:text-3xl text-white font-bold font-heading">
-                                <span>Subscribe now to </span>
-                                <span className="text-brightRed/40">Our Newsletter</span> <br />
-                                <span>and get the Coupon code.</span>
+                                <span>Subscribe to </span>
+                                <span className="text-brightRed/40">Our Newsletter now.</span> <br />
+                                {/* <span>and get the Coupon code.</span> */}
                             </h2>
                             <p className="mb-8 text-blueGray-200">All your information is completely confidential</p>
                             <div className="flex flex-wrap max-w-lg mx-auto">
-                                <div className="flex w-full md:w-2/3 px-3 mb-3 md:mb-0 md:mr-6 bg-brightRed border border-blue-300 rounded">
+                                <div className="flex w-full md:w-2/3 px-3 mb-3 md:mb-0 md:mr-6 bg-lightBlue border border-blue-300 rounded">
                                     <svg className="h-6 w-6 my-auto text-blue-300" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
                                         <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"></path>
                                         <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"></path>
                                     </svg>
-                                    <input className="w-full pl-3 py-4 text-xs text-white placeholder-white font-semibold leading-none bg-brightRed outline-none" type="text" placeholder="Type your e-mail" />
+                                    <input className="w-full pl-3 py-4 text-xs text-white placeholder-white font-semibold leading-none bg-lightBlue outline-none" type="text" placeholder="Type your e-mail" />
                                 </div>
-                                <button className="w-full md:w-auto py-4 px-8 text-xs  text-brightRed hover:text-white font-semibold leading-none border border-blue-300 hover:border-brightRed/30 bg-white hover:bg-brightRed rounded transition duration-300 ease-in-out" type="submit">
+                                <button className="w-full md:w-auto py-4 px-8 text-xs  text-lightBlue hover:text-blue-500 font-semibold leading-none border border-blue-300 hover:border-brightRed/30 bg-white rounded transition duration-300 ease-in-out" type="submit">
                                     Sign Up
                                 </button>
                             </div>

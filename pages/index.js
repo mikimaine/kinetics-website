@@ -125,7 +125,7 @@ function Home() {
                 <section className="pt-8 pb-12 md:py-16 lg:py-16 overflow-x-hidden" id="key-features">
                     <div className="container px-4 mx-auto">
                         <div className="flex flex-wrap lg:flex-nowrap">
-                            <div className="w-full lg:w-1/2">
+                            <div className="w-full lg:w-1/2  pl-3">
                                 <div className="lg:py-6 lg:pr-77 wow animate__animated animate__fadeIn" data-wow-delay=".3s">
                                     <div className="mb-4">
                                         <span className="text-xs py-1 px-3 text-brightRed font-semibold bg-brightRed/5 rounded-xl wow animate__animated animate__fadeInDown" data-wow-delay=".9s">
@@ -143,7 +143,7 @@ function Home() {
                                         </div>
                                         <div>
                                             <h3 className="mb-2 text-xl font-semibold font-heading">Predictive and Advanced Analytics</h3>
-                                            <p className="text-blueGray-400 leading-loose"> KBI utilizes sophisticated predictive analytics algorithms to forecast future trends and outcomes based on historical data..</p>
+                                            <p className="text-blueGray-400 leading-loose"> KBI utilizes sophisticated predictive analytics algorithms to forecast future trends and outcomes based on historical data.</p>
                                         </div>
                                     </div>
                                     <div className="flex items-start py-4 wow animate__animated animate__fadeIn" data-wow-delay=".7s">
@@ -154,8 +154,8 @@ function Home() {
                                             </svg>
                                         </div>
                                         <div>
-                                            <h3 className="mb-2 text-xl font-semibold font-heading">Data Governance and Compliance</h3>
-                                            <p className="text-blueGray-400 leading-loose">KBI includes robust data governance and compliance features to ensure data integrity, security, and regulatory compliance.</p>
+                                            <h3 className="mb-2 text-xl font-semibold font-heading">Smart Decision Making</h3>
+                                            <p className="text-blueGray-400 leading-loose">We empower organizations to make informed decisions while ensuring compliance with data governance standards.</p>
                                         </div>
                                     </div>
                                     <div className="flex items-start py-4 wow animate__animated animate__fadeIn" data-wow-delay=".9s">
@@ -166,7 +166,7 @@ function Home() {
                                         </div>
                                         <div>
                                             <h3 className="mb-2 text-xl font-semibold font-heading">Real-time Monitoring and Alerts</h3>
-                                            <p className="text-blueGray-400 leading-loose">KBI provides real-time monitoring of key performance indicators (KPIs) and critical metrics, coupled with automated alerting mechanisms.</p>
+                                            <p className="text-blueGray-400 leading-loose">We provides real-time monitoring of key performance indicators (KPIs) and critical metrics, coupled with automated alerting mechanisms.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -174,7 +174,7 @@ function Home() {
                             <div className="relative w-full lg:w-1/2 my-12 lg:my-0">
                                 <div className="wow animate__animated animate__fadeIn" data-wow-delay=".5s">
                                     <img className="jump relative mx-auto rounded-xl w-full z-10" src="/assets/imgs/placeholders/1.jpg" alt="KBI" />
-                                    <img className="absolute top-0 left-0 w-40 -ml-12 -mt-12" src="/assets/imgs/elements/blob-tear.svg" alt="KBI" />
+                                    {/* <img className="absolute top-0 left-0 w-40 -ml-12 -mt-12" src="/assets/imgs/elements/blob-tear.svg" alt="KBI" /> */}
                                     <img className="absolute bottom-0 right-0 w-40 -mr-12 -mb-12" src="/assets/imgs/elements/blob-tear.svg" alt="KBI" />
                                 </div>
                             </div>

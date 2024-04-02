@@ -3,12 +3,7 @@ import React from "react";
 export default function Feed() {
   return (
     <section
-      className="py-20 xl:bg-contain bg-top bg-no-repeat"
-      style={{
-        backgroundImage: "url('assets/imgs/backgrounds/intersect.svg')",
-      }}
-      id="how-we-work"
-    >
+      className="py-20 xl:bg-contain bg-top bg-no-repeat bg-blueGray-100" id="how-we-work" >
       <div className="container px-4 mx-auto">
         <div className="text-center mb-16">
           <h2
@@ -46,7 +41,7 @@ export default function Feed() {
             <div className="w-full  flex flex-col gap-2 justify-center items-center"  style={{ paddingTop: "64px" }}>
               <div
                 className="rapport w-full relative flex py-2"
-                style={{ borderLeft: "2px solid #0d1729", padding: "10px" }}
+                style={{ borderLeft: "2px solid #2360AD", padding: "10px" }}
               >
                 <div
                   className="w-2/3 flex flex-col space-y-4 justify-start items-start pl-20 pb-6"
@@ -59,15 +54,14 @@ export default function Feed() {
                   </p>
                 </div>
                 <div
-                  className="absolute w-12 h-12 rounded-full bg-white  hover:bg-blue-50 flex justify-center items-center border-3 border-red-200"
+                  className="absolute w-12 h-12 rounded-full bg-blue-100 flex justify-center items-center border-3 border-red-200"
                   style={{
                     top: "0%",
-                    left: "-23px",
-                    border: "2px solid #c9d2e2",
+                    left: "-23px"
                   }}
                 >
                   <span
-                    className="text-lg font-bold text-#0d1729 hover:bg-blue-50"
+                    className="text-lg font-bold text-#0d1729 hover:bg-blue-100"
                     style={{ position: "absolute" }}
                   >
                     1
@@ -75,8 +69,8 @@ export default function Feed() {
                 </div>
               </div>
               <div
-                className="w-full relative flex border-l border-#0d1729 py-2"
-                style={{ borderLeft: "2px solid #0d1729" }}
+                className="w-full relative flex border-l border-lightBlue py-2"
+                style={{ borderLeft: "2px solid #2360AD" }}
               >
                 <div
                   className="w-2/3 flex flex-col gap-3 justify-start items-start pl-12 pb-6"
@@ -89,15 +83,14 @@ export default function Feed() {
                   </p>
                 </div>
                 <div
-                  className="absolute w-12 h-12 rounded-full bg-white  hover:bg-blue-50 flex justify-center items-center border-3 border-red-200"
+                  className="absolute w-12 h-12 rounded-full bg-blue-100 flex justify-center items-center border-3 border-red-200"
                   style={{
                     top: "0%",
-                    left: "-23px",
-                    border: "2px solid #c9d2e2",
+                    left: "-23px"
                   }}
                 >
                   <span
-                    className="text-lg font-bold text-#0d1729 hover:bg-blue-50"
+                    className="text-lg font-bold text-#0d1729 hover:bg-blue-100"
                     style={{ position: "absolute" }}
                   >
                     2
@@ -105,8 +98,8 @@ export default function Feed() {
                 </div>
               </div>
               <div
-                className="w-full relative flex border-l border-#0d1729 py-2"
-                style={{ borderLeft: "2px solid #0d1729" }}
+                className="w-full relative flex border-l border-lightBlue py-2"
+                style={{ borderLeft: "2px solid #2360AD" }}
               >
                 <div
                   className="w-2/3 flex flex-col gap-3 justify-start items-start pl-12 pb-6"
@@ -119,15 +112,14 @@ export default function Feed() {
                   </p>
                 </div>
                 <div
-                  className="absolute w-12 h-12 rounded-full bg-white  hover:bg-blue-50 flex justify-center items-center border-3 border-red-200"
+                  className="absolute w-12 h-12 rounded-full bg-blue-100 flex justify-center items-center border-3 border-red-200"
                   style={{
                     top: "0%",
-                    left: "-23px",
-                    border: "2px solid #c9d2e2",
+                    left: "-23px"
                   }}
                 >
                   <span
-                    className="text-lg font-bold text-#0d1729 hover:bg-blue-50"
+                    className="text-lg font-bold text-#0d1729 "
                     style={{ position: "absolute" }}
                   >
                   3
@@ -143,18 +135,17 @@ export default function Feed() {
                   <p className="text-xs md:text-base text-blueGray-400 leading-loose wow animate__animated animate__fadeIn p-10">
                     Post-agreement, we ensure stability through staff training,
                     platform maintenance, and ongoing support.
-                  </p>
+                  </p> 
                 </div>
                 <div
-                  className="absolute w-12 h-12 rounded-full bg-white  hover:bg-blue-50 flex justify-center items-center border-3 border-red-200"
+                  className="absolute w-12 h-12 rounded-full bg-blue-100 flex justify-center items-center border-3 border-red-200"
                   style={{
                     top: "0%",
-                    left: "-23px",
-                    border: "2px solid #c9d2e2",
+                    left: "-23px"
                   }}
                 >
                   <span
-                    className="text-lg font-bold text-#0d1729 hover:bg-blue-50"
+                    className="text-lg font-bold text-#0d1729 bg-blue-100"
                     style={{ position: "absolute" }}
                   >
                     4

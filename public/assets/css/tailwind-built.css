@@ -646,6 +646,9 @@ video {
 .ml-2{
   margin-left: 0.5rem !important;
 }
+.ml-4{
+  margin-left: 1rem !important;
+}
 .ml-auto{
   margin-left: auto !important;
 }
@@ -830,7 +833,17 @@ video {
   border-right-width: 1px !important;
 }
 .border-t{
-  border-top-width: 1px !important;
+  border-top-width: 0px !important;
+}
+.border-l-0{
+  border-left-width: 0px !important;
+}
+.border-t-0{
+  border-top-width: 0px !important;
+}
+.border-lightBlue{
+  --tw-border-opacity: 1 !important;
+  border-color: #2360AD !important;
 }
 .border-blue-200{
   --tw-border-opacity: 1 !important;
@@ -989,6 +1002,10 @@ video {
 .py-20{
   padding-top: 5rem !important;
   padding-bottom: 5rem !important;
+}
+.py-24{
+  padding-top: 6rem !important;
+  padding-bottom: 6rem !important;
 }
 .py-3{
   padding-top: 0.75rem !important;

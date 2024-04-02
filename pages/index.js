@@ -54,7 +54,7 @@ function Home() {
                         </div>
                     </div>
                     <div className="relative max-w-6xl mt-16 md:mt-8 mb-8 mx-auto">
-                        <img src="/assets/imgs/elements/bg.png" alt="KBI" />
+                        <img src="/assets/imgs/elements/bg-image.png" alt="KBI" />
                         <div className="absolute" style={{ top: "9%", left: "14%", width: "72%", height: "66%" }}>
                             <img className="jump rounded wow animate__animated animate__fadeIn" src="/assets/imgs/placeholders/dashboard.png" alt="KBI" />
                         </div>
@@ -188,7 +188,7 @@ function Home() {
                             <div className="w-full lg:w-1/2 mb-4 lg:mb-0">
                                 <h2 className="text-3xl md:text-4xl font-bold font-heading wow animate__animated animate__fadeInDown">
                                     <span>Featured  </span>
-                                    <span className="text-lightBlue">Products </span>
+                                    <span className="text-brightRed">Products </span>
                                     <br />
                                     <span>and Client Portfolio</span>
                                 </h2>

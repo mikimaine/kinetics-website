@@ -28,7 +28,7 @@ const About = () => {
     return (
         <>
             <Layout>
-                <section className="relative -mt-24 pt-24">
+                {/* <section className="relative -mt-24 pt-24">
                     <div className="hidden lg:block absolute inset-0 w-1/2 ml-auto bg-blueGray-100 z-0" style={{ zIndex: "-1" }}></div>
                     <div className="container">
                         <div className="flex flex-wrap items-center -mx-3">
@@ -41,9 +41,9 @@ const About = () => {
                                         {/* <p className="text-blueGray-400 leading-relaxed wow animate__animatedanimated animate__fadeIn">
                                             We are <strong className="text-blue-500">KBI</strong>, a Creative Design <span className="typewrite d-inline text-brand" data-period="3000" data-type='["Web Agency", "Social Marketing" ]'></span>
                                         </p>
-                                        <p className="text-blueGray-400 leading-relaxed wow animate__animatedanimated animate__fadeIn mt-3 text-sm">Helping you maximize operations management with digitization</p> */}
+                                        <p className="text-blueGray-400 leading-relaxed wow animate__animatedanimated animate__fadeIn mt-3 text-sm">Helping you maximize operations management with digitization</p> 
                                     </div>
-                                    {/* <div className="text-center lg:text-left">
+                                 <div className="text-center lg:text-left">
                                         <Link href="/services" legacyBehavior>
                                             <a className="tracking-wide hover-up-2 block sm:inline-block py-4 px-8 mb-4 sm:mb-0 sm:mr-3 text-xs text-white text-center font-semibold leading-none bg-blue-400 hover:bg-blue-500 rounded wow animate__animatedanimated animate__fadeIn">Our Services</a>
                                         </Link>
@@ -52,7 +52,7 @@ const About = () => {
                                                 How We Work?
                                             </a>
                                         </Link>
-                                    </div> */}
+                                    </div> 
                                 </div>
                             </div>
                             <div className="w-full lg:w-1/2 px-3 lg:bg-blueGray-10 mb-12 lg:mb-0 pb-10">
@@ -62,27 +62,70 @@ const About = () => {
                             </div>
                         </div>
                     </div>
+                </section> */}
+                <section className="-mt-24 pt-40 pb-12 bg-blueGray-100">
+                    <div className="container">
+                        <h1 className="text-2xl lg:text-5xl font-bold mb-5 wow animate__animated animate__fadeIn animated">About Us</h1>
+                        <ul className="flex text-gray-500 text-sm lg:text-sm pb-12 wow animate__animated animate__fadeIn animated">
+                            <li className="inline-flex items-center">
+                                <a href="#" className="hover:text-brightRed text-gray-800">
+                                    Home
+                                </a>
+                                <svg fill="currentColor" viewBox="0 0 20 20" className="h-5 w-auto text-gray-300">
+                                    <path fillRule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clipRule="evenodd"></path>
+                                </svg>
+                            </li>
+                            <li className="inline-flex items-center">
+                                <a href="#" className="hover:text-brightRed text-gray-800">
+                                    About Us
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
                 </section>
                 <section className="py-24 bg-blueGray-50" id="how-we-work">
                     <div className="container">
-                        <div className="flex flex-wrap items-center justify-between max-w-2xl lg:max-w-full mb-12">
-                            <div className="w-full lg:w-1/2 mb-4 lg:mb-0">
+                        <div className="flex flex-wrap items-center justify-between max-w-2xl lg:max-w-full mb-12 px-5">
+                            <div className="w-full lg:w-1/3 mb-4 lg:mb-0">
                                 <h2 className="text-3xl md:text-4xl font-bold font-heading wow animate__animatedanimated animate__fadeInDown">
-                                    <span>We are </span>
-                                    <span className="text-blue-500">awesome team </span>
-                                    <br />
-                                    <span>for your business dream</span>
+                                    <span>Who </span>
+                                    <span className="text-blue-500">We </span>
+                                    <span>are</span>
                                 </h2>
                             </div>
-                            <div className="w-full lg:w-1/2">
+                            <div className="w-full lg:w-2/3">
                                 <p className="text-blueGray-400 leading-loose wow animate__animatedanimated animate__fadeIn">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed luctus eget justo et iaculis. Quisque vitae nulla malesuada, auctor arcu vitae, luctus nisi. Sed elementum vitae ligula id imperdiet.</p>
                             </div>
                         </div>
                         <div className="flex flex-wrap -mx-3 -mb-6 text-left">
+
+                            <div className="w-full md:w-1/2 lg:w-1/2 px-5 mb-6">
+                                <div className="hover-up-5 w-full">
+                                    <div className="p-12 bg-white shadow rounded">
+                                        <h3 className="mb-2 font-bold font-heading text-xl">Our Mission</h3>
+                                        <p className="text-sm text-blueGray-400 leading-relaxed">We are concerned with leading an information revolution where analysis and reporting are the tactical tools at the forefront of providing business insight. In doing so, we are striving to make operations and growth smoother and more efficient for businesses, with an educational element to it as well.</p>
+                                    </div>
+                                </div>
+                                <div className="hover-up-5 w-full mt-6">
+                                    <div className="p-12 bg-white shadow rounded">
+                                        <h3 className="mb-2 font-bold font-heading text-xl">Our Vision</h3>
+                                        <p className="text-sm text-blueGray-400 leading-relaxed">To form a solid foundation and become a reputable AI-driven analytics platform through quality and dependable ‘intelligence’ with our products that preach an interconnected future that is data-driven.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className="w-full md:w-1/2 lg:w-1/2 px-5 mb-6">
+                                <div style={{ display: 'flex', justifyContent: 'center' }}>
+                                    <img className="rounded" src="/assets/imgs/placeholders/1.jpg" alt="KBI" style={{ maxWidth: '100%', height: 'auto' }} />
+                                </div>
+                            </div>
+                        </div>
+
+                        {/* <div className="flex flex-wrap -mx-3 -mb-6 text-left">
                             <div className="hover-up-5 w-full md:w-1/2 lg:w-1/2 px-5 mb-6 wow animate__animated animate__fadeIn" data-wow-delay=".3s" style={{ display: 'flex' }}>
                                 <div className="p-12 bg-white shadow rounded" style={{ flex: 1 }}>
-                                    <h3 className="mb-2 font-bold font-heading text-xl">Our Mission</h3>
-                                    <p className="text-sm text-blueGray-400 leading-relaxed">We are concerned with leading an information revolution where analysis and reporting are the tactical tools at the forefront of providing business insight. In doing so, we are striving to make operations and growth smoother and more efficient for businesses, with an educational element to it as well.</p>
+                                    <h3 className="mb-2 font-bold font-heading text-xl">Our Vision</h3>
+                                    <p className="text-sm text-blueGray-400 leading-relaxed">To form a solid foundation and become a reputable AI-driven analytics platform through quality and dependable ‘intelligence’ with our products that preach an interconnected future that is data-driven.</p>
                                 </div>
                             </div>
                             <div className="hover-up-5 w-full md:w-1/2 lg:w-1/2 px-5 mb-6 wow animate__animated animate__fadeIn" data-wow-delay=".5s" style={{ display: 'flex' }}>
@@ -91,17 +134,16 @@ const About = () => {
                                     <p className="text-sm text-blueGray-400 leading-relaxed">To form a solid foundation and become a reputable AI-driven analytics platform through quality and dependable ‘intelligence’ with our products that preach an interconnected future that is data-driven.</p>
                                 </div>
                             </div>
-                        </div>
-
+                        </div> */}
                     </div>
                     <section className="py-20">
                         <div className="container">
                             <div className="mx-auto max-w-2xl lg:mx-0">
                                 <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Our values</h2>
-                                {/* <p className="text-sm text-blueGray-400 leading-relaxed">
-                                Lorem ipsum dolor sit amet consect adipisicing elit. Possimus magnam voluptatum cupiditate veritatis in
-                                accusamus quisquam.
-                            </p> */}
+                                <p className="text-sm text-blueGray-400 leading-relaxed">
+                                    Lorem ipsum dolor sit amet consect adipisicing elit. Possimus magnam voluptatum cupiditate veritatis in
+                                    accusamus quisquam.
+                                </p>
                             </div>
                             <div className="flex">
                                 <dl className="mt-16 grid max-w-2xl">
@@ -180,196 +222,45 @@ const About = () => {
                             </div>
                         </div>
                     </section>
-                    <section className="py-20">          
-    <div className="container flex md:flex-row">
-        {/* Can help image */}
-        <div className="w-1/3 md:w-1/4 mb-6 md:mb-0 md:mr-8">
-            <img className="w-full" src="https://placeholder.pics/svg/400" alt="can_help_banner" />
-        </div>
-        {/* End Can help image */}
+                    <section className="py-20" style={{ backgroundImage: "url('assets/imgs/elements/blob.svg')" }}>
+                        <div className="container flex md:flex-row">
 
-        <div className="flex-1 flex flex-wrap">
-            {/* Cards for "Dynamic Personalization" and "Mobile-Optimized Interface" */}
-            <div className="w-full md:w-1/2 mb-4 px-2">
-                <div className="h-full py-4 px-6 border border-lightBlue border-t-0 border-l-0 rounded-br-xl">
-                    <h3 className="text-xl font-bold text-md mb-6">Dynamic Personalization:</h3>
-                    <p className="text-sm">Our platform leverages user data and behavior to provide a highly personalized experience, with dynamic content and product recommendations that change in real-time.</p>
-                </div>
-            </div>
-            <div className="w-full md:w-1/2 mb-4 px-2">
-                <div className="h-full py-4 px-6 border border-lightBlue border-t-0 border-l-0 rounded-br-xl">
-                    <h3 className="text-xl font-bold text-md mb-6">Mobile-Optimized Interface</h3>
-                    <p className="text-sm">Our website is designed with a mobile-first approach, offering a seamless browsing experience across all devices, including smartphones and tablets.</p>
-                </div>
-            </div>
-
-            {/* Cards for "24/7 Customer Support" and "Secure Payment Processing" */}
-            <div className="w-full md:w-1/2 mb-4 px-2">
-                <div className="h-full py-4 px-6 border border-lightBlue border-t-0 border-l-0 rounded-br-xl">
-                    <h3 className="text-xl font-bold text-md mb-6">24/7 Customer Support</h3>
-                    <p className="text-sm">Our U.S.-based customer support team is available around the clock to answer any questions, resolve any issues, and provide helpful solutions. Whether it's through email, phone, or live chat, we're always here to support you.</p>
-                </div>
-            </div>
-
-            <div className="w-full md:w-1/2 mb-4 px-2">
-                <div className="h-full py-4 px-6 border border-lightBlue border-t-0 border-l-0 rounded-br-xl">
-                    <h3 className="text-xl font-bold text-md mb-6">Secure Payment Processing</h3>
-                    <p className="text-sm">We use cutting-edge security measures to protect our customers' sensitive information and ensure the safety of all transactions made on our site.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-  {/* <section className="py-20">
-                        <div className="contaleft">
-                            <div className="max-w-lg mx-auto mb-16">
-                                <span className="inline-block py-1 px-3 text-xs font-semibold bg-blue-100 text-blue-600 rounded-xl"> About Our Expert</span>
-                                <h2 className="text-3xl md:text-4xl mt-2 mb-4 font-bold font-heading">
-                                    Entrust Your Project To Our <span className="text-blue-500"> Specialists </span>
-                                </h2>
-                                <p className="text-blueGray-400 leading-loose">Our IT services converge business and technology experts to help to manage business categories</p>
+                            <div className="w-1/3 md:w-1/4 mb-6 md:mb-0 md:mr-8 mt-16">
+                                <h2 className='text-3xl md:text-4xl font-bold font-heading wow animate__animatedanimated animate__fadeInDown'>Kinetic <br />business <br />Intelligence</h2>
                             </div>
-                            <div className="flex flex-wrap -mx-5">
-                                <div className="w-1/2 lg:w-1/4 px-5 mb-12">
-                                    <div className="hover-up-5 pt-8 pb-8 px-4 text-center bg-white rounded shadow wow animate__animated animate__fadeIn animated border border-gray-100 hover:border-gray-200" data-wow-delay=".1s">
-                                        <img className="mb-6 h-24 w-24 mx-auto rounded-full object-cover object-top" src="/assets/imgs/placeholders/avatar-1.png" alt="KBI" />
-                                        <strong className="mt-6 mb-2 text-md">Geraldine Tusoy</strong>
-                                        <p className="text-gray-500 text-xs mt-3">CEO, Co Founders</p>
+                            <div className="flex-1 flex flex-wrap  pl-5">
+
+                                <div className="w-full md:w-1/2 mb-6 px-5">
+                                    <div className="h-full py-8 px-2 border border-brightRed border-t-0 border-l-0 rounded-lg">
+                                        <h3 className="text-l font-bold text-md mb-6">Dynamic Personalization:</h3>
+                                        <p className="text-sm text-blueGray-400 leading-relaxed">Our platform leverages user data and behavior to provide a highly personalized experience, with dynamic content and product recommendations that change in real-time.</p>
                                     </div>
                                 </div>
-                                <div className="w-1/2 lg:w-1/4 px-5 mb-12">
-                                    <div className="hover-up-5 pt-8 pb-8 px-4 text-center bg-white rounded shadow wow animate__animated animate__fadeIn animated border border-gray-100 hover:border-gray-200" data-wow-delay=".3s">
-                                        <img className="mb-6 h-24 w-24 mx-auto rounded-full object-cover object-top" src="/assets/imgs/placeholders/avatar-2.png" alt="KBI" />
-                                        <strong className="mt-6 mb-2 text-md">Clara Kolawole</strong>
-                                        <p className="text-gray-500 text-xs mt-3">CEO-Founder</p>
+                                <div className="w-full md:w-1/2 mb-6 px-5">
+                                    <div className="h-full py-8 px-2 border border-brightRed border-t-0 border-l-0 rounded-lg">
+                                        <h3 className="text-l font-bold text-md mb-6">24/7 Customer Support</h3>
+                                        <p className="text-sm text-blueGray-400 leading-relaxed">Our U.S.-based customer support team is available around the clock to answer any questions, resolve any issues, and provide helpful solutions.</p>
                                     </div>
                                 </div>
-                                <div className="w-1/2 lg:w-1/4 px-5 mb-12">
-                                    <div className="hover-up-5 pt-8 pb-8 px-4 text-center bg-white rounded shadow wow animate__animated animate__fadeIn animated border border-gray-100 hover:border-gray-200" data-wow-delay=".5s">
-                                        <img className="mb-6 h-24 w-24 mx-auto rounded-full object-cover object-top" src="/assets/imgs/placeholders/avatar-3.png" alt="KBI" />
-                                        <strong className="mt-6 mb-2 text-md">Chris Fulton</strong>
-                                        <p className="text-gray-500 text-xs mt-3">Project-Manager</p>
+                                <div className="w-full md:w-1/2 mb-6 px-5">
+                                    <div className="h-full py-8 px-2 border border-brightRed border-t-0 border-l-0 rounded-lg">
+                                        <h3 className="text-l font-bold text-md mb-6">Mobile-Optimized Interface</h3>
+                                        <p className="text-sm text-blueGray-400 leading-relaxed">Our website is designed with a mobile-first approach, offering a seamless browsing experience across all devices, including smartphones and tablets.</p>
                                     </div>
                                 </div>
-                                <div className="w-1/2 lg:w-1/4 px-5 mb-12">
-                                    <div className="hover-up-5 pt-8 pb-8 px-4 text-center bg-white rounded shadow wow animate__animated animate__fadeIn animated border border-gray-100 hover:border-gray-200" data-wow-delay=".7s">
-                                        <img className="mb-6 h-24 w-24 mx-auto rounded-full object-cover object-top" src="/assets/imgs/placeholders/avatar-4.png" alt="KBI" />
-                                        <strong className="mt-6 mb-2 text-md">Dany Connolly</strong>
-                                        <p className="text-gray-500 text-xs mt-3">Direct-Founder</p>
-                                    </div>
-                                </div>
-                                <div className="w-1/2 lg:w-1/4 px-5">
-                                    <div className="hover-up-5 pt-8 pb-8 px-4 text-center bg-white rounded shadow wow animate__animated animate__fadeIn animated border border-gray-100 hover:border-gray-200" data-wow-delay=".1s">
-                                        <img className="mb-6 h-24 w-24 mx-auto rounded-full object-cover object-top" src="/assets/imgs/placeholders/avatar-5.png" alt="KBI" />
-                                        <strong className="mt-6 mb-2 text-md">Al-amin Bishash</strong>
-                                        <p className="text-gray-500 text-xs mt-3">Director</p>
-                                    </div>
-                                </div>
-                                <div className="w-1/2 lg:w-1/4 px-5">
-                                    <div className="hover-up-5 pt-8 pb-8 px-4 text-center bg-white rounded shadow wow animate__animated animate__fadeIn animated border border-gray-100 hover:border-gray-200" data-wow-delay=".3s">
-                                        <img className="mb-6 h-24 w-24 mx-auto rounded-full object-cover object-top" src="/assets/imgs/placeholders/avatar-6.png" alt="KBI" />
-                                        <strong className="mt-6 mb-2 text-md">Sanuya Santa</strong>
-                                        <p className="text-gray-500 text-xs mt-3">Marketing</p>
-                                    </div>
-                                </div>
-                                <div className="w-1/2 lg:w-1/4 px-5">
-                                    <div className="hover-up-5 pt-8 pb-8 px-4 text-center bg-white rounded shadow wow animate__animated animate__fadeIn animated border border-gray-100 hover:border-gray-200" data-wow-delay=".5s">
-                                        <img className="mb-6 h-24 w-24 mx-auto rounded-full object-cover object-top" src="/assets/imgs/placeholders/avatar-7.png" alt="KBI" />
-                                        <strong className="mt-6 mb-2 text-md">Steven Job</strong>
-                                        <p className="text-gray-500 text-xs mt-3">Designer</p>
-                                    </div>
-                                </div>
-                                <div className="w-1/2 lg:w-1/4 px-5">
-                                    <div className="hover-up-5 pt-8 pb-8 px-4 text-center bg-white rounded shadow wow animate__animated animate__fadeIn animated border border-gray-100 hover:border-gray-200" data-wow-delay=".7s">
-                                        <img className="mb-6 h-24 w-24 mx-auto rounded-full object-cover object-top" src="/assets/imgs/placeholders/avatar-8.png" alt="KBI" />
-                                        <strong className="mt-6 mb-2 text-md">Romario</strong>
-                                        <p className="text-gray-500 text-xs mt-3">Designer</p>
+
+
+
+                                <div className="w-full md:w-1/2 mb-6 px-5">
+                                    <div className="h-full py-8 px-2 border border-brightRed border-t-0 border-l-0 rounded-lg">
+                                        <h3 className="text-l font-bold text-md mb-6">Secure Payment Processing</h3>
+                                        <p className="text-sm text-blueGray-400 leading-relaxed">We use cutting-edge security measures to protect our customers' sensitive information and ensure the safety of all transactions made on our site.</p>
                                     </div>
                                 </div>
                             </div>
+
                         </div>
                     </section>
-                    <section className="pb-20">
-                        <div className="container">
-                            <div className="max-w-2xl mx-auto text-center">
-                                <div className="max-w-md mb-8 mx-auto">
-                                    <span className="inline-block py-1 px-3 text-xs font-semibold bg-blue-100 text-blue-600 rounded-xl wow animate__animatedanimated animate__fadeIn" data-wow-delay=".1s">
-                                        Contact Us
-                                    </span>
-                                    <h2 className="mt-2 text-4xl font-bold font-heading wow animate__animatedanimated animate__fadeIn" data-wow-delay=".s">
-                                        We will <span className="text-blue-500">be glad</span> to hear from you!
-                                    </h2>
-                                </div>
-                                <div>
-                                    <form>
-                                        <div className="mb-4 text-sm wow animate__animatedanimated animate__fadeIn" data-wow-delay=".5s">
-                                            <span className="mr-4 font-semibold">Departament:</span>
-                                            <label className="mr-4">
-                                                <input className="mr-1" type="radio" name="department" value="1" />
-                                                <span>Support</span>
-                                            </label>
-                                            <label>
-                                                <input className="mr-1" type="radio" name="department" value="2" />
-                                                <span>Sales</span>
-                                            </label>
-                                        </div>
-                                        <div className="mb-4 wow animate__animatedanimated animate__fadeIn" data-wow-delay=".3s">
-                                            <input className="w-full p-4 text-xs font-semibold leading-none bg-blueGray-50 rounded outline-none" type="text" placeholder="Subject" />
-                                        </div>
-                                        <div className="mb-4 wow animate__animatedanimated animate__fadeIn" data-wow-delay=".3s">
-                                            <input className="w-full p-4 text-xs font-semibold leading-none bg-blueGray-50 rounded outline-none" type="text" placeholder="Name" />
-                                        </div>
-                                        <div className="mb-4 wow animate__animatedanimated animate__fadeIn" data-wow-delay=".3s">
-                                            <input className="w-full p-4 text-xs font-semibold leading-none bg-blueGray-50 rounded outline-none" type="email" placeholder="name@example.com" />
-                                        </div>
-                                        <div className="mb-4 wow animate__animatedanimated animate__fadeIn" data-wow-delay=".3s">
-                                            <textarea className="w-full h-24 p-4 text-xs font-semibold leading-none resize-none bg-blueGray-50 rounded outline-none" placeholder="Message..."></textarea>
-                                        </div>
-                                        <div className="mb-4 wow animate__animatedanimated animate__fadeIn" data-wow-delay=".3s">
-                                            <label className="flex px-2 bg-blueGray-50 rounded">
-                                                <input className="hidden" type="file" name="Choose file" />
-                                                <span className="my-1 ml-auto px-4 py-3 text-xs text-white font-semibold leading-none bg-blueGray-500 hover:bg-blueGray-600 rounded cursor-pointer"> Browse</span>
-                                            </label>
-                                        </div>
-                                        <div className="flex justify-between items-center wow animate__animatedanimated animate__fadeIn" data-wow-delay=".3s">
-                                            <label>
-                                                <input className="mr-1" type="checkbox" name="terms" value="1" />
-                                                <span className="text-sm font-semibold">I agree to terms and conditions.</span>
-                                            </label>
-                                            <button className="py-4 px-8 text-sm text-white font-semibold leading-none bg-blue-500 hover:bg-blue-700 rounded" type="submit">
-                                                Submit
-                                            </button>
-                                        </div>
-                                    </form>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-                    <section className="py-20 bg-blue-500">
-                        <div className="container">
-                            <div className="text-center max-w-xl mx-auto">
-                                <h2 className="mb-4 text-3xl lg:text-3xl text-white font-bold font-heading">
-                                    <span>Subscribe now to </span>
-                                    <span className="text-blue-200">Our Newsletter</span> <br />
-                                    <span>and get the Coupon code.</span>
-                                </h2>
-                                <p className="mb-8 text-blueGray-200">All your information is completely confidential</p>
-                                <div className="flex flex-wrap max-w-lg mx-auto">
-                                    <div className="flex w-full md:w-2/3 px-3 mb-3 md:mb-0 md:mr-6 bg-blue-500 border border-blue-300 rounded">
-                                        <svg className="h-6 w-6 my-auto text-blue-300" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
-                                            <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"></path>
-                                            <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"></path>
-                                        </svg>
-                                        <input className="w-full pl-3 py-4 text-xs text-white placeholder-white font-semibold leading-none bg-blue-500 outline-none" type="text" placeholder="Type your e-mail" />
-                                    </div>
-                                    <button className="w-full md:w-auto py-4 px-8 text-xs text-white text-blue-800 hover:text-white font-semibold leading-none border border-blue-300 hover:border-blue-300 bg-white hover:bg-blue-500 rounded transition duration-300 ease-in-out" type="submit">
-                                        Sign Up
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </section> */}
                 </section>
             </Layout>
         </>

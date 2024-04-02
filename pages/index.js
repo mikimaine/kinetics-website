@@ -3,7 +3,7 @@ import CounterUp from "../components/elements/Counterup"
 import TextEffect from "../components/elements/TextEffect"
 import Layout from "../components/layout/Layout"
 import Slider1 from "../components/slider/Slider1"
-import Feed from './feed'
+import Feed from './Feed'
 function Home() {
     const [inViewport, setInViewport] = useState(false);
 

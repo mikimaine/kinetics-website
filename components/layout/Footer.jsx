@@ -34,14 +34,14 @@ const Footer = () => {
                             &copy; 2024. All rights reserved.
                         </p>
                         <div className="order-first lg:order-last -mx-2 mb-4 lg:mb-0">
-                            <a className="inline-block px-2" href="https://facebook.com">
-                                <img src="/assets/imgs/icons/facebook-blue.svg" alt="KBI" />
-                            </a>
-                            <a className="inline-block px-2" href="https://www.linkedin.com/company/kinetic-bi/">
-                                <img src="/assets/imgs/icons/linkedin-icon-3.svg" alt="KBI" />
+                            <a className="inline-block px-2" href="https://twitter.com/kineticsbi">
+                                <img src="/assets/imgs/icons/twitter.png" alt="KBI" />
                             </a>
                             <a className="inline-block px-2" href="https://www.instagram.com/kineticsbi/">
                                 <img src="/assets/imgs/icons/instagram-blue.svg" alt="KBI" />
+                            </a>
+                            <a className="inline-block px-2" href="https://www.linkedin.com/company/kinetic-bi/">
+                                <img src="/assets/imgs/icons/linkedin-icon-3.svg" alt="KBI" />
                             </a>
                         </div>
                     </div>

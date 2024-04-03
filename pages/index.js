@@ -173,7 +173,7 @@ function Home() {
                             </div>
                             <div className="relative w-full lg:w-1/2 my-12 lg:my-0">
                                 <div className="wow animate__animated animate__fadeIn" data-wow-delay=".5s">
-                                    <img className="jump relative mx-auto rounded-xl w-full z-10" src="/assets/imgs/placeholders/1.jpg" alt="KBI" />
+                                    <img className="jump relative mx-auto rounded-xl w-full z-10" src="/assets/imgs/placeholders/AI_coding.jpg" alt="KBI" />
                                     {/* <img className="absolute top-0 left-0 w-40 -ml-12 -mt-12" src="/assets/imgs/elements/blob-tear.svg" alt="KBI" /> */}
                                     <img className="absolute bottom-0 right-0 w-40 -mr-12 -mb-12" src="/assets/imgs/elements/blob-tear.svg" alt="KBI" />
                                 </div>
@@ -181,7 +181,6 @@ function Home() {
                         </div>
                     </div>
                 </section>
-
                 <section className="py-20 bg-blueGray-50">
                     <div className="container px-4 mx-auto">
                         <div className="flex flex-wrap items-center justify-between max-w-2xl lg:max-w-full mb-12">

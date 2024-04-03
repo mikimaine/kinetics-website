@@ -3,7 +3,7 @@ import CounterUp from "../components/elements/Counterup"
 import TextEffect from "../components/elements/TextEffect"
 import Layout from "../components/layout/Layout"
 import Slider1 from "../components/slider/Slider1"
-
+import Feed from './Feed'
 function Home() {
     const [inViewport, setInViewport] = useState(false);
 
@@ -25,7 +25,6 @@ function Home() {
             window.removeEventListener("scroll", handleScroll);
         };
     }, []);
-
     return (
         <>
             <Layout>
@@ -34,13 +33,13 @@ function Home() {
                         <div className="pt-12 text-center">
                             <div className="max-w-2xl mx-auto mb-8">
                                 <h2 className="text-3xl lg:text-5xl lg:leading-normal mb-4 font-bold font-heading wow animate__animated animate__fadeIn">
-                                    Committed to People <br />
-                                    Committed <span className="text-brightRed">to the Future</span>
+                                    Timily
+                                    <span className="text-brightRed"> Solutions </span>   <br />for Diverse Challenges
                                 </h2>
                                 <div className="text-blueGray-400 leading-relaxed wow animate__animated animate__fadeIn d-inline">
-                                    We are <strong className="text-brightRed">Kinetic BI</strong>, a Creative Design{" "}
+                                    We are <strong className="text-lightBlue">Kinetic BI</strong>, Experts in{" "}
                                     <div className="typewrite d-inline text-brand">
-                                        <TextEffect text1="Web Agency" text2="Social Marketing" />
+                                        <TextEffect text1="Data Processing and Visualization" text2="Enabling Informed Decision-making" />
                                     </div>
                                 </div>
                             </div>
@@ -55,7 +54,7 @@ function Home() {
                         </div>
                     </div>
                     <div className="relative max-w-6xl mt-16 md:mt-8 mb-8 mx-auto">
-                        <img src="/assets/imgs/elements/pattern.png" alt="KBI" />
+                        <img src="/assets/imgs/elements/bg-image.png" alt="KBI" />
                         <div className="absolute" style={{ top: "9%", left: "14%", width: "72%", height: "66%" }}>
                             <img className="jump rounded wow animate__animated animate__fadeIn" src="/assets/imgs/placeholders/dashboard.png" alt="KBI" />
                         </div>
@@ -71,9 +70,9 @@ function Home() {
                                 <div className="sm:py-2 ml-2 sm:ml-6">
                                     <span className="sm:text-2xl font-bold font-heading">+ </span>
                                     <span className="sm:text-2xl font-bold font-heading count counterUp">
-                                    {inViewport && <CounterUp end={950} duration={10} />}
+                                        {inViewport && <CounterUp end={100} duration={10} />}
                                     </span>
-                                    <p className="text-xs sm:text-base text-blueGray-400">Annual Partner</p>
+                                    <p className="text-xs sm:text-base text-blueGray-400">Technical Experts</p>
                                 </div>
                             </div>
                             <div className="hover-up-5 flex w-1/2 lg:w-auto py-4 wow animate__animated animate__fadeIn" data-wow-delay=".4s">
@@ -85,7 +84,7 @@ function Home() {
                                 <div className="sm:py-2 ml-2 sm:ml-6">
                                     <span className="sm:text-2xl font-bold font-heading">+ </span>
                                     <span className="sm:text-2xl font-bold font-heading count counterUp">
-                                    {inViewport && <CounterUp end={58} duration={10} />}
+                                        {inViewport && <CounterUp end={58} duration={10} />}
                                     </span>
                                     <span className="sm:text-2xl font-bold font-heading"> k </span>
                                     <p className="text-xs sm:text-base text-blueGray-400">Completed Projects</p>
@@ -100,7 +99,7 @@ function Home() {
                                 <div className="sm:py-2 ml-2 sm:ml-6">
                                     <span className="sm:text-2xl font-bold font-heading">+ </span>
                                     <span className="sm:text-2xl font-bold font-heading count counterUp">
-                                    {inViewport && <CounterUp end={500} duration={10} />}
+                                        {inViewport && <CounterUp end={500} duration={10} />}
                                     </span>
                                     <p className="text-xs sm:text-base text-blueGray-400">Happy Customers</p>
                                 </div>
@@ -114,7 +113,7 @@ function Home() {
                                 <div className="sm:py-2 ml-2 sm:ml-6">
                                     <span className="sm:text-2xl font-bold font-heading">+ </span>
                                     <span className="sm:text-2xl font-bold font-heading count counterUp">
-                                    {inViewport && <CounterUp end={300} duration={10} />}
+                                        {inViewport && <CounterUp end={300} duration={10} />}
                                     </span>
                                     <p className="text-xs sm:text-base text-blueGray-400">Research Work</p>
                                 </div>
@@ -126,7 +125,7 @@ function Home() {
                 <section className="pt-8 pb-12 md:py-16 lg:py-16 overflow-x-hidden" id="key-features">
                     <div className="container px-4 mx-auto">
                         <div className="flex flex-wrap lg:flex-nowrap">
-                            <div className="w-full lg:w-1/2">
+                            <div className="w-full lg:w-1/2  pl-3">
                                 <div className="lg:py-6 lg:pr-77 wow animate__animated animate__fadeIn" data-wow-delay=".3s">
                                     <div className="mb-4">
                                         <span className="text-xs py-1 px-3 text-brightRed font-semibold bg-brightRed/5 rounded-xl wow animate__animated animate__fadeInDown" data-wow-delay=".9s">
@@ -143,8 +142,8 @@ function Home() {
                                             </svg>
                                         </div>
                                         <div>
-                                            <h3 className="mb-2 text-xl font-semibold font-heading">Expand Your Reach</h3>
-                                            <p className="text-blueGray-400 leading-loose">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis expedita animi.</p>
+                                            <h3 className="mb-2 text-xl font-semibold font-heading">Predictive and Advanced Analytics</h3>
+                                            <p className="text-blueGray-400 leading-loose"> KBI utilizes sophisticated predictive analytics algorithms to forecast future trends and outcomes based on historical data.</p>
                                         </div>
                                     </div>
                                     <div className="flex items-start py-4 wow animate__animated animate__fadeIn" data-wow-delay=".7s">
@@ -155,8 +154,8 @@ function Home() {
                                             </svg>
                                         </div>
                                         <div>
-                                            <h3 className="mb-2 text-xl font-semibold font-heading">Annualized Growth</h3>
-                                            <p className="text-blueGray-400 leading-loose">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis expedita animi.</p>
+                                            <h3 className="mb-2 text-xl font-semibold font-heading">Smart Decision Making</h3>
+                                            <p className="text-blueGray-400 leading-loose">We empower organizations to make informed decisions while ensuring compliance with data governance standards.</p>
                                         </div>
                                     </div>
                                     <div className="flex items-start py-4 wow animate__animated animate__fadeIn" data-wow-delay=".9s">
@@ -166,61 +165,62 @@ function Home() {
                                             </svg>
                                         </div>
                                         <div>
-                                            <h3 className="mb-2 text-xl font-semibold font-heading">Book Your Providers</h3>
-                                            <p className="text-blueGray-400 leading-loose">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis expedita animi.</p>
+                                            <h3 className="mb-2 text-xl font-semibold font-heading">Real-time Monitoring and Alerts</h3>
+                                            <p className="text-blueGray-400 leading-loose">We provides real-time monitoring of key performance indicators (KPIs) and critical metrics, coupled with automated alerting mechanisms.</p>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <div className="relative w-full lg:w-1/2 my-12 lg:my-0">
                                 <div className="wow animate__animated animate__fadeIn" data-wow-delay=".5s">
-                                    <img className="jump relative mx-auto rounded-xl w-full z-10" src="/assets/imgs/placeholders/img-1.png" alt="KBI" />
-                                    <img className="absolute top-0 left-0 w-40 -ml-12 -mt-12" src="/assets/imgs/elements/blob-tear.svg" alt="KBI" />
+                                    <img className="jump relative mx-auto rounded-xl w-full z-10" src="/assets/imgs/placeholders/AI_coding.jpg" alt="KBI" />
+                                    {/* <img className="absolute top-0 left-0 w-40 -ml-12 -mt-12" src="/assets/imgs/elements/blob-tear.svg" alt="KBI" /> */}
                                     <img className="absolute bottom-0 right-0 w-40 -mr-12 -mb-12" src="/assets/imgs/elements/blob-tear.svg" alt="KBI" />
                                 </div>
                             </div>
                         </div>
                     </div>
                 </section>
-
-                <section className="py-20 bg-blueGray-50" id="how-we-work">
+                <section className="py-20 bg-blueGray-50">
                     <div className="container px-4 mx-auto">
                         <div className="flex flex-wrap items-center justify-between max-w-2xl lg:max-w-full mb-12">
                             <div className="w-full lg:w-1/2 mb-4 lg:mb-0">
                                 <h2 className="text-3xl md:text-4xl font-bold font-heading wow animate__animated animate__fadeInDown">
-                                    <span>We are</span>
-                                    <span className="text-brightRed"> awesome team</span>
+                                    <span>Featured  </span>
+                                    <span className="text-brightRed">Products </span>
                                     <br />
-                                    <span>for your business dream</span>
+                                    <span>and Client Portfolio</span>
                                 </h2>
                             </div>
                             <div className="w-full lg:w-1/2">
-                                <p className="text-blueGray-400 leading-loose wow animate__animated animate__fadeIn">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed luctus eget justo et iaculis. Quisque vitae nulla malesuada, auctor arcu vitae, luctus nisi. Sed elementum vitae ligula id imperdiet.</p>
+                                <p className="text-blueGray-400 leading-loose wow animate__animated animate__fadeIn">
+                                    Explore our range of cutting-edge products and solutions tailored to meet your needs, alongside a showcase of our successful collaborations with valued clients.</p>
                             </div>
                         </div>
                         <div className="flex flex-wrap -mx-3 -mb-6 text-center">
                             <div className="hover-up-5 w-full md:w-1/2 lg:w-1/3 px-3 mb-6 wow animate__animated animate__fadeIn" data-wow-delay=".3s">
                                 <div className="p-12 bg-white shadow rounded">
                                     <div className="flex w-12 h-12 mx-auto items-center justify-center text-brightRed font-bold font-heading bg-brightRed/20 rounded-full">1</div>
-                                    <img className="h-36 mx-auto my-4" src="/assets/imgs/illustrations/eating.svg" alt="KBI" />
-                                    <h3 className="mb-2 font-bold font-heading text-xl">Project Initialization</h3>
-                                    <p className="text-sm text-blueGray-400 leading-relaxed">Project initiation ensures that you lay a strong foundation for a new project in your company our team.</p>
+                                    <img className="h-36 mx-auto my-4" src="/assets/imgs/illustrations/ai.png" alt="KBI" />
+                                    <h3 className="mb-2 font-bold font-heading text-xl">AI Machine Learning</h3>
+                                    <p className="text-sm text-blueGray-400 leading-relaxed">Data-driven AI technology that learns and adapts, enhancing automation and decision-making.</p>
                                 </div>
                             </div>
                             <div className="hover-up-5 w-full md:w-1/2 lg:w-1/3 px-3 mb-6 wow animate__animated animate__fadeIn" data-wow-delay=".5s">
                                 <div className="p-12 bg-white shadow rounded">
                                     <div className="flex w-12 h-12 mx-auto items-center justify-center text-brightRed font-bold font-heading bg-brightRed/20 rounded-full">2</div>
-                                    <img className="h-36 mx-auto my-4" src="/assets/imgs/illustrations/space.svg" alt="KBI" />
-                                    <h3 className="mb-2 font-bold font-heading text-xl">Project planning</h3>
-                                    <p className="text-sm text-blueGray-400 leading-relaxed">A project plan is essential to keep everything related to the project organized, methodical, and on track.</p>
+                                    <img className="h-36 mx-auto my-4" src="/assets/imgs/illustrations/Data.png" alt="KBI" />
+                                    <h3 className="mb-2 font-bold font-heading text-xl">Big Data Consultancy</h3>
+                                    <p className="text-sm text-blueGray-400 leading-relaxed">Industry-leading experts guiding strategies for big data challenges and optimizing operations.</p>
                                 </div>
                             </div>
                             <div className="hover-up-5 w-full lg:w-1/3 px-3 mb-6">
                                 <div className="p-12 bg-white shadow rounded wow animate__animated animate__fadeIn" data-wow-delay=".7s">
                                     <div className="flex w-12 h-12 mx-auto items-center justify-center text-brightRed font-bold font-heading bg-brightRed/20 rounded-full">3</div>
-                                    <img className="h-36 mx-auto my-4" src="/assets/imgs/illustrations/tasks.svg" alt="KBI" />
-                                    <h3 className="mb-2 font-bold font-heading text-xl">Project organization</h3>
-                                    <p className="text-sm text-blueGray-400 leading-relaxed">Moving forward you will be able to keep yourself and your team on track, and address challenges early.</p>
+                                    <img className="h-36 mx-auto my-4" src="/assets/imgs/illustrations/analytics.png
+                                    " alt="KBI" />
+                                    <h3 className="mb-2 font-bold font-heading text-xl">Data Analytics</h3>
+                                    <p className="text-sm text-blueGray-400 leading-relaxed">Unlocking the power of data through advanced analytics techniques to drive strategic decision-making.</p>
                                 </div>
                             </div>
                         </div>
@@ -232,10 +232,10 @@ function Home() {
                             <div className="relative w-full lg:w-1/3 mb-8 lg:mb-0 text-center lg:text-left">
                                 <div className="max-w-md lg:max-w-xs lg:pr-16 mx-auto lg:ml-0 mb-6 lg:mb-0">
                                     <h2 className="text-3xl md:text-4xl mb-4 font-bold font-heading wow animate__animated animate__fadeIn" data-wow-delay=".3s">
-                                        Simple Solution for <span className="text-brightRed">Complex</span> Connections
+                                        Advanced Data Tech for <span className="text-lightBlue">Business</span> Transformation
                                     </h2>
                                     <p className="text-xs md:text-base text-blueGray-400 leading-loose wow animate__animated animate__fadeIn" data-wow-delay=".9s">
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed luctus eget justo et iaculis.
+                                        Transform your business with advanced data tech. Drive growth and stay ahead of the competition.
                                     </p>
                                 </div>
                             </div>
@@ -249,182 +249,7 @@ function Home() {
                         </div>
                     </div>
                 </section>
-                <section className="py-20 xl:bg-contain bg-top bg-no-repeat" style={{ backgroundImage: "url('assets/imgs/backgrounds/intersect.svg')" }}>
-                    <div className="container px-4 mx-auto">
-                        <div className="text-center mb-16">
-                            <h2 className="max-w-lg mx-auto mb-4 text-4xl font-bold font-heading wow animate__animated animate__fadeIn" data-wow-delay=".2s">
-                                <span>Start saving time today and</span>
-                                <span className="text-brightRed"> choose </span>
-                                <span>your best plan</span>
-                            </h2>
-                            <p className="max-w-sm mx-auto text-lg text-blueGray-400 wow animate__animated animate__fadeInDown" data-wow-delay=".5s">
-                                Best for freelance developers who need to save their time
-                            </p>
-                        </div>
-                        <div className="flex flex-wrap -mx-3">
-                            <div className="w-full md:w-1/2 lg:w-1/3 px-3 mb-6">
-                                <div className="hover-up-5 pt-16 pb-8 px-4 text-center bg-white rounded shadow wow animate__animated animate__fadeIn" data-wow-delay=".2s">
-                                    <img className="h-20 mb-6 mx-auto" src="/assets/imgs/icons/startup.svg" alt="KBI" />
-                                    <h3 className="mb-2 text-4xl font-bold font-heading">Startup</h3>
-                                    <span className="text-4xl text-brightRed font-bold font-heading">$45.99</span>
-                                    <p className="mt-2 mb-8 text-blueGray-400">user per month</p>
-                                    <div className="flex flex-col items-center mb-8">
-                                        <ul className="text-blueGray-400">
-                                            <li className="flex mb-3">
-                                                <svg className="w-6 h-6 mr-2 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
-                                                </svg>
-                                                <span>3 Emails</span>
-                                            </li>
-                                            <li className="flex mb-3">
-                                                <svg className="w-6 h-6 mr-2 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
-                                                </svg>
-                                                <span>1 Datebases</span>
-                                            </li>
-                                            <li className="flex mb-3">
-                                                <svg className="w-6 h-6 mr-2 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
-                                                </svg>
-                                                <span>Unlimited Domains</span>
-                                            </li>
-                                            <li className="flex">
-                                                <svg className="w-6 h-6 mr-2 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
-                                                </svg>
-                                                <span>10 GB Storage</span>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    <div>
-                                        <a className="block sm:inline-block py-4 px-6 mb-4 sm:mb-0 sm:mr-3 text-xs text-white text-center font-semibold leading-none bg-brightRed/80 hover:bg-brightRed rounded" href="#">
-                                            Start Free Trial
-                                        </a>
-                                        <a className="block sm:inline-block py-4 px-6 text-xs text-blueGray-500 hover:text-blueGray-600 text-center font-semibold leading-none bg-white border border-blueGray-200 hover:border-blueGray-300 rounded" href="#">
-                                            Purchase
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="w-full md:w-1/2 lg:w-1/3 px-3 mb-6">
-                                <div className="hover-up-5 pt-16 pb-8 px-4 text-center text-white bg-darkblue rounded shadow wow animate__animated animate__fadeIn" data-wow-delay=".4s">
-                                    <img className="h-20 mb-6 mx-auto" src="/assets/imgs/icons/agency.svg" alt="KBI" />
-                                    <h3 className="mb-2 text-4xl font-bold font-heading">Agency</h3>
-                                    <span className="text-4xl font-bold font-heading">$65.99</span>
-                                    <p className="mt-2 mb-8">user per month</p>
-                                    <div className="flex flex-col items-center mb-8">
-                                        <ul>
-                                            <li className="flex items-center mb-3">
-                                                <svg className="w-6 h-6 mr-2 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
-                                                </svg>
-                                                <span>6 Emails</span>
-                                            </li>
-                                            <li className="flex items-center mb-3">
-                                                <svg className="w-6 h-6 mr-2 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
-                                                </svg>
-                                                <span>4 Datebases</span>
-                                            </li>
-                                            <li className="flex items-center mb-3">
-                                                <svg className="w-6 h-6 mr-2 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
-                                                </svg>
-                                                <span>Unlimited Domains</span>
-                                            </li>
-                                            <li className="flex items-center">
-                                                <svg className="w-6 h-6 mr-2 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
-                                                </svg>
-                                                <span>35 GB Storage</span>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    <div>
-                                        <a className="block sm:inline-block py-4 px-6 mb-4 sm:mb-0 sm:mr-3 text-xs text-brightRed font-semibold leading-none bg-white hover:bg-blueGray-50 rounded" href="#">
-                                            Start Free Trial
-                                        </a>
-                                        <a className="block sm:inline-block py-4 px-6 text-xs font-semibold leading-none border bg-brightRed/80 hover:bg-brightRed rounded" href="#">
-                                            Purchase
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="w-full lg:w-1/3 px-3 mb-6">
-                                <div className="hover-up-5 pt-16 pb-8 px-4 text-center bg-white rounded shadow wow animate__animated animate__fadeIn" data-wow-delay=".6s">
-                                    <img className="h-20 mb-6 mx-auto" src="/assets/imgs/icons/enterprise.svg" alt="KBI" />
-                                    <h3 className="mb-2 text-4xl font-bold font-heading">Enterprise</h3>
-                                    <span className="text-4xl text-brightRed font-bold font-heading">$85.99</span>
-                                    <p className="mt-2 mb-8 text-blueGray-400">user per month</p>
-                                    <div className="flex flex-col items-center mb-8">
-                                        <ul className="text-blueGray-400">
-                                            <li className="flex mb-3">
-                                                <svg className="w-6 h-6 mr-2 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
-                                                </svg>
-                                                <span>12 Emails</span>
-                                            </li>
-                                            <li className="flex mb-3">
-                                                <svg className="w-6 h-6 mr-2 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
-                                                </svg>
-                                                <span>8 Datebases</span>
-                                            </li>
-                                            <li className="flex mb-3">
-                                                <svg className="w-6 h-6 mr-2 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
-                                                </svg>
-                                                <span>Unlimited Domains</span>
-                                            </li>
-                                            <li className="flex">
-                                                <svg className="w-6 h-6 mr-2 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
-                                                </svg>
-                                                <span>50 GB Storage</span>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    <div>
-                                        <a className="block sm:inline-block py-4 px-6 mb-4 sm:mb-0 sm:mr-3 text-xs text-white text-center font-semibold leading-none bg-brightRed/80 hover:bg-brightRed rounded" href="#">
-                                            Start Free Trial
-                                        </a>
-                                        <a className="block sm:inline-block py-4 px-6 text-xs text-blueGray-500 hover:text-blueGray-600 text-center font-semibold leading-none bg-white border border-blueGray-200 hover:border-blueGray-300 rounded" href="#">
-                                            Purchase
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-                <section className="py-20 bg-top bg-no-repeat" style={{ backgroundImage: "url('assets/imgs/elements/blob.svg')" }}>
-                    <div className="container px-4 mx-auto">
-                        <div className="relative py-20 px-4 lg:p-20">
-                            <div className="max-w-lg mx-auto text-center">
-                                <h2 className="mb-4 text-3xl lg:text-4xl font-bold font-heading wow animate__animated animate__fadeIn">
-                                    <span>Subscribe now to</span>
-                                    <span className="text-brightRed"> Our Newsletter </span>
-                                    <span>and get the Coupon code.</span>
-                                </h2>
-                                <p className="mb-8 text-blueGray-400 wow animate__animated animate__fadeIn" data-wow-delay=".3s">
-                                    All your information is completely confidential
-                                </p>
-                                <div className="p-4 bg-white rounded-lg flex flex-wrap max-w-md mx-auto wow animate__animated animate__fadeIn" data-wow-delay=".5s">
-                                    <div className="flex w-full md:w-2/3 px-3 mb-3 md:mb-0 md:mr-6 bg-blueGray-100 rounded">
-                                        <svg className="h-6 w-6 my-auto text-blueGray-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
-                                            <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"></path>
-                                            <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"></path>
-                                        </svg>
-                                        <input className="w-full pl-3 py-4 text-xs text-blueGray-400 font-semibold leading-none bg-blueGray-100 outline-none" type="text" placeholder="Type your e-mail" />
-                                    </div>
-                                    <button className="w-full md:w-auto py-4 px-8 text-xs text-white font-semibold leading-none bg-brightRed hover:bg-brightRed/90 rounded" type="submit">
-                                        Sign Up
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
+                <Feed />
             </Layout>
         </>
     );

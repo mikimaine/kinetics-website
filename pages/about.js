@@ -28,41 +28,6 @@ const About = () => {
     return (
         <>
             <Layout>
-                {/* <section className="relative -mt-24 pt-24">
-                    <div className="hidden lg:block absolute inset-0 w-1/2 ml-auto bg-blueGray-100 z-0" style={{ zIndex: "-1" }}></div>
-                    <div className="container">
-                        <div className="flex flex-wrap items-center -mx-3">
-                            <div className="w-full lg:w-1/2 px-3">
-                                <div className="py-12">
-                                    <div className="max-w-lg lg:max-w-md mx-auto lg:mx-0 mb-8 text-center lg:text-left">
-                                        <h2 className="text-3xl lg:text-5xl mb-4 font-bold font-heading wow animate__animatedanimated animate__fadeIn">
-                                            Committed to <span className="text-blue-500">People</span> and the future
-                                        </h2>
-                                        {/* <p className="text-blueGray-400 leading-relaxed wow animate__animatedanimated animate__fadeIn">
-                                            We are <strong className="text-blue-500">KBI</strong>, a Creative Design <span className="typewrite d-inline text-brand" data-period="3000" data-type='["Web Agency", "Social Marketing" ]'></span>
-                                        </p>
-                                        <p className="text-blueGray-400 leading-relaxed wow animate__animatedanimated animate__fadeIn mt-3 text-sm">Helping you maximize operations management with digitization</p> 
-                                    </div>
-                                 <div className="text-center lg:text-left">
-                                        <Link href="/services" legacyBehavior>
-                                            <a className="tracking-wide hover-up-2 block sm:inline-block py-4 px-8 mb-4 sm:mb-0 sm:mr-3 text-xs text-white text-center font-semibold leading-none bg-blue-400 hover:bg-blue-500 rounded wow animate__animatedanimated animate__fadeIn">Our Services</a>
-                                        </Link>
-                                        <Link href="#how-we-work" legacyBehavior>
-                                            <a className="block hover-up-2 sm:inline-block py-4 px-8 text-xs text-blueGray-500 hover:text-blueGray-600 text-center font-semibold leading-none bg-white border border-blueGray-200 hover:border-blueGray-300 rounded wow animate__animatedanimated animate__fadeIn" data-wow-delay=".3s">
-                                                How We Work?
-                                            </a>
-                                        </Link>
-                                    </div> 
-                                </div>
-                            </div>
-                            <div className="w-full lg:w-1/2 px-3 lg:bg-blueGray-10 mb-12 lg:mb-0 pb-10">
-                                <div className="flex items-center justify-center">
-                                    <img className="lg:max-w-lg" src="/assets/imgs/illustrations/team.svg" alt="KBI" />
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section> */}
                 <section className="-mt-24 pt-40 pb-12 bg-blueGray-100">
                     <div className="container">
                         <h1 className="text-2xl lg:text-5xl font-bold mb-5 wow animate__animated animate__fadeIn animated">About Us</h1>
@@ -83,82 +48,65 @@ const About = () => {
                         </ul>
                     </div>
                 </section>
-                <section className="py-24 bg-blueGray-50" id="how-we-work">
+                <section className="py-20 bg-blueGray-50" id="how-we-work">
                     <div className="container">
-                        <div className="flex flex-wrap items-center justify-between max-w-2xl lg:max-w-full mb-12 px-5">
+                        <div className="flex flex-wrap items-center justify-between max-w-2xl lg:max-w-full mb-8 px-5">
                             <div className="w-full lg:w-1/3 mb-4 lg:mb-0">
                                 <h2 className="text-3xl md:text-4xl font-bold font-heading wow animate__animatedanimated animate__fadeInDown">
                                     <span>Who </span>
-                                    <span className="text-blue-500">We </span>
+                                    <span className="text-lightBlue">we </span>
                                     <span>are</span>
                                 </h2>
                             </div>
-                            <div className="w-full lg:w-2/3">
-                                <p className="text-blueGray-400 leading-loose wow animate__animatedanimated animate__fadeIn">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed luctus eget justo et iaculis. Quisque vitae nulla malesuada, auctor arcu vitae, luctus nisi. Sed elementum vitae ligula id imperdiet.</p>
+                            <div className="w-full lg:w-2/3 py-8">
+                                <p className="text-blueGray-400 leading-loose wow animate__animatedanimated animate__fadeIn">Kinetic BI, co-founded by Mikiyas Amdu and Sosena Terefe in the US, is a technology-solutions company dedicated to revolutionizing clients’ businesses through data. As your one-stop partner, we offer comprehensive support services with unwavering commitment to quality and reliability. Our focus lies in driving intelligence to the forefront of operations, strengthening systems to simplify data gathering, interpretation, and accessibility, thereby ensuring business growth for our clients.</p>
                             </div>
                         </div>
-                        <div className="flex flex-wrap -mx-3 -mb-6 text-left">
-
-                            <div className="w-full md:w-1/2 lg:w-1/2 px-5 mb-6">
-                                <div className="hover-up-5 w-full">
-                                    <div className="p-12 bg-white shadow rounded">
-                                        <h3 className="mb-2 font-bold font-heading text-xl">Our Mission</h3>
-                                        <p className="text-sm text-blueGray-400 leading-relaxed">We are concerned with leading an information revolution where analysis and reporting are the tactical tools at the forefront of providing business insight. In doing so, we are striving to make operations and growth smoother and more efficient for businesses, with an educational element to it as well.</p>
-                                    </div>
-                                </div>
-                                <div className="hover-up-5 w-full mt-6">
-                                    <div className="p-12 bg-white shadow rounded">
-                                        <h3 className="mb-2 font-bold font-heading text-xl">Our Vision</h3>
-                                        <p className="text-sm text-blueGray-400 leading-relaxed">To form a solid foundation and become a reputable AI-driven analytics platform through quality and dependable ‘intelligence’ with our products that preach an interconnected future that is data-driven.</p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div className="w-full md:w-1/2 lg:w-1/2 px-5 mb-6">
-                                <div style={{ display: 'flex', justifyContent: 'center' }}>
-                                    <img className="rounded" src="/assets/imgs/placeholders/1.jpg" alt="KBI" style={{ maxWidth: '100%', height: 'auto' }} />
-                                </div>
-                            </div>
-                        </div>
-
-                        {/* <div className="flex flex-wrap -mx-3 -mb-6 text-left">
-                            <div className="hover-up-5 w-full md:w-1/2 lg:w-1/2 px-5 mb-6 wow animate__animated animate__fadeIn" data-wow-delay=".3s" style={{ display: 'flex' }}>
-                                <div className="p-12 bg-white shadow rounded" style={{ flex: 1 }}>
-                                    <h3 className="mb-2 font-bold font-heading text-xl">Our Vision</h3>
-                                    <p className="text-sm text-blueGray-400 leading-relaxed">To form a solid foundation and become a reputable AI-driven analytics platform through quality and dependable ‘intelligence’ with our products that preach an interconnected future that is data-driven.</p>
-                                </div>
-                            </div>
-                            <div className="hover-up-5 w-full md:w-1/2 lg:w-1/2 px-5 mb-6 wow animate__animated animate__fadeIn" data-wow-delay=".5s" style={{ display: 'flex' }}>
-                                <div className="p-12 bg-white shadow rounded" style={{ flex: 1 }}>
-                                    <h3 className="mb-2 font-bold font-heading text-xl">Our Vision</h3>
-                                    <p className="text-sm text-blueGray-400 leading-relaxed">To form a solid foundation and become a reputable AI-driven analytics platform through quality and dependable ‘intelligence’ with our products that preach an interconnected future that is data-driven.</p>
-                                </div>
-                            </div>
-                        </div> */}
                     </div>
+                    <section className="py-6 bg-blueGray-50" id="how-we-work">
+                        <div className="container">
+                            <div className="flex flex-wrap -mx-3 -mb-6 text-left">
+                                <div className="w-full md:w-1/2 lg:w-1/2 px-5 mb-6 mt-4">
+                                    <div className="hover-up-5 w-full">
+                                        <div className="p-12 bg-white shadow rounded">
+                                            <h3 className="mb-2 font-bold font-heading text-xl">Our Mission</h3>
+                                            <p className="text-sm text-blueGray-400 leading-relaxed">We are concerned with leading an information revolution where analysis and reporting are the tactical tools at the forefront of providing business insight. In doing so, we are striving to make operations and growth smoother and more efficient for businesses, with an educational element to it as well.</p>
+                                        </div>
+                                    </div>
+                                    <div className="hover-up-5 w-full mt-8">
+                                        <div className="p-12 bg-white shadow rounded">
+                                            <h3 className="mb-2 font-bold font-heading text-xl">Our Vision</h3>
+                                            <p className="text-sm text-blueGray-400 leading-relaxed">To form a solid foundation and become a reputable AI-driven analytics platform through quality and dependable ‘intelligence’ with our products that preach an interconnected future that is data-driven.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="w-full md:w-1/2 lg:w-1/2 px-5 mb-6">
+                                    <div style={{ display: 'flex', justifyContent: 'center' }}>
+                                        <img className="rounded" src="/assets/imgs/placeholders/data.jpg" alt="KBI" style={{ maxWidth: '100%', height: 'auto' }} />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
                     <section className="py-20">
                         <div className="container">
                             <div className="mx-auto max-w-2xl lg:mx-0">
                                 <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Our values</h2>
-                                <p className="text-sm text-blueGray-400 leading-relaxed">
-                                    Lorem ipsum dolor sit amet consect adipisicing elit. Possimus magnam voluptatum cupiditate veritatis in
-                                    accusamus quisquam.
-                                </p>
                             </div>
                             <div className="flex">
-                                <dl className="mt-16 grid max-w-2xl">
+                                <dl className="mt-4 grid max-w-2xl">
                                     <div >
                                         <dt className="font-semibold text-gray-900">Precision</dt>
                                         <dd className="mt-1 text-sm text-blueGray-400 leading-relaxed">Without providing the best data and analysis, our existence would be null and void. That is why we look to provide services worked out to the smallest detail.</dd>
                                     </div>
                                 </dl>
-                                <dl className="mt-16 grid max-w-2xl ml-4">
+                                <dl className="mt-4 grid max-w-2xl ml-4">
                                     <div >
                                         <dt className="font-semibold text-gray-900">Intelligence</dt>
                                         <dd className="mt-1 text-sm text-blueGray-400 leading-relaxed">Movement is intertwined within an entity providing cutting-edge technology. Through that, innovation-driven intelligence is a leading concern.</dd>
                                     </div>
                                 </dl>
-                                <dl className="mt-16 grid max-w-2xl ml-4">
+                                <dl className="mt-4 grid max-w-2xl ml-4">
                                     <div >
                                         <dt className="font-semibold text-gray-900">Customer Satisfaction</dt>
                                         <dd className="mt-1 text-sm text-blueGray-400 leading-relaxed">Even when we provide solutions, as we do, our end-product is judged by how well we have listened to and solved the needs of our customers.</dd>
@@ -167,7 +115,7 @@ const About = () => {
                             </div>
                         </div>
                     </section>
-                    <section className="pt-6 pb-2">
+                    {/* <section className="pt-6 pb-2">
                         <div className="container">
                             <div className="flex flex-wrap justify-between pt-8 pb-16">
                                 <div className="flex w-1/2 lg:w-auto py-4 wow animate__animatedanimated animate__fadeIn" data-wow-delay=".2s">
@@ -221,31 +169,35 @@ const About = () => {
                                 </div>
                             </div>
                         </div>
-                    </section>
+                    </section> */}
                     <section className="py-20" style={{ backgroundImage: "url('assets/imgs/elements/blob.svg')" }}>
                         <div className="container flex md:flex-row">
 
-                            <div className="w-1/3 md:w-1/4 mb-6 md:mb-0 md:mr-8 mt-16">
-                                <h2 className='text-3xl md:text-4xl font-bold font-heading wow animate__animatedanimated animate__fadeInDown'>Kinetic <br />business <br />Intelligence</h2>
+                            <div className="w-1/3 md:w-1/4 mb-6 md:mb-0 md:mr-8 mt-18">
+                                <h2 className='text-3xl md:text-4xl font-bold font-heading wow animate__animatedanimated animate__fadeInDown'>Kinetic <br />Business <br />Intelligence</h2>
                             </div>
                             <div className="flex-1 flex flex-wrap  pl-5">
 
                                 <div className="w-full md:w-1/2 mb-6 px-5">
                                     <div className="h-full py-8 px-2 border border-brightRed border-t-0 border-l-0 rounded-lg">
-                                        <h3 className="text-l font-bold text-md mb-6">Dynamic Personalization:</h3>
-                                        <p className="text-sm text-blueGray-400 leading-relaxed">Our platform leverages user data and behavior to provide a highly personalized experience, with dynamic content and product recommendations that change in real-time.</p>
+                                        <h3 className="text-l font-bold text-md mb-6">Dynamic Data Analysis</h3>
+                                        <p className="text-sm text-blueGray-400 leading-relaxed">Our platform utilizes advanced analytics to interpret user data and behaviors, enabling personalized insights and real-time decision-making. Experience dynamic content recommendations tailored to individual preferences.
+
+                                        </p>
                                     </div>
                                 </div>
                                 <div className="w-full md:w-1/2 mb-6 px-5">
                                     <div className="h-full py-8 px-2 border border-brightRed border-t-0 border-l-0 rounded-lg">
-                                        <h3 className="text-l font-bold text-md mb-6">24/7 Customer Support</h3>
-                                        <p className="text-sm text-blueGray-400 leading-relaxed">Our U.S.-based customer support team is available around the clock to answer any questions, resolve any issues, and provide helpful solutions.</p>
+                                        <h3 className="text-l font-bold text-md mb-6">24/7 Analytical Support</h3>
+                                        <p className="text-sm text-blueGray-400 leading-relaxed">
+                                            Access our expert analytical team round-the-clock for insights, troubleshooting, and strategic guidance. Our team is dedicated to providing timely solutions and actionable intelligence.</p>
                                     </div>
                                 </div>
                                 <div className="w-full md:w-1/2 mb-6 px-5">
                                     <div className="h-full py-8 px-2 border border-brightRed border-t-0 border-l-0 rounded-lg">
-                                        <h3 className="text-l font-bold text-md mb-6">Mobile-Optimized Interface</h3>
-                                        <p className="text-sm text-blueGray-400 leading-relaxed">Our website is designed with a mobile-first approach, offering a seamless browsing experience across all devices, including smartphones and tablets.</p>
+                                        <h3 className="text-l font-bold text-md mb-6">Cross-Platform Intelligence</h3>
+                                        <p className="text-sm text-blueGray-400 leading-relaxed">
+                                            Our solutions are designed for seamless integration across various systems and devices. Experience optimized data accessibility and visualization, ensuring actionable insights across all platforms.</p>
                                     </div>
                                 </div>
 
@@ -253,8 +205,8 @@ const About = () => {
 
                                 <div className="w-full md:w-1/2 mb-6 px-5">
                                     <div className="h-full py-8 px-2 border border-brightRed border-t-0 border-l-0 rounded-lg">
-                                        <h3 className="text-l font-bold text-md mb-6">Secure Payment Processing</h3>
-                                        <p className="text-sm text-blueGray-400 leading-relaxed">We use cutting-edge security measures to protect our customers' sensitive information and ensure the safety of all transactions made on our site.</p>
+                                        <h3 className="text-l font-bold text-md mb-6">Robust Security Measures</h3>
+                                        <p className="text-sm text-blueGray-400 leading-relaxed">We employ state-of-the-art security protocols to safeguard sensitive business data and transactions. Rest assured, your information is protected with the highest standards of encryption and authentication.</p>
                                     </div>
                                 </div>
                             </div>

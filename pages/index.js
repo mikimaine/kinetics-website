@@ -186,10 +186,10 @@ function Home() {
                         <div className="flex flex-wrap items-center justify-between max-w-2xl lg:max-w-full mb-12">
                             <div className="w-full lg:w-1/2 mb-4 lg:mb-0">
                                 <h2 className="text-3xl md:text-4xl font-bold font-heading wow animate__animated animate__fadeInDown">
-                                    <span>Featured  </span>
-                                    <span className="text-brightRed">Products </span>
+                                    <span>Explore Our </span>
                                     <br />
-                                    <span>and Client Portfolio</span>
+                                    <span className="text-brightRed">Advanced </span>                             
+                                    <span>Solutions</span>
                                 </h2>
                             </div>
                             <div className="w-full lg:w-1/2">

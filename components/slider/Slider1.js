@@ -29,7 +29,7 @@ const Slider1 = () => {
                             <div className="flex justify-between items-end">
                                 <div>
                                     <h1 className="mt-5 text-xl font-semibold group-hover:text-lightBlue">
-                                        <Link href="/services" legacyBehavior>
+                                        <Link href="/products" legacyBehavior>
                                             <a>Data processing and Visualization</a>
                                         </Link>
                                     </h1>
@@ -51,14 +51,14 @@ const Slider1 = () => {
                             <div className="flex justify-between items-end">
                                 <div>
                                     <h1 className="mt-5 text-xl font-semibold group-hover:text-lightBlue">
-                                        <Link href="/services" legacyBehavior>
+                                        <Link href="/products" legacyBehavior>
                                             <a>Big Data Consulting</a>
                                         </Link>
                                     </h1>
                                     {/* <p className="mt-2 text-xs text-gray-500">Cocacola., Co</p> */}
                                 </div>
                                 <div>
-                                    <Link href="/services" legacyBehavior>
+                                    <Link href="/products" legacyBehavior>
                                         <a className="tracking-wide hover-up-2 mr-2 inline-block px-4 py-3 text-xs text-lightBlue font-semibold leading-none border border-blue-200 hover:border-lightBlue hover:text-white hover:bg-lightBlue rounded">View Details</a>
                                     </Link>
                                 </div>
@@ -73,14 +73,14 @@ const Slider1 = () => {
                             <div className="flex justify-between items-end">
                                 <div>
                                     <h1 className="mt-5 text-xl font-semibold group-hover:text-lightBlue">
-                                        <Link href="/services" legacyBehavior>
+                                        <Link href="/products" legacyBehavior>
                                             <a>Predictive Data Analytics</a>
                                         </Link>
                                     </h1>
                                     {/* <p className="mt-2 text-xs text-gray-500">Oxford university</p> */}
                                 </div>
                                 <div>
-                                    <Link href="/services" legacyBehavior>
+                                    <Link href="/products" legacyBehavior>
                                         <a className="tracking-wide hover-up-2 mr-2 inline-block px-4 py-3 text-xs text-lightBlue font-semibold leading-none border border-blue-200 hover:border-lightBlue hover:text-white hover:bg-lightBlue rounded">View Details</a>
                                     </Link>
                                 </div>
@@ -95,14 +95,14 @@ const Slider1 = () => {
                             <div className="flex justify-between items-end">
                                 <div>
                                     <h1 className="mt-5 text-xl font-semibold group-hover:text-lightBlue">
-                                        <Link href="/services" legacyBehavior>
+                                        <Link href="/products" legacyBehavior>
                                             <a>Business Intelligence</a>
                                         </Link>
                                     </h1>
                                     {/* <p className="mt-2 text-xs text-gray-500">Alibaba Co</p> */}
                                 </div>
                                 <div>
-                                    <Link href="/services" legacyBehavior>
+                                    <Link href="/products" legacyBehavior>
                                         <a className="tracking-wide hover-up-2 mr-2 inline-block px-4 py-3 text-xs text-lightBlue font-semibold leading-none border border-blue-200 hover:border-lightBlue hover:text-white hover:bg-lightBlue rounded">View Details</a>
                                     </Link>
                                 </div>

@@ -56,7 +56,7 @@ function Home() {
                     <div className="relative max-w-6xl mt-16 md:mt-8 mb-8 mx-auto">
                         <img src="/assets/imgs/elements/bg-image.png" alt="KBI" />
                         <div className="absolute" style={{ top: "9%", left: "14%", width: "72%", height: "66%" }}>
-                            <img className="jump rounded wow animate__animated animate__fadeIn" src="/assets/imgs/placeholders/dashboard.png" alt="KBI" />
+                            <img className="jump rounded wow animate__animated animate__fadeIn" src="/assets/imgs/placeholders/Dashboard_bg.png" alt="KBI" />
                         </div>
                     </div>
                     <div className="container px-4 mx-auto">
@@ -232,7 +232,7 @@ function Home() {
                             <div className="relative w-full lg:w-1/3 mb-8 lg:mb-0 text-center lg:text-left">
                                 <div className="max-w-md lg:max-w-xs lg:pr-16 mx-auto lg:ml-0 mb-6 lg:mb-0">
                                     <h2 className="text-3xl md:text-4xl mb-4 font-bold font-heading wow animate__animated animate__fadeIn" data-wow-delay=".3s">
-                                        Advanced Data Tech for <span className="text-lightBlue">Business</span> Transformation
+                                    Empowering <span className="text-lightBlue">Business</span> < br />with Data Technology
                                     </h2>
                                     <p className="text-xs md:text-base text-blueGray-400 leading-loose wow animate__animated animate__fadeIn" data-wow-delay=".9s">
                                         Transform your business with advanced data tech. Drive growth and stay ahead of the competition.

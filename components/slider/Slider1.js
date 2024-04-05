@@ -37,7 +37,7 @@ const Slider1 = () => {
                                 </div>
                                 <div>
                                     <Link href="/products" legacyBehavior>
-                                        <a className="tracking-wide hover-up-2 mr-2 inline-block px-4 py-3 text-xs text-lightBlue font-semibold leading-none border border-blue-200 hover:border-lightBlue hover:text-white hover:bg-lightBlue rounded">View Details</a>
+                                        <a className="tracking-wide hover-up-2 inline-block px-4 py-3 text-xs text-lightBlue font-semibold leading-none border border-blue-200 hover:border-lightBlue hover:text-white hover:bg-lightBlue rounded">View Details</a>
                                     </Link>
                                 </div>
                             </div>
@@ -59,7 +59,7 @@ const Slider1 = () => {
                                 </div>
                                 <div>
                                     <Link href="/products" legacyBehavior>
-                                        <a className="tracking-wide hover-up-2 mr-2 inline-block px-4 py-3 text-xs text-lightBlue font-semibold leading-none border border-blue-200 hover:border-lightBlue hover:text-white hover:bg-lightBlue rounded">View Details</a>
+                                        <a className="tracking-wide hover-up-2 inline-block px-4 py-3 text-xs text-lightBlue font-semibold leading-none border border-blue-200 hover:border-lightBlue hover:text-white hover:bg-lightBlue rounded">View Details</a>
                                     </Link>
                                 </div>
                             </div>
@@ -81,7 +81,7 @@ const Slider1 = () => {
                                 </div>
                                 <div>
                                     <Link href="/products" legacyBehavior>
-                                        <a className="tracking-wide hover-up-2 mr-2 inline-block px-4 py-3 text-xs text-lightBlue font-semibold leading-none border border-blue-200 hover:border-lightBlue hover:text-white hover:bg-lightBlue rounded">View Details</a>
+                                        <a className="tracking-wide hover-up-2 inline-block px-4 py-3 text-xs text-lightBlue font-semibold leading-none border border-blue-200 hover:border-lightBlue hover:text-white hover:bg-lightBlue rounded">View Details</a>
                                     </Link>
                                 </div>
                             </div>
@@ -103,7 +103,7 @@ const Slider1 = () => {
                                 </div>
                                 <div>
                                     <Link href="/products" legacyBehavior>
-                                        <a className="tracking-wide hover-up-2 mr-2 inline-block px-4 py-3 text-xs text-lightBlue font-semibold leading-none border border-blue-200 hover:border-lightBlue hover:text-white hover:bg-lightBlue rounded">View Details</a>
+                                        <a className="tracking-wide hover-up-2 inline-block px-4 py-3 text-xs text-lightBlue font-semibold leading-none border border-blue-200 hover:border-lightBlue hover:text-white hover:bg-lightBlue rounded">View Details</a>
                                     </Link>
                                 </div>
                             </div>

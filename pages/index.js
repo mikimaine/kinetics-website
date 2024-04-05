@@ -125,7 +125,7 @@ function Home() {
                 <section className="pt-8 pb-12 md:py-16 lg:py-16 overflow-x-hidden" id="key-features">
                     <div className="container px-4 mx-auto">
                         <div className="flex flex-wrap lg:flex-nowrap">
-                            <div className="w-full lg:w-1/2  pl-3">
+                            <div className="w-full lg:w-1/2  mr-6">
                                 <div className="lg:py-6 lg:pr-77 wow animate__animated animate__fadeIn" data-wow-delay=".3s">
                                     <div className="mb-4">
                                         <span className="text-xs py-1 px-3 text-brightRed font-semibold bg-brightRed/5 rounded-xl wow animate__animated animate__fadeInDown" data-wow-delay=".9s">

@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Feed() {
   return (
-    <section className="py-20 xl:bg-contain bg-top bg-no-repeat bg-blueGray-100" id="how-we-work">
+    <section className="pt-20 pb-32 xl:bg-contain bg-top bg-no-repeat bg-blueGray-100" id="how-we-work">
       <div className="container px-4 mx-auto">
         <div className="text-center mb-16">
           <div className="flex items-center justify-center">
@@ -21,7 +21,7 @@ export default function Feed() {
         <div className="flex flex-wrap lg:flex-nowrap">
           <div className="relative w-full lg:w-1/2 my-8 lg:my-0 flex">
             <div className="wow animate__animated" data-wow-delay=".5s">
-              <img className="jump relative mx-auto rounded-xl w-full z-10 pt-0 " src="/assets/imgs/placeholders/placeholder2.jpg" alt="KBI" />
+              <img className="jump relative mx-auto rounded-xl w-full z-10 pt-0 " src="/assets/imgs/placeholders/1.jpg" alt="KBI" />
             </div>
           </div>
           <div className="w-full lg:w-1/2 pl-12">

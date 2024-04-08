@@ -54,9 +54,9 @@ function Home() {
                         </div>
                     </div>
                     <div className="relative max-w-6xl mt-16 md:mt-8 mb-8 mx-auto">
-                        <img src="/assets/imgs/elements/bg-image.png" alt="KBI" />
+                        <img src="/assets/imgs/elements/option.png" alt="KBI" />
                         <div className="absolute" style={{ top: "9%", left: "14%", width: "72%", height: "66%" }}>
-                            <img className="jump rounded wow animate__animated animate__fadeIn" src="/assets/imgs/placeholders/Dashboard_bg.png" alt="KBI" />
+                            <img className="jump rounded wow animate__animated animate__fadeIn" src="/assets/imgs/placeholders/dashboard (3).png" alt="KBI" />
                         </div>
                     </div>
                     <div className="container px-4 mx-auto">
@@ -155,7 +155,7 @@ function Home() {
                                         </div>
                                         <div>
                                             <h3 className="mb-2 text-xl font-semibold font-heading">Smart Decision Making</h3>
-                                            <p className="text-blueGray-400 leading-loose">We empower organizations to make informed decisions while ensuring compliance with data governance standards.</p>
+                                            <p className="text-blueGray-400 leading-loose">KBI empowers organizations to make informed decisions while ensure compliance with data governance standards.</p>
                                         </div>
                                     </div>
                                     <div className="flex items-start py-4 wow animate__animated animate__fadeIn" data-wow-delay=".9s">
@@ -166,7 +166,7 @@ function Home() {
                                         </div>
                                         <div>
                                             <h3 className="mb-2 text-xl font-semibold font-heading">Real-time Monitoring and Alerts</h3>
-                                            <p className="text-blueGray-400 leading-loose">We provides real-time monitoring of key performance indicators (KPIs) and critical metrics, coupled with automated alerting mechanisms.</p>
+                                            <p className="text-blueGray-400 leading-loose">KBI provides real-time monitoring of key performance indicators (KPIs) and critical metrics, coupled with automated alerting mechanisms.</p>
                                         </div>
                                     </div>
                                 </div>

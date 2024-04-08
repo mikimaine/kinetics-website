@@ -48,16 +48,16 @@ const Products = () => {
                 </section>
                 <section className="pt-20 pb-24 bg-blueGray-50" id="how-we-work">
                     <div className="container">
-                        <div className="flex flex-wrap -mx-3 -mb-6 text-left">
-                            <div className="hover-up-5 w-full lg:w-1/3 px-3 mb-6">
+                        <div className="flex flex-wrap -mx-3 -mb-6 text-left h-full">
+                            {/* <div className="hover-up-5 lg:w-1/3 px-3 mb-6">
                                 <div className="p-12 bg-white shadow rounded wow animate__animated animate__fadeIn" data-wow-delay=".7s">
-                                    {/* <div className="flex w-24 h-24 text-2xl items-center justify-center text-blue-800 font-bold font-heading bg-blue-200 rounded-full">3</div> */}
+                                     <div className="flex w-24 h-24 text-2xl items-center justify-center text-blue-800 font-bold font-heading bg-blue-200 rounded-full">3</div> 
                                     <img className="h-36 my-4" src="/assets/imgs/illustrations/Loyalty.png" alt="KBI" />
                                     <h3 className="mb-2 font-bold font-heading text-xl py-6">Loyalty Rewards App</h3>
                                     <p className="text-sm text-blueGray-400 leading-relaxed">The Loyalty Rewards app boasts a highly adaptable points and rewards management system, nurturing robust customer relationships through redeemable points for exclusive discounts or rewards, thereby amplifying customer loyalty and fostering greater engagement.</p>
                                 </div>
-                            </div>
-                            <div className="hover-up-5 w-full lg:w-1/3 px-3 mb-6" id='ecommerce'>
+                            </div> */}
+                            <div className="hover-up-5 lg:w-1/3 px-3 mb-6 h-full flex" id='ecommerce'>
                                 <div className="p-12 bg-white shadow rounded wow animate__animated animate__fadeIn" data-wow-delay=".7s">
                                     {/* <div className="flex w-24 h-24 text-2xl items-center justify-center text-blue-800 font-bold font-heading bg-blue-200 rounded-full">3</div> */}
                                     <img className="h-36 my-4" src="/assets/imgs/illustrations/ecommerce.png" alt="KBI" />
@@ -65,33 +65,33 @@ const Products = () => {
                                     <p className="text-sm text-blueGray-400 leading-relaxed">The E-commerce system facilitates business opportunities through a centralized platform, enabling users to add products with descriptions and prices. It supports third-party payment gateways and customizable delivery options, with advanced backend features.</p>
                                 </div>
                             </div>
-                            <div className="hover-up-5 w-full md:w-1/2 lg:w-1/3 px-3 mb-6 wow animate__animated animate__fadeIn" data-wow-delay=".3s">
+                            {/* <div className="hover-up-5 md:w-1/2 lg:w-1/3 px-3 mb-6 wow animate__animated animate__fadeIn" data-wow-delay=".3s">
                                 <div className="p-12 bg-white shadow rounded">
-                                    {/* <div className="flex w-24 h-24 text-2xl items-center justify-center text-blue-800 font-bold font-heading bg-blue-200 rounded-full">1</div> */}
+                                    <div className="flex w-24 h-24 text-2xl items-center justify-center text-blue-800 font-bold font-heading bg-blue-200 rounded-full">1</div> 
                                     <img className="h-36 my-4" src="/assets/imgs/illustrations/Recruitment.png" alt="KBI" />
                                     <h3 className="mb-2 font-bold font-heading text-xl py-6">Recruitment & Attendance Management</h3>
                                     <p className="text-sm text-blueGray-400 leading-relaxed">An online platform for HR officers to post vacancy announcements, filter candidates, and automate recruitment processes. Integrates biometric attendance for real-time monitoring and generates reliable HR reports, optimizing time and resources.</p>
                                 </div>
-                            </div>
-                            <div className="hover-up-5 w-full lg:w-1/3 px-3 mb-6" id='booking'>
+                            </div> */}
+                            {/* <div className="hover-up-5 lg:w-1/3 px-3 mb-6" id='booking'>
                                 <div className="p-12 bg-white shadow rounded wow animate__animated animate__fadeIn" data-wow-delay=".7s">
-                                    {/* <div className="flex w-24 h-24 text-2xl items-center justify-center text-blue-800 font-bold font-heading bg-blue-200 rounded-full">3</div> */}
+                                     <div className="flex w-24 h-24 text-2xl items-center justify-center text-blue-800 font-bold font-heading bg-blue-200 rounded-full">3</div> 
                                     <img className="h-36 my-4" src="/assets/imgs/illustrations/booking.png" alt="KBI" />
                                     <h3 className="mb-2 font-bold font-heading text-xl py-6">Booking Engine</h3>
                                     <p className="text-sm text-blueGray-400 leading-relaxed">
                                         The Hotel Reservation System optimizes resource management to boost revenue effortlessly. It streamlines bookings, integrates payment gateways, and generates insightful reports for marketing and financial analysis, enhancing operational efficiency and guest satisfaction.</p>
                                 </div>
-                            </div>
-                            <div className="hover-up-5 w-full md:w-1/2 lg:w-1/3 px-3 mb-6 wow animate__animated animate__fadeIn" data-wow-delay=".5s" id='hrManagement'>
+                            </div> */}
+                            {/* <div className="hover-up-5 md:w-1/2 lg:w-1/3 px-3 mb-6 wow animate__animated animate__fadeIn" data-wow-delay=".5s" id='hrManagement'>
                                 <div className="p-12 bg-white shadow rounded">
-                                    {/* <div className="flex w-24 h-24 text-2xl items-center justify-center text-blue-800 font-bold font-heading bg-blue-200 rounded-full">2</div> */}
+                                    <div className="flex w-24 h-24 text-2xl items-center justify-center text-blue-800 font-bold font-heading bg-blue-200 rounded-full">2</div> 
                                     <img className="h-36 my-4" src="/assets/imgs/illustrations/hr.png" alt="KBI" />
                                     <h3 className="mb-2 font-bold font-heading text-xl py-6">HR Management System</h3>
                                     <p className="text-sm text-blueGray-400 leading-relaxed">
                                         The HR management system integrates HR practices with digital tools, enhancing efficiency in monitoring tasks and project assignments. It streamlines workflows, centralizes employee data, and tracks activities to optimize resource allocation and decision-making processes.</p>
                                 </div>
-                            </div>
-                            <div className="hover-up-5 w-full lg:w-1/3 px-3 mb-6" id='Complaint'>
+                            </div> */}
+                            <div className="hover-up-5 lg:w-1/3 px-3 mb-6 h-full flex" id='Complaint'>
                                 <div className="p-12 bg-white shadow rounded wow animate__animated animate__fadeIn" data-wow-delay=".7s">
                                     {/* <div className="flex w-24 h-24 text-2xl items-center justify-center text-blue-800 font-bold font-heading bg-blue-200 rounded-full">3</div> */}
                                     <img className="h-36 my-4" src="/assets/imgs/illustrations/Complaint.png" alt="KBI" />
@@ -99,7 +99,7 @@ const Products = () => {
                                     <p className="text-sm text-blueGray-400 leading-relaxed">The Digital Request and Complaint System enables refugees and asylum seekers to submit requests and complaints electronically to UNHCR staff. It ensures effective service delivery and promotes real-time learning by addressing gaps and challenges.</p>
                                 </div>
                             </div>
-                            <div className="hover-up-5 w-full lg:w-1/3 px-3 mb-6" id='data'>
+                            <div className="hover-up-5 lg:w-1/3 px-3 mb-6 h-full flex" id='data'>
                                 <div className="p-12 bg-white shadow rounded wow animate__animated animate__fadeIn" data-wow-delay=".7s">
                                     {/* <div className="flex w-24 h-24 text-2xl items-center justify-center text-blue-800 font-bold font-heading bg-blue-200 rounded-full">3</div> */}
                                     <img className="h-36 my-4" src="/assets/imgs/illustrations/processing.png" alt="KBI" />

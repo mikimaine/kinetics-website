@@ -11,8 +11,8 @@ const Slider1 = () => {
                 breakpoints={{
                     // when window width is >= 768px
                     768: {
-                    width: 768,
-                    slidesPerView: 2,
+                        width: 768,
+                        slidesPerView: 2,
                     },
                 }}
                 slidesPerView={1}
@@ -23,88 +23,80 @@ const Slider1 = () => {
                 }}
             >
                 <SwiperSlide>
-                    <div className="px-3 pb-5">
-                        <div className="card-slider group">
+                    <div className="px-3 pb-5 h-full flex flex-col">
+                        <div className="card-slider group flex-1">
                             <img className="rounded-xl" src="/assets/imgs/placeholders/3.png" alt="KBI" />
                             <div className="flex justify-between items-end">
                                 <div>
                                     <h1 className="mt-5 text-xl font-semibold group-hover:text-lightBlue">
-                                        <Link href="/products" legacyBehavior>
-                                            <a>Data processing and Visualization</a>
-                                        </Link>
+                                       Data processing and Visualization
                                     </h1>
                                     {/* <p className="mt-2 text-xs text-gray-500">Harvard university</p> */}
                                 </div>
                                 <div>
-                                    <Link href="/products" legacyBehavior>
+                                    {/* <Link href="/products" legacyBehavior>
                                         <a className="tracking-wide hover-up-2 inline-block px-4 py-3 text-xs text-lightBlue font-semibold leading-none border border-blue-200 hover:border-lightBlue hover:text-white hover:bg-lightBlue rounded">View Details</a>
-                                    </Link>
+                                    </Link> */}
                                 </div>
                             </div>
                         </div>
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <div className="px-3 pb-5">
-                        <div className="card-slider group">
+                    <div className="px-3 pb-5 h-full flex flex-col">
+                        <div className="card-slider group flex-1">
                             <img className="rounded-xl" src="/assets/imgs/placeholders/AI1.jpg" alt="KBI" />
                             <div className="flex justify-between items-end">
                                 <div>
                                     <h1 className="mt-5 text-xl font-semibold group-hover:text-lightBlue">
-                                        <Link href="/products" legacyBehavior>
-                                            <a>Big Data Consulting</a>
-                                        </Link>
+                                        Big Data Consulting Solutions
                                     </h1>
                                     {/* <p className="mt-2 text-xs text-gray-500">Cocacola., Co</p> */}
                                 </div>
                                 <div>
-                                    <Link href="/products" legacyBehavior>
+                                    {/* <Link href="/products" legacyBehavior>
                                         <a className="tracking-wide hover-up-2 inline-block px-4 py-3 text-xs text-lightBlue font-semibold leading-none border border-blue-200 hover:border-lightBlue hover:text-white hover:bg-lightBlue rounded">View Details</a>
-                                    </Link>
+                                    </Link> */}
                                 </div>
                             </div>
                         </div>
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <div className="px-3 pb-5">
-                        <div className="card-slider group">
+                    <div className="px-3 pb-5 h-full flex flex-col">
+                        <div className="card-slider group flex-1">
                             <img className="rounded-xl" src="/assets/imgs/placeholders/img-4.jpg" alt="KBI" />
                             <div className="flex justify-between items-end">
                                 <div>
                                     <h1 className="mt-5 text-xl font-semibold group-hover:text-lightBlue">
-                                        <Link href="/products" legacyBehavior>
-                                            <a>Predictive Data Analytics</a>
-                                        </Link>
+                                     Advanced Predictive Data Analytics
                                     </h1>
                                     {/* <p className="mt-2 text-xs text-gray-500">Oxford university</p> */}
                                 </div>
                                 <div>
-                                    <Link href="/products" legacyBehavior>
+                                    {/* <Link href="/products" legacyBehavior>
                                         <a className="tracking-wide hover-up-2 inline-block px-4 py-3 text-xs text-lightBlue font-semibold leading-none border border-blue-200 hover:border-lightBlue hover:text-white hover:bg-lightBlue rounded">View Details</a>
-                                    </Link>
+                                    </Link> */}
                                 </div>
                             </div>
                         </div>
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <div className="px-3 pb-5">
-                        <div className="card-slider group">
+                    <div className="px-3 pb-5 h-full flex flex-col">
+                        <div className="card-slider group flex-1">
                             <img className="rounded-xl" src="/assets/imgs/placeholders/Data processing and Visualization.jpg" alt="KBI" />
                             <div className="flex justify-between items-end">
                                 <div>
                                     <h1 className="mt-5 text-xl font-semibold group-hover:text-lightBlue">
-                                        <Link href="/products" legacyBehavior>
-                                            <a>Business Intelligence</a>
-                                        </Link>
+                                      Business Intelligence Strategies
                                     </h1>
                                     {/* <p className="mt-2 text-xs text-gray-500">Alibaba Co</p> */}
                                 </div>
                                 <div>
-                                    <Link href="/products" legacyBehavior>
+                                    {/* <Link href="/products" legacyBehavior>
                                         <a className="tracking-wide hover-up-2 inline-block px-4 py-3 text-xs text-lightBlue font-semibold leading-none border border-blue-200 hover:border-lightBlue hover:text-white hover:bg-lightBlue rounded">View Details</a>
-                                    </Link>
+                                    </Link> */}
                                 </div>
                             </div>
                         </div>

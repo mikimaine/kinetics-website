@@ -66,23 +66,23 @@ const About = () => {
                     <section className="py-6 bg-blueGray-50" id="how-we-work">
                         <div className="container">
                             <div className="flex flex-wrap -mx-3 -mb-6 text-left">
-                                <div className="w-full md:w-1/2 lg:w-1/2 px-5 mb-6 mt-4">
+                                <div className="w-full md:w-1/2 lg:w-1/2 px-5 mb-6">
                                     <div className="hover-up-5 w-full">
                                         <div className="p-12 bg-white shadow rounded">
                                             <h3 className="mb-2 font-bold font-heading text-xl">Our Mission</h3>
                                             <p className="text-sm text-blueGray-400 leading-relaxed">We are concerned with leading an information revolution where analysis and reporting are the tactical tools at the forefront of providing business insight. In doing so, we are striving to make operations and growth smoother and more efficient for businesses, with an educational element to it as well.</p>
                                         </div>
                                     </div>
-                                    <div className="hover-up-5 w-full mt-8">
+                                    <div className="hover-up-5 w-full mt-6">
                                         <div className="p-12 bg-white shadow rounded">
                                             <h3 className="mb-2 font-bold font-heading text-xl">Our Vision</h3>
                                             <p className="text-sm text-blueGray-400 leading-relaxed">To form a solid foundation and become a reputable AI-driven analytics platform through quality and dependable ‘intelligence’ with our products that preach an interconnected future that is data-driven.</p>
                                         </div>
                                     </div>
                                 </div>
-                                <div className="w-full md:w-1/2 lg:w-1/2 px-5 mb-6">
+                                <div className="w-full md:w-1/2 lg:w-1/2 px-5 mb-6 mt-1">
                                     <div style={{ display: 'flex', justifyContent: 'center' }}>
-                                        <img className="rounded" src="/assets/imgs/placeholders/data.jpg" alt="KBI" style={{ maxWidth: '100%', height: 'auto' }} />
+                                        <img className="rounded" src="/assets/imgs/placeholders/data (1).jpg" alt="KBI" style={{ maxWidth: '100%', height: 'auto' }} />
                                     </div>
                                 </div>
                             </div>

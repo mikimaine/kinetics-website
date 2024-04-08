@@ -27,7 +27,7 @@ const Footer = () => {
                         </div>
                         <div className="w-full lg:w-1/5 px-3 mb-8 lg:mb-0">
                             <p className="mb-2 lg:mb-4 lg:text-md font-bold font-heading text-blueGray-800">Office</p>
-                            <p className="lg:text-md text-blueGray-400"> Bole Rang Building, Addis Ababa, Ethiopia</p>
+                            <p className="lg:text-md text-blueGray-400">Africa Ave, RANG Building, 6th floor, AA, Ethiopia</p>
                         </div>
                         <div className="w-full lg:w-1/5 px-3">
                             <p className="mb-2 lg:mb-4 lg:text-md font-bold font-heading text-blueGray-800">Contacts</p>

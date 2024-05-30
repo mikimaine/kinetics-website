@@ -1,8 +1,11 @@
 import Link from "next/link";
 import React, { useEffect, useState } from "react";
+import { useRouter } from 'next/router';
 
 const Header = ({handleHidden}) => {
     const [scroll, setScroll] = useState(0)
+    const router = useRouter();
+    const activeClass = "text-lightBlue";
     useEffect(() => {
         document.addEventListener("scroll", () => {
           const scrollCheck = window.scrollY > 100
@@ -28,34 +31,33 @@ const Header = ({handleHidden}) => {
                         <ul className="hidden lg:flex lg:items-center lg:w-auto lg:space-x-12">
                             <li className="group relative pt-4 pb-4 ">
                                 <Link href="/" legacyBehavior>
-                                    <a className="text-sm font-semibold text-blueGray-600 hover:text-blueGray-500">
-                                        Home
-                                    </a>
+                                <a className={`text-sm font-semibold  hover:text-blueGray-500 ${router.pathname === '/' ? activeClass : 'red'}`}>
+                                    Home
+                                </a>
                                 </Link>
-                             
                             </li>
                              
                             <li className="pt-4 pb-4">
                                 <Link href="/about" legacyBehavior>
-                                    <a className="text-sm font-semibold text-blueGray-600 hover:text-blueGray-500">
-                                        About Us
-                                    </a>
+                                <a className={`text-sm font-semibold hover:text-blueGray-500 ${router.pathname === '/about' ? activeClass : ''}`}>
+                                    About Us
+                                </a>
                                 </Link>
                             </li>
 
                             <li className="pt-4 pb-4">
                                 <Link href="/products" legacyBehavior>
-                                    <a className="text-sm font-semibold text-blueGray-600 hover:text-blueGray-500">
-                                        Products
-                                    </a>
+                                <a className={`text-sm font-semibold hover:text-blueGray-500 ${router.pathname === '/products' ? activeClass : ''}`}>
+                                    Products
+                                </a>
                                 </Link>
                             </li>
                            
                             <li className="pt-4 pb-4">
                                 <Link href="/contact" legacyBehavior>
-                                    <a className="text-sm font-semibold text-blueGray-600 hover:text-blueGray-500">
-                                        Contact
-                                    </a>
+                                <a className={`text-sm font-semibold hover:text-blueGray-500 ${router.pathname === '/contact' ? activeClass : ''}`}>
+                                    Contact
+                                </a>
                                 </Link>
                             </li>
                         </ul>

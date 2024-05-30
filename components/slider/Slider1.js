@@ -22,6 +22,46 @@ const Slider1 = () => {
                     nextEl: ".custom_next"
                 }}
             >
+                    <SwiperSlide>
+                    <div className="px-3 pb-5 h-full flex flex-col">
+                        <div className="card-slider group flex-1">
+                            <img className="rounded-xl" src="/assets/imgs/placeholders/img-4.jpg" alt="KBI" />
+                            <div className="flex justify-between items-end">
+                                <div>
+                                    <h1 className="mt-5 text-xl font-semibold group-hover:text-lightBlue">
+                                     Advanced Predictive Data Analytics
+                                    </h1>
+                                    {/* <p className="mt-2 text-xs text-gray-500">Oxford university</p> */}
+                                </div>
+                                <div>
+                                    {/* <Link href="/products" legacyBehavior>
+                                        <a className="tracking-wide hover-up-2 inline-block px-4 py-3 text-xs text-lightBlue font-semibold leading-none border border-blue-200 hover:border-lightBlue hover:text-white hover:bg-lightBlue rounded">View Details</a>
+                                    </Link> */}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                    <div className="px-3 pb-5 h-full flex flex-col">
+                        <div className="card-slider group flex-1">
+                            <img className="rounded-xl" src="/assets/imgs/placeholders/AI-KBI.jpg" alt="KBI" />
+                            <div className="flex justify-between items-end">
+                                <div>
+                                    <h1 className="mt-5 text-xl font-semibold group-hover:text-lightBlue">
+                                        Big Data Consulting Solutions
+                                    </h1>
+                                    {/* <p className="mt-2 text-xs text-gray-500">Cocacola., Co</p> */}
+                                </div>
+                                <div>
+                                    {/* <Link href="/products" legacyBehavior>
+                                        <a className="tracking-wide hover-up-2 inline-block px-4 py-3 text-xs text-lightBlue font-semibold leading-none border border-blue-200 hover:border-lightBlue hover:text-white hover:bg-lightBlue rounded">View Details</a>
+                                    </Link> */}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </SwiperSlide>
                 <SwiperSlide>
                     <div className="px-3 pb-5 h-full flex flex-col">
                         <div className="card-slider group flex-1">
@@ -45,47 +85,7 @@ const Slider1 = () => {
                 <SwiperSlide>
                     <div className="px-3 pb-5 h-full flex flex-col">
                         <div className="card-slider group flex-1">
-                            <img className="rounded-xl" src="/assets/imgs/placeholders/AI1.jpg" alt="KBI" />
-                            <div className="flex justify-between items-end">
-                                <div>
-                                    <h1 className="mt-5 text-xl font-semibold group-hover:text-lightBlue">
-                                        Big Data Consulting Solutions
-                                    </h1>
-                                    {/* <p className="mt-2 text-xs text-gray-500">Cocacola., Co</p> */}
-                                </div>
-                                <div>
-                                    {/* <Link href="/products" legacyBehavior>
-                                        <a className="tracking-wide hover-up-2 inline-block px-4 py-3 text-xs text-lightBlue font-semibold leading-none border border-blue-200 hover:border-lightBlue hover:text-white hover:bg-lightBlue rounded">View Details</a>
-                                    </Link> */}
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </SwiperSlide>
-                <SwiperSlide>
-                    <div className="px-3 pb-5 h-full flex flex-col">
-                        <div className="card-slider group flex-1">
-                            <img className="rounded-xl" src="/assets/imgs/placeholders/img-4.jpg" alt="KBI" />
-                            <div className="flex justify-between items-end">
-                                <div>
-                                    <h1 className="mt-5 text-xl font-semibold group-hover:text-lightBlue">
-                                     Advanced Predictive Data Analytics
-                                    </h1>
-                                    {/* <p className="mt-2 text-xs text-gray-500">Oxford university</p> */}
-                                </div>
-                                <div>
-                                    {/* <Link href="/products" legacyBehavior>
-                                        <a className="tracking-wide hover-up-2 inline-block px-4 py-3 text-xs text-lightBlue font-semibold leading-none border border-blue-200 hover:border-lightBlue hover:text-white hover:bg-lightBlue rounded">View Details</a>
-                                    </Link> */}
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </SwiperSlide>
-                <SwiperSlide>
-                    <div className="px-3 pb-5 h-full flex flex-col">
-                        <div className="card-slider group flex-1">
-                            <img className="rounded-xl" src="/assets/imgs/placeholders/Data processing and Visualization.jpg" alt="KBI" />
+                            <img className="rounded-xl" src="/assets/imgs/placeholders/Data processing.jpg" alt="KBI" />
                             <div className="flex justify-between items-end">
                                 <div>
                                     <h1 className="mt-5 text-xl font-semibold group-hover:text-lightBlue">

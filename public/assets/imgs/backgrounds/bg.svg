@@ -1,0 +1,7 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 584" width="1440" height="584">
+	<title>intersect-svg</title>
+	<style>
+		.s0 { opacity: .4;fill: #c2d8e3 } 
+	</style>
+	<path id="Layer" class="s0" d="m0.2 483.1v-483.3h1440v483.3c-171.5 61.3-430.4 100.3-720 100.3-289.7 0-548.6-39-720-100.3z"/>
+</svg>

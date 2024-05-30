@@ -28,13 +28,13 @@ function Home() {
     return (
         <>
             <Layout>
-                <section className="xl:bg-contain bg-top bg-no-repeat -mt-24 pt-24" style={{ backgroundImage: "url('assets/imgs/backgrounds/intersect.svg')" }}>
+                <section className="xl:bg-contain bg-top bg-no-repeat -mt-24 pt-24" style={{ backgroundImage: "url('assets/imgs/backgrounds/bg.svg')" }}>
                     <div className="container px-4 mx-auto">
                         <div className="pt-12 text-center">
-                            <div className="max-w-2xl mx-auto mb-8">
+                            <div className="max-w-6xl mx-auto mb-8">
                                 <h2 className="text-3xl lg:text-5xl lg:leading-normal mb-4 font-bold font-heading wow animate__animated animate__fadeIn">
-                                    Timily
-                                    <span className="text-brightRed"> Solutions </span>   <br />for Diverse Challenges
+                                Timely and Effective  <br />
+                                    <span className="text-brightRed"> Solutions </span>   for Diverse Challenges
                                 </h2>
                                 <div className="text-blueGray-400 leading-relaxed wow animate__animated animate__fadeIn d-inline">
                                     We are <strong className="text-lightBlue">Kinetic BI</strong>, Experts in{" "}
@@ -56,7 +56,7 @@ function Home() {
                     <div className="relative max-w-6xl mt-16 md:mt-8 mb-8 mx-auto">
                         <img src="/assets/imgs/elements/option.png" alt="KBI" />
                         <div className="absolute" style={{ top: "9%", left: "14%", width: "72%", height: "66%" }}>
-                            <img className="jump rounded wow animate__animated animate__fadeIn" src="/assets/imgs/placeholders/dashboard (3).png" alt="KBI" />
+                            <img className="hover-up-5 rounded wow animate__animated animate__fadeIn" src="/assets/imgs/placeholders/kbi-dashboard.jpg" alt="KBI" />
                         </div>
                     </div>
                     <div className="container px-4 mx-auto">
@@ -84,9 +84,9 @@ function Home() {
                                 <div className="sm:py-2 ml-2 sm:ml-6">
                                     <span className="sm:text-2xl font-bold font-heading">+ </span>
                                     <span className="sm:text-2xl font-bold font-heading count counterUp">
-                                        {inViewport && <CounterUp end={58} duration={10} />}
+                                        {inViewport && <CounterUp end={350} duration={10} />}
                                     </span>
-                                    <span className="sm:text-2xl font-bold font-heading"> k </span>
+                                    <span className="sm:text-2xl font-bold font-heading">  </span>
                                     <p className="text-xs sm:text-base text-blueGray-400">Completed Projects</p>
                                 </div>
                             </div>
@@ -99,7 +99,7 @@ function Home() {
                                 <div className="sm:py-2 ml-2 sm:ml-6">
                                     <span className="sm:text-2xl font-bold font-heading">+ </span>
                                     <span className="sm:text-2xl font-bold font-heading count counterUp">
-                                        {inViewport && <CounterUp end={500} duration={10} />}
+                                        {inViewport && <CounterUp end={200} duration={10} />}
                                     </span>
                                     <p className="text-xs sm:text-base text-blueGray-400">Happy Customers</p>
                                 </div>
@@ -113,7 +113,7 @@ function Home() {
                                 <div className="sm:py-2 ml-2 sm:ml-6">
                                     <span className="sm:text-2xl font-bold font-heading">+ </span>
                                     <span className="sm:text-2xl font-bold font-heading count counterUp">
-                                        {inViewport && <CounterUp end={300} duration={10} />}
+                                        {inViewport && <CounterUp end={80} duration={10} />}
                                     </span>
                                     <p className="text-xs sm:text-base text-blueGray-400">Research Work</p>
                                 </div>
@@ -172,8 +172,8 @@ function Home() {
                                 </div>
                             </div>
                             <div className="relative w-full lg:w-1/2 my-12 lg:my-0">
-                                <div className="wow animate__animated animate__fadeIn" data-wow-delay=".5s">
-                                    <img className="jump relative mx-auto rounded-xl w-full z-10" src="/assets/imgs/placeholders/AI_coding.jpg" alt="KBI" />
+                                <div>
+                                    <img className="relative mx-auto rounded-xl w-full z-10" src="/assets/imgs/placeholders/coding.jpg" alt="KBI" />
                                     {/* <img className="absolute top-0 left-0 w-40 -ml-12 -mt-12" src="/assets/imgs/elements/blob-tear.svg" alt="KBI" /> */}
                                     <img className="absolute bottom-0 right-0 w-40 -mr-12 -mb-12" src="/assets/imgs/elements/blob-tear.svg" alt="KBI" />
                                 </div>
@@ -200,24 +200,21 @@ function Home() {
                         <div className="flex flex-wrap -mx-3 -mb-6 text-center">
                             <div className="hover-up-5 w-full md:w-1/2 lg:w-1/3 px-3 mb-6 wow animate__animated animate__fadeIn" data-wow-delay=".3s">
                                 <div className="p-12 bg-white shadow rounded">
-                                    <div className="flex w-12 h-12 mx-auto items-center justify-center text-brightRed font-bold font-heading bg-brightRed/20 rounded-full">1</div>
-                                    <img className="h-36 mx-auto my-4" src="/assets/imgs/illustrations/ai.png" alt="KBI" />
+                                    {/* <div className="flex w-12 h-12 mx-auto items-center justify-center text-brightRed font-bold font-heading bg-brightRed/20 rounded-full">1</div> */}
+                                    <img className="h-36 mx-auto mb-3" src="/assets/imgs/illustrations/ai.png" alt="KBI" />
                                     <h3 className="mb-2 font-bold font-heading text-xl">AI Machine Learning</h3>
                                     <p className="text-sm text-blueGray-400 leading-relaxed">Data-driven AI technology that learns and adapts, enhancing automation and decision-making.</p>
                                 </div>
                             </div>
                             <div className="hover-up-5 w-full md:w-1/2 lg:w-1/3 px-3 mb-6 wow animate__animated animate__fadeIn" data-wow-delay=".5s">
                                 <div className="p-12 bg-white shadow rounded">
-                                    <div className="flex w-12 h-12 mx-auto items-center justify-center text-brightRed font-bold font-heading bg-brightRed/20 rounded-full">2</div>
-                                    <img className="h-36 mx-auto my-4" src="/assets/imgs/illustrations/Data.png" alt="KBI" />
+                                    <img className="h-36 mx-auto mb-3" src="/assets/imgs/illustrations/Data.png" alt="KBI" />
                                     <h3 className="mb-2 font-bold font-heading text-xl">Big Data Consultancy</h3>
                                     <p className="text-sm text-blueGray-400 leading-relaxed">Industry-leading experts guiding strategies for big data challenges and optimizing operations.</p>
                                 </div>
                             </div>
                             <div className="hover-up-5 w-full lg:w-1/3 px-3 mb-6">
-                                <div className="p-12 bg-white shadow rounded wow animate__animated animate__fadeIn" data-wow-delay=".7s">
-                                    <div className="flex w-12 h-12 mx-auto items-center justify-center text-brightRed font-bold font-heading bg-brightRed/20 rounded-full">3</div>
-                                    <img className="h-36 mx-auto my-4" src="/assets/imgs/illustrations/analytics.png
+                                <div className="p-12 bg-white shadow rounded wow animate__animated animate__fadeIn" data-wow-delay=".7s">                                    <img className="h-36 mx-auto mb-3" src="/assets/imgs/illustrations/analytics.png
                                     " alt="KBI" />
                                     <h3 className="mb-2 font-bold font-heading text-xl">Data Analytics</h3>
                                     <p className="text-sm text-blueGray-400 leading-relaxed">Unlocking the power of data through advanced analytics techniques to drive strategic decision-making.</p>
@@ -229,14 +226,18 @@ function Home() {
                 <section className="py-12 md:py-20">
                     <div className="container px-4 mx-auto">
                         <div className="flex flex-wrap -mx-3">
-                            <div className="relative w-full lg:w-1/3 mb-8 lg:mb-0 text-center lg:text-left">
-                                <div className="max-w-md lg:max-w-xs lg:pr-16 mx-auto lg:ml-0 mb-6 lg:mb-0">
+                            <div className="relative w-full lg:w-1/3 mb-8 lg:mb-0 text-center lg:text-left pl-4 px-8">
+                                <div className="max-w-md lg:max-w-md  mx-auto lg:ml-0 mb-6 lg:mb-0">
                                     <h2 className="text-3xl md:text-4xl mb-4 font-bold font-heading wow animate__animated animate__fadeIn" data-wow-delay=".3s">
-                                    Empowering <span className="text-lightBlue">Business</span> < br />with Data Technology
+                                    Empowering <span className="text-lightBlue">Business</span> with Data Technology
                                     </h2>
                                     <p className="text-xs md:text-base text-blueGray-400 leading-loose wow animate__animated animate__fadeIn" data-wow-delay=".9s">
                                         Transform your business with advanced data tech. Drive growth and stay ahead of the competition.
+                                    </p><br/>
+                                    <p className="text-xs md:text-base text-blueGray-400 leading-loose wow animate__animated animate__fadeIn" data-wow-delay=".9s">
+                                    Our services include advanced predictive analytics to anticipate trends, big data consulting for optimized data management, and data processing and visualization to turn raw data into valuable insights. Leverage our expertise to drive informed decision-making and innovation.
                                     </p>
+                                    <br/>
                                 </div>
                             </div>
                             <div className="w-full lg:w-2/3 flex flex-wrap">

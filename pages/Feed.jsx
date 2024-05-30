@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Feed() {
   return (
-    <section className="pt-20 pb-32 xl:bg-contain bg-top bg-no-repeat bg-blueGray-100" id="how-we-work">
+    <section className="pt-20 pb-32 xl:bg-contain bg-top bg-no-repeat bg-blueGray-50" id="how-we-work">
       <div className="container px-4 mx-auto">
         <div className="text-center mb-16">
           <div className="flex items-center justify-center">
@@ -14,14 +14,14 @@ export default function Feed() {
               <span className="inline-block">Works</span>
             </h2>
           </div>
-          <p className="max-w-xl mx-auto text-lg text-blueGray-400 wow animate__animatedDown" data-wow-delay=".5s">
+          <p className="max-w-2xl mx-auto text-lg text-blueGray-400 wow animate__animatedDown" data-wow-delay=".5s">
             We start with a clear understanding, conduct strategic assessments, tailor custom solutions, and provide ongoing support.
           </p>
         </div>
         <div className="flex flex-wrap lg:flex-nowrap">
           <div className="relative w-full lg:w-1/2 my-8 lg:my-0 flex">
             <div className="wow animate__animated" data-wow-delay=".5s">
-              <img className="jump relative mx-auto rounded-xl w-full z-10 pt-0 " src="/assets/imgs/placeholders/1.jpg" alt="KBI" />
+              <img className="relative mx-auto rounded-xl w-full z-10 pt-0 " src="/assets/imgs/placeholders/kbi-image.jpg" alt="KBI" />
             </div>
           </div>
           <div className="w-full lg:w-1/2 pl-12">

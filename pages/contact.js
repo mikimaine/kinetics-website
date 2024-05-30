@@ -30,12 +30,12 @@ const Contact = () => {
                 <section className="py-20">
                     <div className="container">
                         <div className="max-w-2xl mx-auto text-center">
-                            <div className="max-w-md mb-8 mx-auto">
-                                <span className="inline-block py-1 px-3 text-xs font-semibold bg-brightRed/20 text-brightRed rounded-xl wow animate__animated animate__fadeIn" data-wow-delay=".1s">
-                                    Contact Us
-                                </span>
-                                <h2 className="mt-2 text-4xl font-bold font-heading wow animate__animated animate__fadeIn" data-wow-delay=".s">
-                                    We will <span className="text-lightBlue">be glad</span> to hear from you!
+                            <div className="mb-10 mx-auto">
+                                <span className="mt-4 text-xl wow animate__animated animate__fadeIn">
+                                     Fell free to contact us any time
+                                </span> 
+                                <h2 className="text-3xl font-bold font-heading wow animate__animated animate__fadeIn" data-wow-delay=".s">
+                                We Will Get Back to You as Soon as We Can
                                 </h2>
                             </div>
                             <div className="row">
@@ -46,24 +46,24 @@ const Contact = () => {
                                     <input className="w-full p-4 text-xs font-semibold leading-none bg-blueGray-50 rounded outline-none" type="text" placeholder="Name" />
                                 </div>
                                 <div className="col-md-6 mb-4 wow animate__animated animate__fadeIn" data-wow-delay=".3s">
-                                    <input className="w-full p-4 text-xs font-semibold leading-none bg-blueGray-50 rounded outline-none" type="email" placeholder="name@example.com" />
+                                    <input className="w-full p-4 text-xs font-semibold leading-none bg-blueGray-50 rounded outline-none" type="email" placeholder="Email" />
                                 </div>
                                 <div className="col-md-6 mb-4 wow animate__animated animate__fadeIn" data-wow-delay=".3s">
                                     <textarea className="w-full h-24 p-4 text-xs font-semibold leading-none resize-none bg-blueGray-50 rounded outline-none" placeholder="Message..."></textarea>
                                 </div>
-                                <div className="col-md-6 mb-4 wow animate__animated animate__fadeIn" data-wow-delay=".3s">
-                                    <label>
+                                <div className="w-full flex justify-between mb-4">
+                                    <div className="flex items-center wow animate__animated animate__fadeIn" data-wow-delay=".3s">
                                         <input className="mr-1" type="checkbox" name="terms" value="1" />
                                         <span className="text-sm font-semibold">I agree to terms and conditions.</span>
-                                    </label>
-                                </div>
-                                <div className="col-md-6 mb-4 wow animate__animated animate__fadeIn" data-wow-delay=".3s">
-                                    <button className="py-4 px-8 text-sm text-white font-semibold leading-none bg-brightRed hover:bg-blue-700 rounded" type="submit">
-                                        Submit
-                                    </button>
+                                    </div>
+                                    <div className="wow animate__animated animate__fadeIn" data-wow-delay=".3s">
+                                        <button className="py-4 px-8 text-sm text-white font-semibold leading-none bg-brightRed hover:bg-lightBlue rounded" type="submit">
+                                            Submit
+                                        </button>
+                                    </div>
                                 </div>
                             </div>
-                         </div>
+                        </div>
                     </div>
                 </section>
                 <section className="py-20 bg-darkblue">

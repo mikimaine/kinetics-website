@@ -22,14 +22,14 @@ const Slider1 = () => {
                     nextEl: ".custom_next"
                 }}
             >
-                    <SwiperSlide>
+                <SwiperSlide>
                     <div className="px-3 pb-5 h-full flex flex-col">
                         <div className="card-slider group flex-1">
                             <img className="rounded-xl" src="/assets/imgs/placeholders/img-4.jpg" alt="KBI" />
                             <div className="flex justify-between items-end">
                                 <div>
                                     <h1 className="mt-5 text-xl font-semibold group-hover:text-lightBlue">
-                                     Advanced Predictive Data Analytics
+                                        Advanced Predictive Data Analytics
                                     </h1>
                                     {/* <p className="mt-2 text-xs text-gray-500">Oxford university</p> */}
                                 </div>
@@ -69,7 +69,7 @@ const Slider1 = () => {
                             <div className="flex justify-between items-end">
                                 <div>
                                     <h1 className="mt-5 text-xl font-semibold group-hover:text-lightBlue">
-                                       Data processing and Visualization
+                                        Data processing and Visualization
                                     </h1>
                                     {/* <p className="mt-2 text-xs text-gray-500">Harvard university</p> */}
                                 </div>
@@ -89,7 +89,7 @@ const Slider1 = () => {
                             <div className="flex justify-between items-end">
                                 <div>
                                     <h1 className="mt-5 text-xl font-semibold group-hover:text-lightBlue">
-                                      Business Intelligence Strategies
+                                        Business Intelligence Strategies
                                     </h1>
                                     {/* <p className="mt-2 text-xs text-gray-500">Alibaba Co</p> */}
                                 </div>
@@ -105,7 +105,7 @@ const Slider1 = () => {
             </Swiper>
 
             <div id="carausel-2-columns-1-arrows" className="flex">
-                <span className="mr-4 text-lightBlue flex slick-arrow custom_prev">
+                <span className="mr-4 text-lightBlue flex slick-arrow custom_prev ml-auto">
                     <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M7 16l-4-4m0 0l4-4m-4 4h18"></path>
                     </svg>

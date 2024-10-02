@@ -54,7 +54,7 @@ const About = () => {
                             <div className="w-full lg:w-1/3 mb-4 lg:mb-0">
                                 <h2 className="text-3xl md:text-4xl font-bold font-heading wow animate__animatedanimated animate__fadeInDown">
                                     <span>WHO </span>
-                                    <span className="text-lightBlue">WE </span>
+                                    <span className="text-brightRed">WE </span>
                                     <span>ARE</span>
                                 </h2>
                             </div>
@@ -119,7 +119,7 @@ const About = () => {
                                     <div className="h-full py-8 px-2 border border-brightRed border-t-0 border-l-0 rounded-lg">
                                         <h3 className="text-l font-bold text-md mb-6">24/7 Analytical Support</h3>
                                         <p className="text-sm text-blueGray-400 leading-relaxed">
-                                            Access our expert analytical team round-the-clock for insights, troubleshooting, and strategic guidance. Our team is dedicated to providing timely solutions and actionable intelligence.<br/><br/></p>
+                                            Access our expert analytical team round-the-clock for insights, troubleshooting, and strategic guidance. Our team is dedicated to providing timely solutions and actionable intelligence.<br /><br /></p>
                                     </div>
                                 </div>
                                 <div className="w-full md:w-1/2 mb-10 px-3">

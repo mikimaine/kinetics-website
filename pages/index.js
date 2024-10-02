@@ -31,9 +31,9 @@ function Home() {
                 <section className="xl:bg-contain bg-top bg-no-repeat -mt-24 pt-24" style={{ backgroundImage: "url('assets/imgs/backgrounds/bg.svg')" }}>
                     <div className="container px-4 mx-auto">
                         <div className="pt-12 text-center">
-                            <div className="max-w-6xl mx-auto mb-8">
+                            <div className="max-w-6xl mx-auto mb-8 mt-8">
                                 <h2 className="text-3xl lg:text-5xl lg:leading-normal mb-4 font-bold font-heading wow animate__animated animate__fadeIn">
-                                Timely and Effective  <br />
+                                    Timely and Effective  <br />
                                     <span className="text-brightRed"> Solutions </span>   for Diverse Challenges
                                 </h2>
                                 <div className="text-blueGray-400 leading-relaxed wow animate__animated animate__fadeIn d-inline">
@@ -43,7 +43,7 @@ function Home() {
                                     </div>
                                 </div>
                             </div>
-                            <div>
+                            <div className="pt-4">
                                 <a className="btn-primary py-4 px-8 mr-2 wow animate__animated animate__fadeIn hover-up-2" href="#key-features">
                                     Key Features
                                 </a>
@@ -188,7 +188,7 @@ function Home() {
                                 <h2 className="text-3xl md:text-4xl font-bold font-heading wow animate__animated animate__fadeInDown">
                                     <span>Explore Our </span>
                                     <br />
-                                    <span className="text-brightRed">Advanced </span>                             
+                                    <span className="text-brightRed">Advanced </span>
                                     <span>Solutions</span>
                                 </h2>
                             </div>
@@ -225,19 +225,19 @@ function Home() {
                 </section>
                 <section className="py-12 md:py-20">
                     <div className="container px-4 mx-auto">
-                        <div className="flex flex-wrap -mx-3">
+                        <div className="flex flex-wrap">
                             <div className="relative w-full lg:w-1/3 mb-8 lg:mb-0 text-center lg:text-left pl-4 px-8">
                                 <div className="max-w-md lg:max-w-md  mx-auto lg:ml-0 mb-6 lg:mb-0">
                                     <h2 className="text-3xl md:text-4xl mb-4 font-bold font-heading wow animate__animated animate__fadeIn" data-wow-delay=".3s">
-                                    Empowering <span className="text-lightBlue">Business</span> with Data Technology
+                                        Empowering <span className="text-lightBlue">Business</span> with Data Technology
                                     </h2>
                                     <p className="text-xs md:text-base text-blueGray-400 leading-loose wow animate__animated animate__fadeIn" data-wow-delay=".9s">
                                         Transform your business with advanced data tech. Drive growth and stay ahead of the competition.
-                                    </p><br/>
+                                    </p><br />
                                     <p className="text-xs md:text-base text-blueGray-400 leading-loose wow animate__animated animate__fadeIn" data-wow-delay=".9s">
-                                    Our services include advanced predictive analytics to anticipate trends, big data consulting for optimized data management, and data processing and visualization to turn raw data into valuable insights. Leverage our expertise to drive informed decision-making and innovation.
+                                        Our services include advanced predictive analytics to anticipate trends, big data consulting for optimized data management, and data processing and visualization to turn raw data into valuable insights. Leverage our expertise to drive informed decision-making and innovation.
                                     </p>
-                                    <br/>
+                                    <br />
                                 </div>
                             </div>
                             <div className="w-full lg:w-2/3 flex flex-wrap">

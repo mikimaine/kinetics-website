@@ -1,7 +1,7 @@
 import React from 'react';
-import Layout from '../components/layout/Layout';
-import ContactForm from "./contactForm.js";
-import NewsletterForm from "./newsletterForm.js";
+import Layout from '../components/layout/Layout.jsx'
+import ContactForm from "./contact/contactForm.js"; 
+import NewsletterForm from "./contact/newsletterForm.js";
 
 const Contact = () => {
     return (
@@ -34,7 +34,6 @@ const Contact = () => {
                     </div>
                 </div>
             </section>
-
             <section className="py-20 bg-darkblue">
                 <div className="container">
                     <NewsletterForm />

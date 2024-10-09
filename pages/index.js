@@ -31,7 +31,7 @@ function Home() {
                 <section className="xl:bg-contain bg-top bg-no-repeat -mt-24 pt-24" style={{ backgroundImage: "url('assets/imgs/backgrounds/bg.svg')" }}>
                     <div className="container px-4 mx-auto">
                         <div className="pt-12 text-center">
-                            <div className="max-w-6xl mx-auto mb-8 md:mt-8">
+                            <div className="max-w-6xl mx-auto mb-8 mt-8">
                                 <h2 className="text-3xl lg:text-5xl lg:leading-normal mb-4 font-bold font-heading wow animate__animated animate__fadeIn">
                                     Timely and Effective  <br />
                                     <span className="text-brightRed"> Solutions </span>   for Diverse Challenges

@@ -59,7 +59,7 @@ const About = () => {
                                 </h2>
                             </div>
                             <div className="w-full lg:w-2/3 py-8">
-                                <p className="text-blueGray-400 leading-loose wow animate__animatedanimated animate__fadeIn">Kinetic BI, co-founded by Mikiyas Amdu and Sosena Terefe in the US, is a technology-solutions company dedicated to revolutionizing clients’ businesses through data. As your one-stop partner, we offer comprehensive support services with unwavering commitment to quality and reliability. Our focus lies in driving intelligence to the forefront of operations, strengthening systems to simplify data gathering, interpretation, and accessibility, thereby ensuring business growth for our clients.</p>
+                                <p className="text-blueGray-400 leading-loose wow animate__animatedanimated animate__fadeIn">Kinetic Business Intelligence (KBI) is a suite of advanced analytics solutions that leverage predictive analytics, real-time monitoring, and AI integration to enhance decision-making processes across industries. It enables organizations to make informed strategic decisions, optimize operations, and adapt to evolving market conditions through data-driven insights.</p>
                             </div>
                         </div>
                     </div>

@@ -1,6 +1,6 @@
 import React from 'react';
 import Layout from '../components/layout/Layout.jsx'
-import ContactForm from "./contact/contactForm.js"; 
+import ContactForm from "./contact/contactForm.js";
 import NewsletterForm from "./contact/newsletterForm.js";
 
 const Contact = () => {
@@ -28,7 +28,7 @@ const Contact = () => {
                     <div className="max-w-2xl mx-auto text-center">
                         <div className="mb-10 mx-auto">
                             <span className="mt-4 text-xl">Feel free to contact us any time</span>
-                            <h2 className="text-3xl font-bold">We Will Get Back to You as Soon as We Can</h2>
+                            <h2 className="text-3xl font-bold">We will get back to you as soon as we can</h2>
                         </div>
                         <ContactForm />
                     </div>

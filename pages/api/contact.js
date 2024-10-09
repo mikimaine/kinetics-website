@@ -1,5 +1,7 @@
-import nodemailer from 'nodemailer';
+import sendgrid from '@sendgrid/mail';
 import axios from 'axios';
+
+sendgrid.setApiKey(process.env.SENDGRID_API_KEY);
 
 export default async function handler(req, res) {
     if (req.method === 'POST') {
@@ -26,26 +28,17 @@ export default async function handler(req, res) {
             return res.status(500).json({ message: 'Error verifying reCAPTCHA.' });
         }
 
-        const transporter = nodemailer.createTransport({
-            host: process.env.EMAIL_HOST,
-            port: process.env.EMAIL_PORT,
-            auth: {
-                user: process.env.EMAIL_USER,
-                pass: process.env.EMAIL_PASS,
-            },
-        });
-
         try {
-            await transporter.sendMail({
-                from: process.env.EMAIL_USER,
-                to: 'fiyori039@gmail.com',
+            await sendgrid.send({
+                from: 'info@kineticsbi.com',
+                to: 'info@kineticsbi.com',
                 subject: subject,
                 text: `Name: ${fullName}\nEmail: ${email}\nMessage: ${message}`,
             });
 
             return res.status(200).json({ message: 'Email sent successfully!' });
         } catch (error) {
-            console.error('Error sending email:', error);
+            console.error('Error sending email:', error.response ? error.response.body : error);
             return res.status(500).json({ message: 'Error sending email.' });
         }
     } else {

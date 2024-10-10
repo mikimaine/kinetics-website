@@ -54,12 +54,12 @@ const About = () => {
                             <div className="w-full lg:w-1/3 mb-4 lg:mb-0">
                                 <h2 className="text-3xl md:text-4xl font-bold font-heading wow animate__animatedanimated animate__fadeInDown">
                                     <span>WHO </span>
-                                    <span className="text-lightBlue">WE </span>
+                                    <span className="text-brightRed">WE </span>
                                     <span>ARE</span>
                                 </h2>
                             </div>
                             <div className="w-full lg:w-2/3 py-8">
-                                <p className="text-blueGray-400 leading-loose wow animate__animatedanimated animate__fadeIn">Kinetic BI, co-founded by Mikiyas Amdu and Sosena Terefe in the US, is a technology-solutions company dedicated to revolutionizing clients’ businesses through data. As your one-stop partner, we offer comprehensive support services with unwavering commitment to quality and reliability. Our focus lies in driving intelligence to the forefront of operations, strengthening systems to simplify data gathering, interpretation, and accessibility, thereby ensuring business growth for our clients.</p>
+                                <p className="text-blueGray-400 leading-loose wow animate__animatedanimated animate__fadeIn">Kinetic Business Intelligence (KBI) is a suite of advanced analytics solutions that leverage predictive analytics, real-time monitoring, and AI integration to enhance decision-making processes across industries. It enables organizations to make informed strategic decisions, optimize operations, and adapt to evolving market conditions through data-driven insights.</p>
                             </div>
                         </div>
                     </div>
@@ -119,7 +119,7 @@ const About = () => {
                                     <div className="h-full py-8 px-2 border border-brightRed border-t-0 border-l-0 rounded-lg">
                                         <h3 className="text-l font-bold text-md mb-6">24/7 Analytical Support</h3>
                                         <p className="text-sm text-blueGray-400 leading-relaxed">
-                                            Access our expert analytical team round-the-clock for insights, troubleshooting, and strategic guidance. Our team is dedicated to providing timely solutions and actionable intelligence.<br/><br/></p>
+                                            Access our expert analytical team round-the-clock for insights, troubleshooting, and strategic guidance. Our team is dedicated to providing timely solutions and actionable intelligence.<br /><br /></p>
                                     </div>
                                 </div>
                                 <div className="w-full md:w-1/2 mb-10 px-3">

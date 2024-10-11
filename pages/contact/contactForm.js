@@ -14,7 +14,7 @@ export default function ContactForm() {
     const loadRecaptcha = () => {
         if (window.grecaptcha) {
             window.grecaptcha.ready(() => {
-                window.grecaptcha.execute('6LfkY1MqAAAAAPVdQlfWuIVjc8vjBpfAgEAAvtJk', { action: 'submit' })
+                window.grecaptcha.execute('6LdSwl0qAAAAALlAMQ87HVTGHSsIBaToOBYV8J9-', { action: 'submit' })
                     .then(token => {
                         setRecaptchaToken(token);
                     })
@@ -72,7 +72,7 @@ export default function ContactForm() {
     return (
         <>
             <Script
-                src="https://www.google.com/recaptcha/api.js?render=6LfkY1MqAAAAAPVdQlfWuIVjc8vjBpfAgEAAvtJk"
+                src="https://www.google.com/recaptcha/api.js?render=6LdSwl0qAAAAALlAMQ87HVTGHSsIBaToOBYV8J9-"
                 strategy="afterInteractive"
                 onLoad={loadRecaptcha}
             />

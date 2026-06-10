@@ -1,0 +1,129 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 1200" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#0C1A2B"></stop>
+      <stop offset="1" stop-color="#0A1422"></stop>
+    </linearGradient>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M48 0H0V48" fill="none" stroke="rgba(255,255,255,0.05)" stroke-width="1"></path>
+    </pattern>
+  </defs>
+  <rect width="960" height="1200" fill="url(#bg)"></rect>
+  <rect width="960" height="1200" fill="url(#grid)"></rect>
+  
+  <g font-family="JetBrains Mono, monospace" font-size="11" fill="rgba(255,255,255,0.5)">
+    
+    <g transform="translate(72,140)">
+      <rect width="168" height="56" rx="6" fill="rgba(35,96,173,0.18)" stroke="#2360AD" stroke-width="1"></rect>
+      <text x="14" y="22" fill="#fff" font-size="12" font-weight="700">raw.events</text>
+      <text x="14" y="40">postgres · 2.4M rows</text>
+    </g>
+    <g transform="translate(72,240)">
+      <rect width="168" height="56" rx="6" fill="rgba(35,96,173,0.18)" stroke="#2360AD" stroke-width="1"></rect>
+      <text x="14" y="22" fill="#fff" font-size="12" font-weight="700">raw.users</text>
+      <text x="14" y="40">s3 · parquet</text>
+    </g>
+    <g transform="translate(72,340)">
+      <rect width="168" height="56" rx="6" fill="rgba(35,96,173,0.18)" stroke="#2360AD" stroke-width="1"></rect>
+      <text x="14" y="22" fill="#fff" font-size="12" font-weight="700">raw.orders</text>
+      <text x="14" y="40">kafka · stream</text>
+    </g>
+    <g transform="translate(72,440)">
+      <rect width="168" height="56" rx="6" fill="rgba(35,96,173,0.18)" stroke="#2360AD" stroke-width="1"></rect>
+      <text x="14" y="22" fill="#fff" font-size="12" font-weight="700">raw.ops_log</text>
+      <text x="14" y="40">dhis2 · api</text>
+    </g>
+
+    
+    <g transform="translate(380,200)">
+      <rect width="200" height="56" rx="6" fill="rgba(223,33,39,0.18)" stroke="#DF2127" stroke-width="1"></rect>
+      <text x="14" y="22" fill="#fff" font-size="12" font-weight="700">stg_events</text>
+      <text x="14" y="40">dbt · incremental</text>
+    </g>
+    <g transform="translate(380,300)">
+      <rect width="200" height="56" rx="6" fill="rgba(223,33,39,0.18)" stroke="#DF2127" stroke-width="1"></rect>
+      <text x="14" y="22" fill="#fff" font-size="12" font-weight="700">dim_users</text>
+      <text x="14" y="40">dbt · snapshot</text>
+    </g>
+    <g transform="translate(380,400)">
+      <rect width="200" height="56" rx="6" fill="rgba(223,33,39,0.18)" stroke="#DF2127" stroke-width="1"></rect>
+      <text x="14" y="22" fill="#fff" font-size="12" font-weight="700">fct_orders</text>
+      <text x="14" y="40">dbt · view</text>
+    </g>
+
+    
+    <g transform="translate(720,260)">
+      <rect width="180" height="56" rx="6" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.25)" stroke-width="1"></rect>
+      <text x="14" y="22" fill="#fff" font-size="12" font-weight="700">mart.finance</text>
+      <text x="14" y="40">gold · bi</text>
+    </g>
+    <g transform="translate(720,360)">
+      <rect width="180" height="56" rx="6" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.25)" stroke-width="1"></rect>
+      <text x="14" y="22" fill="#fff" font-size="12" font-weight="700">mart.ops</text>
+      <text x="14" y="40">gold · bi</text>
+    </g>
+  </g>
+
+  
+  <g fill="none" stroke="rgba(255,255,255,0.22)" stroke-width="1.25">
+    <path d="M 240 168 C 310 168, 310 228, 380 228"></path>
+    <path d="M 240 268 C 310 268, 310 228, 380 228"></path>
+    <path d="M 240 268 C 310 268, 310 328, 380 328"></path>
+    <path d="M 240 368 C 310 368, 310 428, 380 428"></path>
+    <path d="M 240 468 C 310 468, 310 428, 380 428"></path>
+
+    <path d="M 580 228 C 660 228, 660 288, 720 288"></path>
+    <path d="M 580 328 C 660 328, 660 288, 720 288"></path>
+    <path d="M 580 328 C 660 328, 660 388, 720 388"></path>
+    <path d="M 580 428 C 660 428, 660 388, 720 388"></path>
+  </g>
+
+  
+  <g font-family="JetBrains Mono, monospace" font-size="9" font-weight="700">
+    <g transform="translate(300, 160)">
+      <rect width="42" height="16" rx="3" fill="rgba(223,33,39,0.8)"></rect>
+      <text x="21" y="11" text-anchor="middle" fill="#fff">✓ TEST</text>
+    </g>
+    <g transform="translate(618, 256)">
+      <rect width="42" height="16" rx="3" fill="rgba(35,96,173,0.85)"></rect>
+      <text x="21" y="11" text-anchor="middle" fill="#fff">PII</text>
+    </g>
+    <g transform="translate(618, 356)">
+      <rect width="52" height="16" rx="3" fill="rgba(35,96,173,0.85)"></rect>
+      <text x="26" y="11" text-anchor="middle" fill="#fff">LINEAGE</text>
+    </g>
+  </g>
+
+  
+  <g transform="translate(72, 620)">
+    <text font-family="Archivo, sans-serif" font-weight="800" font-size="52" fill="#fff">2.4M</text>
+    <text y="28" font-family="JetBrains Mono, monospace" font-size="11" fill="rgba(255,255,255,0.5)">rows/hour · ingest</text>
+
+    <text x="320" font-family="Archivo, sans-serif" font-weight="800" font-size="52" fill="#DF2127">99.4%</text>
+    <text x="320" y="28" font-family="JetBrains Mono, monospace" font-size="11" fill="rgba(255,255,255,0.5)">contract coverage</text>
+
+    <text x="600" font-family="Archivo, sans-serif" font-weight="800" font-size="52" fill="#fff">&lt;90s</text>
+    <text x="600" y="28" font-family="JetBrains Mono, monospace" font-size="11" fill="rgba(255,255,255,0.5)">end-to-end lag</text>
+  </g>
+
+  
+  <g transform="translate(72, 780)">
+    <rect width="816" height="240" fill="rgba(255,255,255,0.02)" rx="8"></rect>
+    <text font-family="JetBrains Mono, monospace" font-size="10" fill="rgba(255,255,255,0.45)" x="16" y="22">ROWS PER MINUTE · LAST 24H</text>
+    <polyline fill="none" stroke="#DF2127" stroke-width="2" points="20,200 80,180 140,170 200,140 260,160 320,120 380,135 440,100 500,90 560,115 620,70 680,85 740,50 796,60"></polyline>
+    <polyline fill="none" stroke="rgba(35,96,173,0.6)" stroke-width="1.5" stroke-dasharray="3 3" points="20,210 80,200 140,195 200,180 260,185 320,165 380,170 440,150 500,145 560,155 620,130 680,135 740,115 796,125"></polyline>
+    
+    <g stroke="rgba(255,255,255,0.06)" stroke-width="1">
+      <line x1="20" x2="796" y1="60" y2="60"></line>
+      <line x1="20" x2="796" y1="120" y2="120"></line>
+      <line x1="20" x2="796" y1="180" y2="180"></line>
+    </g>
+  </g>
+
+  
+  <g font-family="JetBrains Mono, monospace" font-size="10" fill="rgba(255,255,255,0.42)">
+    <rect x="72" y="1084" width="816" height="1" fill="rgba(255,255,255,0.1)"></rect>
+    <text x="72" y="1116">data platform · lineage graph</text>
+    <text x="888" y="1116" text-anchor="end">kbi_01</text>
+  </g>
+</svg>

@@ -1,0 +1,14 @@
+node_modules/
+dist/
+.turbo/
+coverage/
+*.tsbuildinfo
+_bmad
+_bmad-output
+.claude
+initial_brief.md
+.agents
+design_handoff_kinetic_bi
+.next
+.DS_Store
+.idea/

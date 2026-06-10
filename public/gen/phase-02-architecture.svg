@@ -1,0 +1,149 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 1050" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <pattern id="p2grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="0.75" fill="rgba(255,255,255,0.12)"></circle>
+    </pattern>
+  </defs>
+  <rect width="1400" height="1050" fill="#0C1A2B"></rect>
+  <rect width="1400" height="1050" fill="url(#p2grid)"></rect>
+
+  
+  <g font-family="JetBrains Mono, monospace" font-size="11" fill="rgba(255,255,255,0.4)">
+    <text x="80" y="200">SOURCE</text>
+    <text x="80" y="400">INGEST</text>
+    <text x="80" y="580">STORAGE</text>
+    <text x="80" y="760">SERVE</text>
+  </g>
+  <g stroke="rgba(255,255,255,0.06)" stroke-dasharray="3 4">
+    <line x1="80" x2="1320" y1="160" y2="160"></line>
+    <line x1="80" x2="1320" y1="360" y2="360"></line>
+    <line x1="80" x2="1320" y1="540" y2="540"></line>
+    <line x1="80" x2="1320" y1="720" y2="720"></line>
+    <line x1="80" x2="1320" y1="900" y2="900"></line>
+  </g>
+
+  
+  <g font-family="Archivo, sans-serif" font-weight="700" font-size="13">
+    <g transform="translate(200,200)">
+      <rect x="-60" y="-30" width="120" height="60" rx="6" fill="rgba(35,96,173,0.3)" stroke="#2360AD" stroke-width="1.5"></rect>
+      <text text-anchor="middle" y="4" fill="#fff">EMR · HL7</text>
+    </g>
+    <g transform="translate(420,200)">
+      <rect x="-60" y="-30" width="120" height="60" rx="6" fill="rgba(35,96,173,0.3)" stroke="#2360AD" stroke-width="1.5"></rect>
+      <text text-anchor="middle" y="4" fill="#fff">DHIS2</text>
+    </g>
+    <g transform="translate(640,200)">
+      <rect x="-60" y="-30" width="120" height="60" rx="6" fill="rgba(35,96,173,0.3)" stroke="#2360AD" stroke-width="1.5"></rect>
+      <text text-anchor="middle" y="4" fill="#fff">Oracle (legacy)</text>
+    </g>
+    <g transform="translate(860,200)">
+      <rect x="-60" y="-30" width="120" height="60" rx="6" fill="rgba(35,96,173,0.3)" stroke="#2360AD" stroke-width="1.5"></rect>
+      <text text-anchor="middle" y="4" fill="#fff">Partner API</text>
+    </g>
+    <g transform="translate(1080,200)">
+      <rect x="-60" y="-30" width="120" height="60" rx="6" fill="rgba(35,96,173,0.3)" stroke="#2360AD" stroke-width="1.5"></rect>
+      <text text-anchor="middle" y="4" fill="#fff">CSV drops</text>
+    </g>
+  </g>
+
+  
+  <g font-family="Archivo, sans-serif" font-weight="700" font-size="13">
+    <g transform="translate(320,400)">
+      <rect x="-90" y="-34" width="180" height="68" rx="8" fill="#DF2127"></rect>
+      <text text-anchor="middle" y="-4" fill="#fff">Stream ingest</text>
+      <text text-anchor="middle" y="18" fill="rgba(255,255,255,0.85)" font-family="JetBrains Mono, monospace" font-size="11" font-weight="400">kafka · &lt; 2s lag</text>
+    </g>
+    <g transform="translate(760,400)">
+      <rect x="-90" y="-34" width="180" height="68" rx="8" fill="#DF2127"></rect>
+      <text text-anchor="middle" y="-4" fill="#fff">Batch ingest</text>
+      <text text-anchor="middle" y="18" fill="rgba(255,255,255,0.85)" font-family="JetBrains Mono, monospace" font-size="11" font-weight="400">airflow · hourly</text>
+    </g>
+    <g transform="translate(1080,400)">
+      <rect x="-80" y="-34" width="160" height="68" rx="8" fill="rgba(223,33,39,0.2)" stroke="#DF2127" stroke-width="1.5" stroke-dasharray="4 3"></rect>
+      <text text-anchor="middle" y="-4" fill="#fff">Quality gate</text>
+      <text text-anchor="middle" y="18" fill="rgba(255,255,255,0.75)" font-family="JetBrains Mono, monospace" font-size="11" font-weight="400">contracts</text>
+    </g>
+  </g>
+
+  
+  <g font-family="Archivo, sans-serif" font-weight="700">
+    <g transform="translate(700,580)">
+      <rect x="-200" y="-50" width="400" height="100" rx="10" fill="#fff"></rect>
+      <text text-anchor="middle" y="-12" fill="#0C1A2B" font-size="18">Bronze → Silver → Gold</text>
+      <text text-anchor="middle" y="18" font-family="JetBrains Mono, monospace" font-size="11" fill="rgba(12,26,43,0.6)" font-weight="400">partitioned · versioned · lineage tracked</text>
+    </g>
+  </g>
+
+  
+  <g font-family="Archivo, sans-serif" font-weight="700" font-size="13">
+    <g transform="translate(300,760)">
+      <rect x="-90" y="-30" width="180" height="60" rx="6" fill="rgba(255,255,255,0.1)" stroke="rgba(255,255,255,0.3)"></rect>
+      <text text-anchor="middle" y="5" fill="#fff">Dashboards</text>
+    </g>
+    <g transform="translate(560,760)">
+      <rect x="-90" y="-30" width="180" height="60" rx="6" fill="rgba(255,255,255,0.1)" stroke="rgba(255,255,255,0.3)"></rect>
+      <text text-anchor="middle" y="5" fill="#fff">Embedded BI</text>
+    </g>
+    <g transform="translate(820,760)">
+      <rect x="-90" y="-30" width="180" height="60" rx="6" fill="rgba(255,255,255,0.1)" stroke="rgba(255,255,255,0.3)"></rect>
+      <text text-anchor="middle" y="5" fill="#fff">ML features</text>
+    </g>
+    <g transform="translate(1080,760)">
+      <rect x="-90" y="-30" width="180" height="60" rx="6" fill="rgba(255,255,255,0.1)" stroke="rgba(255,255,255,0.3)"></rect>
+      <text text-anchor="middle" y="5" fill="#fff">APIs</text>
+    </g>
+  </g>
+
+  
+  <g fill="none" stroke="rgba(255,255,255,0.22)" stroke-width="1.25">
+    
+    <path d="M 200 230 C 200 310, 320 290, 320 366"></path>
+    <path d="M 420 230 C 420 310, 320 290, 320 366"></path>
+    <path d="M 640 230 C 640 310, 760 290, 760 366"></path>
+    <path d="M 860 230 C 860 310, 760 290, 760 366"></path>
+    <path d="M 1080 230 C 1080 310, 1080 310, 1080 366"></path>
+    
+    <path d="M 320 434 C 320 500, 500 500, 500 530"></path>
+    <path d="M 760 434 C 760 500, 700 500, 700 530"></path>
+    <path d="M 1080 434 C 1080 500, 900 500, 900 530"></path>
+    
+    <path d="M 500 630 C 500 700, 300 700, 300 730"></path>
+    <path d="M 600 630 C 600 700, 560 700, 560 730"></path>
+    <path d="M 800 630 C 800 700, 820 700, 820 730"></path>
+    <path d="M 900 630 C 900 700, 1080 700, 1080 730"></path>
+  </g>
+
+  
+  <g transform="translate(1220,160)" font-family="Archivo, sans-serif">
+    <rect x="-20" y="-20" width="160" height="140" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.14)" rx="4"></rect>
+    <text font-family="JetBrains Mono, monospace" font-size="10" fill="#DF2127" font-weight="700">TRADE-OFF</text>
+    <text y="22" font-weight="900" font-size="15" fill="#fff">Federate, not</text>
+    <text y="42" font-weight="900" font-size="15" fill="#fff">centralize</text>
+    <text y="70" font-size="11" fill="rgba(255,255,255,0.65)" font-weight="400">Partner data</text>
+    <text y="86" font-size="11" fill="rgba(255,255,255,0.65)" font-weight="400">stays owned</text>
+    <text y="102" font-size="11" fill="rgba(255,255,255,0.65)" font-weight="400">by partner.</text>
+  </g>
+  <g transform="translate(1220,340)" font-family="Archivo, sans-serif">
+    <rect x="-20" y="-20" width="160" height="140" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.14)" rx="4"></rect>
+    <text font-family="JetBrains Mono, monospace" font-size="10" fill="#DF2127" font-weight="700">TRADE-OFF</text>
+    <text y="22" font-weight="900" font-size="15" fill="#fff">Contracts at</text>
+    <text y="42" font-weight="900" font-size="15" fill="#fff">the edge</text>
+    <text y="70" font-size="11" fill="rgba(255,255,255,0.65)" font-weight="400">Schema breaks</text>
+    <text y="86" font-size="11" fill="rgba(255,255,255,0.65)" font-weight="400">caught before</text>
+    <text y="102" font-size="11" fill="rgba(255,255,255,0.65)" font-weight="400">storage.</text>
+  </g>
+  <g transform="translate(1220,560)" font-family="Archivo, sans-serif">
+    <rect x="-20" y="-20" width="160" height="140" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.14)" rx="4"></rect>
+    <text font-family="JetBrains Mono, monospace" font-size="10" fill="#DF2127" font-weight="700">TRADE-OFF</text>
+    <text y="22" font-weight="900" font-size="15" fill="#fff">Medallion</text>
+    <text y="42" font-weight="900" font-size="15" fill="#fff">layering</text>
+    <text y="70" font-size="11" fill="rgba(255,255,255,0.65)" font-weight="400">Re-run without</text>
+    <text y="86" font-size="11" fill="rgba(255,255,255,0.65)" font-weight="400">re-ingesting.</text>
+  </g>
+
+  
+  <g transform="translate(80,1000)" font-family="JetBrains Mono, monospace" font-size="11" fill="rgba(255,255,255,0.4)">
+    <text>phase 02 · architecture</text>
+    <text x="1240" text-anchor="end">kbi · how we work</text>
+  </g>
+</svg>

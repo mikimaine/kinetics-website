@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" preserveAspectRatio="xMidYMid slice">
+  <rect width="800" height="1000" fill="#DCE6F3"></rect>
+  <g stroke="rgba(12,26,43,0.06)">
+    <line x1="0" x2="800" y1="100" y2="100"></line><line x1="0" x2="800" y1="180" y2="180"></line><line x1="0" x2="800" y1="260" y2="260"></line><line x1="0" x2="800" y1="340" y2="340"></line><line x1="0" x2="800" y1="420" y2="420"></line><line x1="0" x2="800" y1="500" y2="500"></line><line x1="0" x2="800" y1="580" y2="580"></line><line x1="0" x2="800" y1="660" y2="660"></line><line x1="0" x2="800" y1="740" y2="740"></line><line x1="0" x2="800" y1="820" y2="820"></line>
+  </g>
+  <rect x="48" y="48" width="80" height="4" fill="#2360AD"></rect>
+  <text x="48" y="90" font-family="JetBrains Mono, monospace" font-size="11" fill="rgba(12,26,43,0.55)">CASE · UNHCR</text>
+  <text x="48" y="160" font-family="Archivo, sans-serif" font-weight="900" font-size="48" fill="#0C1A2B">UNHCR</text>
+  <text x="48" y="200" font-family="Archivo, sans-serif" font-size="20" fill="rgba(12,26,43,0.55)">Digital Partners &amp; Statistical</text>
+
+  <text x="48" y="520" font-family="Archivo, sans-serif" font-weight="900" font-size="160" fill="#2360AD" letter-spacing="-6">84</text>
+  <text x="48" y="568" font-family="JetBrains Mono, monospace" font-size="13" fill="rgba(12,26,43,0.55)">country operations</text>
+
+  <g transform="translate(48,650)">
+    <polyline fill="none" stroke="#2360AD" stroke-width="2" points="0,100 60,82 120,90 180,60 240,72 300,44 360,52 420,28 480,36 540,14 600,22 660,4 704,10"></polyline>
+    <polyline fill="none" stroke="rgba(12,26,43,0.55)" stroke-width="1" stroke-dasharray="3 3" points="0,110 60,98 120,104 180,82 240,90 300,70 360,76 420,58 480,64 540,46 600,54 660,40 704,46"></polyline>
+  </g>
+
+  <g font-family="JetBrains Mono, monospace" font-size="11" fill="rgba(12,26,43,0.55)">
+    <line x1="48" x2="752" y1="880" y2="880" stroke="rgba(12,26,43,0.06)"></line>
+    <text x="48" y="920">humanitarian · bi</text>
+    <text x="752" y="920" text-anchor="end">kbi · case unhcr</text>
+  </g>
+</svg>

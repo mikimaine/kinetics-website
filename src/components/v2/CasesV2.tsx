@@ -54,6 +54,12 @@ export default function CasesV2() {
             Shipped. <span className="text-white/45">Where it counts.</span>
           </h2>
         </Reveal>
+        <Reveal delay={0.14}>
+          <p className="mt-6 max-w-[62ch] text-[17px] leading-[1.6] text-white/55">
+            These programs run at national and multinational scale, for continental health agencies,
+            UN bodies, and regulated US healthcare.
+          </p>
+        </Reveal>
 
         <div className="mt-14 grid grid-cols-12 gap-4">
           {FEATURED.map((c, i) => (

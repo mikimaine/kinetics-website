@@ -8,6 +8,7 @@ import StressTest from "@/components/v2/StressTest";
 import BentoCapabilities from "@/components/v2/BentoCapabilities";
 import CasesV2 from "@/components/v2/CasesV2";
 import ProcessScrub from "@/components/v2/ProcessScrub";
+import GovernanceBand from "@/components/v2/GovernanceBand";
 import PointOfViewV2 from "@/components/v2/PointOfViewV2";
 import QuoteV2 from "@/components/v2/QuoteV2";
 import FounderBand from "@/components/v2/FounderBand";
@@ -26,6 +27,7 @@ export default function Home() {
       <BentoCapabilities />
       <CasesV2 />
       <ProcessScrub />
+      <GovernanceBand />
       <PointOfViewV2 />
       <QuoteV2 />
       <FounderBand />

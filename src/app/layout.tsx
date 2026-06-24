@@ -69,6 +69,51 @@ const organizationSchema = {
     { "@type": "Person", name: "Mikiyas Amdu", jobTitle: "Co-founder & CEO" },
     { "@type": "Person", name: "Sosena Terefe", jobTitle: "Co-founder & COO" },
   ],
+  description:
+    "Kinetic builds applied-AI platforms and the data engineering underneath them, for healthcare, global health, and enterprise.",
+  areaServed: "Worldwide",
+  knowsAbout: [
+    "Applied AI",
+    "Agentic AI",
+    "Retrieval-augmented generation",
+    "Data engineering",
+    "ETL and ELT pipelines",
+    "Data platforms and warehouses",
+    "Business intelligence and visualization",
+    "Systems integration",
+    "Healthcare data interoperability",
+    "Global health informatics",
+    "DHIS2",
+    "FHIR",
+    "HL7",
+  ],
+  hasOfferCatalog: {
+    "@type": "OfferCatalog",
+    name: "Capabilities",
+    itemListElement: [
+      "Applied & Agentic AI",
+      "AI Platforms",
+      "Data Platforms",
+      "ETL / ELT Pipelines",
+      "BI & Visualization",
+      "Systems Integration",
+    ].map((service) => ({
+      "@type": "Offer",
+      itemOffered: { "@type": "Service", name: service, provider: { "@type": "Organization", name: "Kinetic Business Intelligence" } },
+    })),
+  },
+  review: {
+    "@type": "Review",
+    reviewBody:
+      "Kinetic is a top-tier development partner. They acted as genuine strategic partners, proposing improvements that were instrumental in delivering the project on time and within budget.",
+    author: {
+      "@type": "Person",
+      name: "Greco Johnson",
+      jobTitle: "Informatics Project Team Lead",
+      worksFor: { "@type": "Organization", name: "Task Force for Global Health" },
+    },
+    itemReviewed: { "@type": "Organization", name: "Kinetic Business Intelligence" },
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

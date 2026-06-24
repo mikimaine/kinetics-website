@@ -1,9 +1,13 @@
 const CLIENTS = [
   "Africa CDC",
   "UNHCR",
+  "International Labour Organization",
   "Task Force for Global Health",
+  "Mastercard Foundation",
   "VITAL WorkLife",
+  "Gebeya",
   "BuuPass",
+  "Gullit",
   "Canvaza",
 ];
 

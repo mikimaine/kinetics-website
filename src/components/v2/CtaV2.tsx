@@ -46,7 +46,7 @@ export default function CtaV2() {
             <div className="flex items-center gap-3">
               <img
                 src="/kbi-logo.png"
-                alt="Kinetic"
+                alt="Kinetic Business Intelligence"
                 className="h-4 w-auto opacity-70"
                 style={{ filter: "brightness(0) invert(1)" }}
               />

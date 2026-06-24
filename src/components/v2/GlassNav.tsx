@@ -37,7 +37,7 @@ export default function GlassNav() {
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
             src="/kbi-logo.png"
-            alt="Kinetics BI"
+            alt="Kinetic Business Intelligence"
             className="h-5 w-auto"
             style={{ filter: "brightness(0) invert(1)" }}
           />

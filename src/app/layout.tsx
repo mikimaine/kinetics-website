@@ -72,7 +72,7 @@ const organizationSchema = {
   ],
   description:
     "Kinetic builds applied-AI platforms and the data engineering underneath them, for healthcare, global health, and enterprise.",
-  areaServed: "Worldwide",
+  areaServed: ["United States", "Worldwide"],
   knowsAbout: [
     "Applied AI",
     "Agentic AI",

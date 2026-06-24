@@ -5,24 +5,43 @@ import ProcessScrub from "@/components/ProcessScrub";
 import GovernanceBand from "@/components/GovernanceBand";
 import Cta from "@/components/Cta";
 
+const DESC =
+  "Applied and agentic AI, AI platforms, data platforms, ETL/ELT pipelines, BI and visualization, and systems integration. The Data & AI capabilities Kinetic designs, builds, and runs in production.";
+
 export const metadata: Metadata = {
   title: "Capabilities — Applied AI, Data Platforms & BI | Kinetic",
-  description:
-    "Applied and agentic AI, AI platforms, data platforms, ETL/ELT pipelines, BI and visualization, and systems integration. The Data & AI capabilities Kinetic designs, builds, and runs in production.",
+  description: DESC,
   alternates: { canonical: "/products" },
   openGraph: {
     type: "website",
     url: "https://www.kineticsbi.com/products",
     siteName: "Kinetic BI",
     title: "Capabilities — Applied AI, Data Platforms & BI | Kinetic",
-    description:
-      "Applied AI, AI platforms, data platforms, pipelines, BI, and systems integration, built and run in production.",
+    description: "Applied AI, AI platforms, data platforms, pipelines, BI, and systems integration, built and run in production.",
   },
+  twitter: {
+    card: "summary_large_image",
+    title: "Capabilities — Applied AI, Data Platforms & BI | Kinetic",
+    description: "Applied AI, AI platforms, data platforms, pipelines, BI, and systems integration, built and run in production.",
+  },
+};
+
+const breadcrumb = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    { "@type": "ListItem", position: 1, name: "Home", item: "https://www.kineticsbi.com" },
+    { "@type": "ListItem", position: 2, name: "Capabilities", item: "https://www.kineticsbi.com/products" },
+  ],
 };
 
 export default function ProductsPage() {
   return (
     <SiteShell>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumb) }}
+      />
       <section className="relative z-10 pt-[150px] md:pt-[184px]">
         <div className="mx-auto max-w-[1280px] px-6 md:px-8">
           <div className="eyebrow">Capabilities</div>

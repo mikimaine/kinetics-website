@@ -16,10 +16,17 @@ type Props = {
 export default function CountUp({ to, decimals = 0, duration = 1.8, prefix = "", suffix = "", className }: Props) {
   const ref = useRef<HTMLSpanElement>(null);
   const inView = useInView(ref, { once: true, amount: 0.6 });
-  const [val, setVal] = useState(0);
+  // Start at the real value so SSR, no-JS, and crawlers/AI see the true number;
+  // the count-up animation is a client-side enhancement applied after hydration.
+  const [val, setVal] = useState(to);
+  const animated = useRef(false);
 
   useEffect(() => {
-    if (!inView) return;
+    if (!inView || animated.current) return;
+    // Respect reduced-motion: keep the final value, skip the count.
+    if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+    animated.current = true;
+
     let raf = 0;
     const start = performance.now();
     const tick = (now: number) => {

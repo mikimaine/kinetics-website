@@ -14,6 +14,13 @@ const nextConfig = {
   async headers() {
     return [{ source: "/:path*", headers: securityHeaders }];
   },
+  async redirects() {
+    // Old site placeholder routes -> home (preserve link equity, avoid 404s)
+    return [
+      { source: "/Feed", destination: "/", permanent: true },
+      { source: "/blank-page", destination: "/", permanent: true },
+    ];
+  },
 };
 
 module.exports = nextConfig;

@@ -1,7 +1,4 @@
-import "./site.css";
-
-import Aurora from "@/components/Aurora";
-import GlassNav from "@/components/GlassNav";
+import SiteShell from "@/components/SiteShell";
 import Hero from "@/components/Hero";
 import ClientMarquee from "@/components/ClientMarquee";
 import StressTest from "@/components/StressTest";
@@ -16,9 +13,7 @@ import Cta from "@/components/Cta";
 
 export default function Home() {
   return (
-    <main className="site">
-      <Aurora />
-      <GlassNav />
+    <SiteShell>
       <Hero />
       <div className="mt-24 md:mt-32">
         <ClientMarquee />
@@ -32,6 +27,6 @@ export default function Home() {
       <Quote />
       <FounderBand />
       <Cta />
-    </main>
+    </SiteShell>
   );
 }

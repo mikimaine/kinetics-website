@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Archivo, JetBrains_Mono } from "next/font/google";
 import { Analytics } from "@vercel/analytics/next"
 import "./globals.css";
+import "./site.css";
 
 const archivo = Archivo({
   subsets: ["latin"],

@@ -41,6 +41,12 @@ export default function Cta() {
         </div>
 
         <footer className="mt-28 border-t border-white/10 pt-8">
+          <div className="mb-6 flex flex-wrap items-center justify-center gap-x-6 gap-y-2 text-[12.5px] font-medium text-white/55">
+            <a href="/" className="transition-colors hover:text-white">Home</a>
+            <a href="/products" className="transition-colors hover:text-white">Capabilities</a>
+            <a href="/about" className="transition-colors hover:text-white">About</a>
+            <a href="/contact" className="transition-colors hover:text-white">Contact</a>
+          </div>
           <div className="flex flex-col items-center justify-between gap-4 md:flex-row">
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <div className="flex items-center gap-3">

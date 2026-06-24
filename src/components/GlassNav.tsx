@@ -1,13 +1,13 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import Link from "next/link";
 import { motion } from "framer-motion";
 
 const LINKS = [
-  { label: "Capabilities", href: "#capabilities" },
-  { label: "Work", href: "#work" },
-  { label: "Approach", href: "#process" },
-  { label: "About", href: "#about" },
+  { label: "Capabilities", href: "/products" },
+  { label: "Work", href: "/#work" },
+  { label: "About", href: "/about" },
 ];
 
 /** Floating liquid-glass nav pill. */
@@ -33,7 +33,7 @@ export default function GlassNav() {
           scrolled ? "scrolled" : ""
         }`}
       >
-        <a href="#top" className="flex items-center gap-3">
+        <Link href="/" className="flex items-center gap-3">
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
             src="/kbi-logo.png"
@@ -41,20 +41,20 @@ export default function GlassNav() {
             className="h-5 w-auto"
             style={{ filter: "brightness(0) invert(1)" }}
           />
-        </a>
+        </Link>
         <div className="hidden items-center gap-8 text-[14px] font-medium md:flex">
           {LINKS.map((l) => (
-            <a key={l.href} href={l.href} className="sitenav-link">
+            <Link key={l.href} href={l.href} className="sitenav-link">
               {l.label}
-            </a>
+            </Link>
           ))}
         </div>
-        <a
-          href="#contact"
+        <Link
+          href="/contact"
           className="cap cap-red !h-10 !px-4 !text-[13px] md:!h-11 md:!px-6 md:!text-[14px]"
         >
           Book a consult
-        </a>
+        </Link>
       </nav>
     </motion.header>
   );

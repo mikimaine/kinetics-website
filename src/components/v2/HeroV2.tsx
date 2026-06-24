@@ -43,7 +43,7 @@ export default function HeroV2() {
               className="chip mb-8 !h-8"
             >
               <span className="pulse-dot !h-[6px] !w-[6px]" />
-              Founder-led Data &amp; AI studio
+              Enterprise Data &amp; AI engineering
             </motion.div>
 
             <h1 className="display text-[clamp(38px,6.2vw,100px)]">

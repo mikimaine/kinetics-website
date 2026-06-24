@@ -4,11 +4,11 @@ import Reveal from "./Reveal";
 const FOUNDERS = [
   {
     initials: "MA",
-    name: "Mikiyas Amdu Midru",
+    name: "Mikiyas Amdu",
     role: "Co-founder & CEO",
-    where: "Addis Ababa",
+    where: "Dallas, TX",
     tint: "linear-gradient(160deg, rgba(223,33,39,0.5), rgba(223,33,39,0.12))",
-    bio: "He started ETM in 2016 with no investors and strong opinions about how software should be built. Ten years on, those opinions ship on four continents. Mikiyas is a CEO who never left the codebase: when the problem is genuinely hard, he's the one in the architecture, and he can still explain it to your board in plain words.",
+    bio: "Mikiyas leads Kinetic and its engineering. For a decade he's taken data and AI platforms from first commit to production for governments, multilaterals, and large enterprises across four continents. He sets the architecture and the standards the team builds to, and he's as comfortable in the boardroom as in the codebase.",
   },
   {
     initials: "ST",
@@ -16,7 +16,7 @@ const FOUNDERS = [
     role: "Co-founder & COO",
     where: "Dallas, TX",
     tint: "linear-gradient(160deg, rgba(35,96,173,0.55), rgba(35,96,173,0.15))",
-    bio: "Sosena wrote the software before she ran the company, so nothing technical slips past her. She runs Kinetic's US side from Dallas, and she started it on a bet: the engineering coming out of Africa holds up anywhere, as long as someone bridges the standards. She's that someone. She's usually also the first person you'll talk to.",
+    bio: "Sosena runs delivery and operations from Dallas. She came up as an engineer, so the bar she holds teams to is a technical one, and she's built the governance and process that let Kinetic deliver for regulated, audit-heavy organizations. Enterprise engagements start with her.",
   },
 ];
 
@@ -24,18 +24,21 @@ export default function FounderBand() {
   return (
     <section id="about" className="relative z-10 py-20 md:py-28">
       <div className="mx-auto max-w-[1280px] px-6 md:px-8">
-        <div className="max-w-[640px]">
+        <div className="max-w-[680px]">
           <Reveal>
             <div className="eyebrow">Who you work with</div>
           </Reveal>
           <Reveal delay={0.08} blur>
-            <h2 className="display mt-5 text-[clamp(36px,4.6vw,64px)]">A boutique, on purpose.</h2>
+            <h2 className="display mt-5 text-[clamp(36px,4.6vw,64px)]">
+              Senior team. <span className="text-white/45">Enterprise scale.</span>
+            </h2>
           </Reveal>
           <Reveal delay={0.16}>
             <p className="mt-6 text-[17px] leading-[1.6] text-white/60">
-              Kinetic is the Data &amp; AI studio from the founders of ETM Software, 200+ projects
-              since 2016. We&apos;re small by choice. The people who scope your project are the ones
-              who build it, and one of them sits in Dallas.
+              Kinetic is a team of more than 40 engineers, analysts, and delivery leads, partnered
+              with ETM Software. We&apos;ve shipped 200-plus projects since 2016 and run enterprise
+              programs end to end: data platforms, applied AI, and the governance and security that
+              regulated organizations require. Senior people lead the work and stay on it.
             </p>
           </Reveal>
         </div>

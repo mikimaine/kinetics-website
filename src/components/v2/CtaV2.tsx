@@ -23,9 +23,9 @@ export default function CtaV2() {
               </h2>
             </Reveal>
             <Reveal delay={0.16}>
-              <p className="mt-6 max-w-[44ch] text-[17px] leading-[1.6] text-white/60">
-                Book a 30-minute technical call. You&apos;ll talk to the engineer who&apos;d run your
-                project, not a salesperson.
+              <p className="mt-6 max-w-[46ch] text-[17px] leading-[1.6] text-white/60">
+                Book a 30-minute technical call. You&apos;ll talk to a senior engineer who can scope
+                the work, not a salesperson.
               </p>
               <div className="eyebrow mt-6 !text-[10px]">
                 Replies within one business day · SOC 2 · HIPAA-ready · GDPR

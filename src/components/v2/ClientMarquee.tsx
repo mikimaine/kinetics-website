@@ -3,7 +3,8 @@ const CLIENTS = [
   "UNHCR",
   "Task Force for Global Health",
   "VITAL WorkLife",
-  "EthioChicken",
+  "BuuPass",
+  "Canvaza",
 ];
 
 /** Glass trust strip — real client names instead of abstract verbs. */

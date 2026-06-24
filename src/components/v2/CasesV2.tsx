@@ -27,12 +27,12 @@ const FEATURED: Featured[] = [
     tags: ["Healthcare", "HIPAA", "US"],
   },
   {
-    client: "EthioChicken",
+    client: "UNHCR",
     stat: null,
-    statBig: "One source of truth",
-    statLabel: "across a multi-country operation",
-    desc: "One dashboard for a poultry business spread across several countries. Production, distribution, and sales, finally in one place.",
-    tags: ["Commercial", "Operations"],
+    statBig: "Warehouse to dashboard",
+    statLabel: "Digital Partners & Statistical tools",
+    desc: "A data warehouse and ELT pipeline behind UNHCR's partner and statistical reporting, topped with the BI and visualization layer their analysts work in.",
+    tags: ["Humanitarian", "Data warehouse", "BI"],
   },
 ];
 

@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     url: "https://www.kineticsbi.com",
-    siteName: "Kinetic",
+    siteName: "Kinetic BI",
     title: "Kinetic BI \u2014 Data & AI for work that can't fail",
     description:
       "Applied-AI platforms and the data engineering underneath them, for healthcare, global health, and enterprise.",

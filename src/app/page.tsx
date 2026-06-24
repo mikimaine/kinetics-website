@@ -1,37 +1,37 @@
-import "./v2/v2.css";
+import "./site.css";
 
-import Aurora from "@/components/v2/Aurora";
-import GlassNav from "@/components/v2/GlassNav";
-import HeroV2 from "@/components/v2/HeroV2";
-import ClientMarquee from "@/components/v2/ClientMarquee";
-import StressTest from "@/components/v2/StressTest";
-import BentoCapabilities from "@/components/v2/BentoCapabilities";
-import CasesV2 from "@/components/v2/CasesV2";
-import ProcessScrub from "@/components/v2/ProcessScrub";
-import GovernanceBand from "@/components/v2/GovernanceBand";
-import PointOfViewV2 from "@/components/v2/PointOfViewV2";
-import QuoteV2 from "@/components/v2/QuoteV2";
-import FounderBand from "@/components/v2/FounderBand";
-import CtaV2 from "@/components/v2/CtaV2";
+import Aurora from "@/components/Aurora";
+import GlassNav from "@/components/GlassNav";
+import Hero from "@/components/Hero";
+import ClientMarquee from "@/components/ClientMarquee";
+import StressTest from "@/components/StressTest";
+import BentoCapabilities from "@/components/BentoCapabilities";
+import Cases from "@/components/Cases";
+import ProcessScrub from "@/components/ProcessScrub";
+import GovernanceBand from "@/components/GovernanceBand";
+import PointOfView from "@/components/PointOfView";
+import Quote from "@/components/Quote";
+import FounderBand from "@/components/FounderBand";
+import Cta from "@/components/Cta";
 
 export default function Home() {
   return (
-    <main className="v2page">
+    <main className="site">
       <Aurora />
       <GlassNav />
-      <HeroV2 />
+      <Hero />
       <div className="mt-24 md:mt-32">
         <ClientMarquee />
       </div>
       <StressTest />
       <BentoCapabilities />
-      <CasesV2 />
+      <Cases />
       <ProcessScrub />
       <GovernanceBand />
-      <PointOfViewV2 />
-      <QuoteV2 />
+      <PointOfView />
+      <Quote />
       <FounderBand />
-      <CtaV2 />
+      <Cta />
     </main>
   );
 }

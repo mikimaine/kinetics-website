@@ -1,72 +1,64 @@
-import { POV_PRINCIPLES } from "@/lib/content/pov";
-import RevealOnScroll from "./RevealOnScroll";
+import GlassCard from "./GlassCard";
+import Reveal from "./Reveal";
 
-const VARIANT_CLASSES: Record<"white" | "bone" | "navy", string> = {
-  white: "bg-white hairline text-navy",
-  bone: "bg-bone hairline text-navy",
-  navy: "bg-navy text-white hairline-ink",
-};
+const PRINCIPLES = [
+  {
+    n: "01",
+    title: "Quality is enforced at ingestion.",
+    body: "Validation, normalization, and anomaly checks belong at the edge, not buried in a dashboard formula three layers downstream.",
+  },
+  {
+    n: "02",
+    title: "Data stays with its owner.",
+    body: "Federation beats centralization when trust is on the line. Sharing should be intentional and permissioned, not a side effect of where you stored something.",
+  },
+  {
+    n: "03",
+    title: "Schemas evolve, pipelines shouldn't break.",
+    body: "Real data models change every quarter. The systems we ship expect it, with version-controlled schemas and backward-compatible contracts.",
+  },
+  {
+    n: "04",
+    title: "Own the stack end to end.",
+    body: "From intake to interface, one team. No handoffs, no finger-pointing, no one to blame but us.",
+  },
+];
 
 export default function PointOfView() {
   return (
-    <section id="pov" className="border-b hairline">
-      <div className="max-w-shell mx-auto px-8 py-24 grid grid-cols-12 gap-8">
-        <RevealOnScroll className="col-span-12 md:col-span-5">
-          <div className="font-mono text-[11px] uppercase tracking-widest text-navy/50">
-            Point of view
+    <section className="relative z-10 py-20 md:py-28">
+      <div className="mx-auto max-w-[1280px] px-6 md:px-8">
+        <div className="grid grid-cols-1 gap-10 lg:grid-cols-12">
+          <div className="lg:col-span-4">
+            <Reveal>
+              <div className="eyebrow">Point of view</div>
+            </Reveal>
+            <Reveal delay={0.08} blur>
+              <h2 className="display mt-5 text-[clamp(34px,4.4vw,60px)]">
+                Opinions we&apos;re willing to defend.
+              </h2>
+            </Reveal>
+            <Reveal delay={0.16}>
+              <p className="mt-6 max-w-[40ch] text-[16px] leading-[1.6] text-white/55">
+                Ten years of building data systems teaches you what the decks leave out. These are
+                the ones we bring to every project, unless you talk us out of them.
+              </p>
+            </Reveal>
           </div>
-          <h3 className="mt-4 text-[44px] md:text-[64px] font-black tracking-tightest leading-[0.92] text-navy">
-            Opinions we&apos;re willing to defend.
-          </h3>
-          <p className="mt-6 text-navy/70 text-[16px] leading-relaxed max-w-[50ch]">
-            A decade of building data platforms teaches you what the decks won&apos;t. These are
-            the principles we bring into every engagement — unless you convince us otherwise.
-          </p>
-          <div className="mt-8 flex flex-wrap gap-3">
-            <a
-              href="#contact"
-              className="inline-block text-[14px] font-semibold px-4 py-2 rounded-sm bg-navy text-white hover:bg-red transition-colors"
-            >
-              Start a conversation
-            </a>
-            <a
-              href="#engagements"
-              className="inline-block text-[14px] font-semibold underline underline-offset-4 decoration-navy/40 hover:decoration-navy py-2"
-            >
-              See it in practice →
-            </a>
+
+          <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:col-span-8">
+            {PRINCIPLES.map((p, i) => (
+              <Reveal key={p.n} delay={i * 0.07}>
+                <GlassCard className="h-full p-7">
+                  <span className="font-mono text-[12px] text-glow-red">{p.n}</span>
+                  <h3 className="mt-4 text-[20px] font-black leading-[1.15] tracking-[-0.02em] text-white">
+                    {p.title}
+                  </h3>
+                  <p className="mt-3 text-[14px] leading-[1.6] text-white/55">{p.body}</p>
+                </GlassCard>
+              </Reveal>
+            ))}
           </div>
-        </RevealOnScroll>
-        <div className="col-span-12 md:col-span-7 space-y-3">
-          {POV_PRINCIPLES.map((p) => {
-            const isNavy = p.variant === "navy";
-            return (
-              <RevealOnScroll
-                key={p.number}
-                className={`p-8 border rounded-sm ${VARIANT_CLASSES[p.variant]}`}
-              >
-                <div className="flex items-start gap-5">
-                  <span className="font-mono text-[11px] text-red pt-1">{p.number}</span>
-                  <div>
-                    <div
-                      className={`text-[28px] font-black tracking-tightest leading-[1.05] ${
-                        isNavy ? "" : "text-navy"
-                      }`}
-                    >
-                      {p.title}
-                    </div>
-                    <p
-                      className={`mt-2 text-[15px] leading-relaxed max-w-[58ch] ${
-                        isNavy ? "text-white/70" : "text-navy/70"
-                      }`}
-                    >
-                      {p.body}
-                    </p>
-                  </div>
-                </div>
-              </RevealOnScroll>
-            );
-          })}
         </div>
       </div>
     </section>

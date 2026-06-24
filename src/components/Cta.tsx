@@ -2,7 +2,7 @@ import Reveal from "./Reveal";
 import GlassCard from "./GlassCard";
 import ContactForm from "./ContactForm";
 
-export default function CtaV2() {
+export default function Cta() {
   return (
     <section id="contact" className="relative z-10 overflow-hidden pb-14 pt-24 md:pt-32">
       {/* focused glow behind the CTA */}

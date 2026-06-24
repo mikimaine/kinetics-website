@@ -42,7 +42,7 @@ const COMPACT = [
   { client: "Confidential · HealthTech", desc: "Agentic AI advisors for medication-therapy management.", tag: "2026" },
 ];
 
-export default function CasesV2() {
+export default function Cases() {
   return (
     <section id="work" className="relative z-10 py-28 md:py-36">
       <div className="mx-auto max-w-[1280px] px-6 md:px-8">

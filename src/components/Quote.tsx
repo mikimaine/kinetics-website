@@ -1,7 +1,7 @@
 import GlassCard from "./GlassCard";
 import Reveal from "./Reveal";
 
-export default function QuoteV2() {
+export default function Quote() {
   return (
     <section id="voices" className="relative z-10 py-20 md:py-28">
       <div className="mx-auto max-w-[1280px] px-6 md:px-8">

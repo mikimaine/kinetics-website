@@ -29,7 +29,7 @@ export default function GlassNav() {
       className="fixed top-4 left-0 right-0 z-50 px-4 md:px-6"
     >
       <nav
-        className={`v2nav glass mx-auto flex h-[60px] max-w-[1080px] items-center justify-between !rounded-full pl-6 pr-2 ${
+        className={`sitenav glass mx-auto flex h-[60px] max-w-[1080px] items-center justify-between !rounded-full pl-6 pr-2 ${
           scrolled ? "scrolled" : ""
         }`}
       >
@@ -44,7 +44,7 @@ export default function GlassNav() {
         </a>
         <div className="hidden items-center gap-8 text-[14px] font-medium md:flex">
           {LINKS.map((l) => (
-            <a key={l.href} href={l.href} className="v2nav-link">
+            <a key={l.href} href={l.href} className="sitenav-link">
               {l.label}
             </a>
           ))}

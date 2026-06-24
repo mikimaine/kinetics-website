@@ -16,7 +16,7 @@ const FOUNDERS = [
     role: "Co-founder & COO",
     where: "Dallas, TX",
     tint: "linear-gradient(160deg, rgba(35,96,173,0.55), rgba(35,96,173,0.15))",
-    bio: "Sosena runs delivery and operations from Dallas. She came up as an engineer, so the bar she holds teams to is a technical one, and she's built the governance and process that let Kinetic deliver for regulated, audit-heavy organizations. Enterprise engagements start with her.",
+    bio: "Sosena runs delivery and operations from Dallas. She came up as an engineer, so the bar she holds teams to is a technical one, and she's built the governance and process that let Kinetic deliver for regulated, audit-heavy organizations.",
   },
 ];
 

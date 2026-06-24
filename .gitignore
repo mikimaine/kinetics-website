@@ -9,6 +9,7 @@ _bmad-output
 initial_brief.md
 .agents
 design_handoff_kinetic_bi
+docs/
 .next
 .DS_Store
 .idea/

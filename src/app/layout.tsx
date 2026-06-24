@@ -17,9 +17,9 @@ const jetbrains = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Kinetic BI \u2014 Business Intelligence & Custom Software",
+  title: "Kinetic \u2014 Data & AI for work that can't fail",
   description:
-    "Kinetic BI is a business intelligence and custom-software partner. We design the pipelines, platforms, and products that turn scattered data into systems you can trust.",
+    "Kinetic builds applied-AI platforms and the data engineering underneath them, for healthcare, global health, and enterprise. 200+ projects since 2016, now building in the US.",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

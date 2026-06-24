@@ -28,7 +28,7 @@ export default function OpengraphImage() {
             AI and data systems for work that can&apos;t fail
           </div>
           <div style={{ fontSize: 30, color: "#9aa3b2", maxWidth: 900 }}>
-            Applied-AI platforms and the data engineering underneath them — healthcare, global health, and enterprise.
+            Applied-AI platforms and the data engineering underneath them; healthcare, global health, and enterprise.
           </div>
         </div>
         <div style={{ display: "flex", fontSize: 26, color: "#9aa3b2" }}>

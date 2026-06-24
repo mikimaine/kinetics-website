@@ -2,22 +2,21 @@
 
 > Kinetic BI builds applied-AI platforms and the data engineering underneath them, for healthcare, global health, and enterprise. 200+ projects shipped since 2016 across four continents; now building from the US.
 
-Kinetic BI (kineticsbi.com) is a data and AI engineering firm. We design and operate applied/agentic AI systems and the data platforms, pipelines, and integrations they depend on — with quality enforced at ingestion and data kept with its owner. Founded 2016. Offices in Wilmington, DE and Dallas, TX. Contact: info@kineticsbi.com.
+Kinetic BI (kineticsbi.com) is a data and AI engineering firm. We design and operate applied/agentic AI systems and the data platforms, pipelines, and integrations they depend on, with quality enforced at ingestion and data kept with its owner. Founded 2016. Offices in Wilmington, DE and Dallas, TX. Contact: info@kineticsbi.com. Compliance posture: SOC 2, HIPAA-ready, GDPR.
 
-## What we do
-- Applied & Agentic AI — agents, RAG systems, ontologies, evaluations, guardrails
-- AI Platforms — data, retrieval, guardrails, and interfaces as one system
-- Data Platforms — warehouses and repositories with end-to-end lineage
-- ETL / ELT Pipelines — resilient pipelines that survive schema drift
-- BI & Visualization — dashboards for stakeholder decision-making
-- Systems Integration — DHIS2, FHIR, HL7, and legacy API connectivity
+## Capabilities
+- [Applied & Agentic AI](https://www.kineticsbi.com/#capabilities): agents, RAG systems, ontologies, evaluations, guardrails
+- [AI Platforms](https://www.kineticsbi.com/#capabilities): data, retrieval, guardrails, and interfaces as one system
+- [Data Platforms](https://www.kineticsbi.com/#capabilities): warehouses and repositories with end-to-end lineage
+- [ETL / ELT Pipelines](https://www.kineticsbi.com/#capabilities): resilient pipelines that survive schema drift
+- [BI & Visualization](https://www.kineticsbi.com/#capabilities): dashboards for stakeholder decision-making
+- [Systems Integration](https://www.kineticsbi.com/#capabilities): DHIS2, FHIR, HL7, and legacy API connectivity
 
-## Proof points
-- Africa CDC Central Data Repository — unified disease surveillance across 55 member states on DHIS2, over unreliable networks
-- UNHCR — data warehouse and ELT pipeline with a BI visualization layer across 84 country operations
-- Task Force for Global Health — 5× analyst output on a shared AI platform
-- VITAL WorkLife — HIPAA-compliant case management that reduced support cost
-- Compliance posture: SOC 2, HIPAA-ready, GDPR
+## Selected work
+- [Africa CDC Central Data Repository](https://www.kineticsbi.com/#work): unified disease surveillance across 55 member states on DHIS2, over unreliable networks
+- [UNHCR](https://www.kineticsbi.com/#work): data warehouse and ELT pipeline with a BI visualization layer across 84 country operations
+- [Task Force for Global Health](https://www.kineticsbi.com/#work): 5x analyst output on a shared AI platform
+- [VITAL WorkLife](https://www.kineticsbi.com/#work): HIPAA-compliant case management that reduced support cost
 
 ## People
 - Mikiyas Amdu — Co-founder & CEO (Dallas, TX)
@@ -25,7 +24,7 @@ Kinetic BI (kineticsbi.com) is a data and AI engineering firm. We design and ope
 - 40+ engineers, analysts, and delivery leads
 
 ## Links
-- Website: https://www.kineticsbi.com
-- LinkedIn: https://www.linkedin.com/company/kinetic-bi/
-- X: https://x.com/kineticsbi
-- Contact: info@kineticsbi.com
+- [Website](https://www.kineticsbi.com): homepage
+- [LinkedIn](https://www.linkedin.com/company/kinetic-bi/): company profile
+- [X](https://x.com/kineticsbi): updates
+- [Contact](mailto:info@kineticsbi.com): info@kineticsbi.com

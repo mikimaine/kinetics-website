@@ -47,7 +47,7 @@ export default function Hero() {
             </motion.div>
 
             <h1 className="display text-[clamp(38px,6.2vw,100px)]">
-              <Line delay={0.35}>AI and data systems</Line>
+              <Line delay={0.35}>AI and data systems{" "}</Line>
               <Line delay={0.48}>
                 for work that <span className="word-capsule">can&apos;t fail</span>
               </Line>

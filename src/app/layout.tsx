@@ -22,7 +22,7 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://www.kineticsbi.com"),
   title: "Kinetic BI \u2014 Data & AI for work that can't fail",
   description:
-    "Kinetic builds applied-AI platforms and the data engineering underneath them, for healthcare, global health, and enterprise. 200+ projects since 2016, now building in the US.",
+    "Applied-AI platforms and the data engineering underneath them, for healthcare, global health, and enterprise. 200+ projects since 2016.",
   alternates: { canonical: "/" },
   openGraph: {
     type: "website",

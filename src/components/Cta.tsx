@@ -46,6 +46,8 @@ export default function Cta() {
             <a href="/products" className="transition-colors hover:text-white">Capabilities</a>
             <a href="/about" className="transition-colors hover:text-white">About</a>
             <a href="/contact" className="transition-colors hover:text-white">Contact</a>
+            <a href="https://www.linkedin.com/company/kinetic-bi/" target="_blank" rel="noopener noreferrer" className="transition-colors hover:text-white">LinkedIn</a>
+            <a href="https://x.com/kineticsbi" target="_blank" rel="noopener noreferrer" className="transition-colors hover:text-white">X</a>
           </div>
           <div className="flex flex-col items-center justify-between gap-4 md:flex-row">
             {/* eslint-disable-next-line @next/next/no-img-element */}

@@ -81,7 +81,7 @@ export default function ProcessScrub() {
                             initial={{ opacity: 0, y: 6 }}
                             animate={{ opacity: 1, y: 0 }}
                             transition={{ duration: 0.5 }}
-                            className="mt-2 max-w-[46ch] text-[14px] leading-[1.6] text-white/55"
+                            className="mt-2 max-w-[46ch] text-[14px] leading-[1.6] text-white/55 md:hidden"
                           >
                             {p.body}
                           </motion.p>

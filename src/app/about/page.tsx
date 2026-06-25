@@ -7,7 +7,7 @@ import Quote from "@/components/Quote";
 import Cta from "@/components/Cta";
 
 const DESC =
-  "Kinetic is a Data & AI engineering firm for high-stakes operations. A team of more than 40, founded in 2016, with 200+ projects across continental health systems, UN agencies, and regulated enterprise.";
+  "A founder-led Data & AI engineering firm for high-stakes operations. 40+ specialists and 200+ projects since 2016, across health systems, UN agencies, and enterprise.";
 
 export const metadata: Metadata = {
   title: "About Kinetic — Founder-led Data & AI Engineering Firm",

@@ -3,7 +3,7 @@ import SiteShell from "@/components/SiteShell";
 import Cta from "@/components/Cta";
 
 const DESC =
-  "Book a 30-minute technical call with a senior engineer at Kinetic. We build Data & AI platforms for healthcare, global health, and enterprise. Email info@kineticsbi.com or use the form.";
+  "Book a 30-minute technical call with a senior engineer. Kinetic builds Data & AI platforms for healthcare, global health, and enterprise.";
 
 export const metadata: Metadata = {
   title: "Contact Kinetic — Book a Data & AI Consult",

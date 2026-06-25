@@ -6,7 +6,7 @@ import GovernanceBand from "@/components/GovernanceBand";
 import Cta from "@/components/Cta";
 
 const DESC =
-  "Applied AI, AI platforms, data platforms, pipelines, BI, and systems integration. The Data & AI capabilities Kinetic builds and runs in production.";
+  "Applied AI, AI platforms, data platforms, pipelines, BI, and systems integration. Built and run in production by Kinetic.";
 
 export const metadata: Metadata = {
   title: "Capabilities — Applied AI, Data Platforms & BI | Kinetic",

@@ -4,13 +4,19 @@
 
 Kinetic BI (kineticsbi.com) is a data and AI engineering firm. We design and operate applied/agentic AI systems and the data platforms, pipelines, and integrations they depend on, with quality enforced at ingestion and data kept with its owner. Founded 2016. Offices in Wilmington, DE and Dallas, TX. Contact: info@kineticsbi.com. Compliance posture: SOC 2, HIPAA-ready, GDPR.
 
+## Pages
+- [Home](https://www.kineticsbi.com): overview, capabilities, selected work, process, and governance
+- [Capabilities](https://www.kineticsbi.com/products): applied AI, AI platforms, data platforms, pipelines, BI, systems integration, and governance
+- [About](https://www.kineticsbi.com/about): the firm, founders, principles, and the Africa CDC stress test
+- [Contact](https://www.kineticsbi.com/contact): book a 30-minute technical consult
+
 ## Capabilities
-- [Applied & Agentic AI](https://www.kineticsbi.com/#capabilities): agents, RAG systems, ontologies, evaluations, guardrails
-- [AI Platforms](https://www.kineticsbi.com/#capabilities): data, retrieval, guardrails, and interfaces as one system
-- [Data Platforms](https://www.kineticsbi.com/#capabilities): warehouses and repositories with end-to-end lineage
-- [ETL / ELT Pipelines](https://www.kineticsbi.com/#capabilities): resilient pipelines that survive schema drift
-- [BI & Visualization](https://www.kineticsbi.com/#capabilities): dashboards for stakeholder decision-making
-- [Systems Integration](https://www.kineticsbi.com/#capabilities): DHIS2, FHIR, HL7, and legacy API connectivity
+- [Applied & Agentic AI](https://www.kineticsbi.com/products): agents, RAG systems, ontologies, evaluations, guardrails
+- [AI Platforms](https://www.kineticsbi.com/products): data, retrieval, guardrails, and interfaces as one system
+- [Data Platforms](https://www.kineticsbi.com/products): warehouses and repositories with end-to-end lineage
+- [ETL / ELT Pipelines](https://www.kineticsbi.com/products): resilient pipelines that survive schema drift
+- [BI & Visualization](https://www.kineticsbi.com/products): dashboards for stakeholder decision-making
+- [Systems Integration](https://www.kineticsbi.com/products): DHIS2, FHIR, HL7, and legacy API connectivity
 
 ## Selected work
 - [Africa CDC Central Data Repository](https://www.kineticsbi.com/#work): unified disease surveillance across 55 member states on DHIS2, over unreliable networks
@@ -25,6 +31,8 @@ Kinetic BI (kineticsbi.com) is a data and AI engineering firm. We design and ope
 
 ## Links
 - [Website](https://www.kineticsbi.com): homepage
+- [About](https://www.kineticsbi.com/about): company and team
+- [Contact](https://www.kineticsbi.com/contact): book a consult
 - [LinkedIn](https://www.linkedin.com/company/kinetic-bi/): company profile
 - [X](https://x.com/kineticsbi): updates
-- [Contact](mailto:info@kineticsbi.com): info@kineticsbi.com
+- [Email](mailto:info@kineticsbi.com): info@kineticsbi.com

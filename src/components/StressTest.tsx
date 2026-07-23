@@ -60,20 +60,37 @@ export default function StressTest() {
             <NetworkBg />
             <div className="relative max-w-[72%] md:max-w-none">
               <div className="eyebrow">Why teams trust us</div>
-              <h2 className="display mt-5 max-w-[18ch] text-[clamp(28px,4vw,58px)]">
-                If it survives here, it&apos;ll survive your{" "}
-                <span className="text-glow-red">enterprise</span>.
+              <h2 className="display mt-5 max-w-[24ch] text-[clamp(28px,4vw,58px)]">
+                Built for continental complexity. Ready for{" "}
+                <span className="text-glow-red">enterprise scale</span>.
               </h2>
             </div>
-            <p className="relative mt-6 max-w-[64ch] text-[16px] leading-[1.7] text-white/65 md:text-[18px]">
-              We built the Central Data Repository for Africa CDC. It pulls disease surveillance from
-              55 nations into one governed source, over patchy networks and health standards that
-              rarely agree, where a wrong number can cost lives. Your data problem is almost
-              certainly a smaller version of that. We&apos;ve already solved the big one.
+            <div className="relative mt-8 grid gap-8 md:grid-cols-2 md:gap-12">
+              <div>
+                <div className="eyebrow !text-[10px]">Africa CDC</div>
+                <p className="mt-3 text-[15.5px] leading-[1.7] text-white/65 md:text-[16.5px]">
+                  The Continental Public Health Data Intelligence Platform we engineered for Africa
+                  CDC securely unifies surveillance data across 55 African Union Member States
+                  through a standardized, federated, and governed architecture.
+                </p>
+              </div>
+              <div>
+                <div className="eyebrow !text-[10px]">UNHCR &amp; ARRA</div>
+                <p className="mt-3 text-[15.5px] leading-[1.7] text-white/65 md:text-[16.5px]">
+                  For Ethiopia&apos;s One Stop Shop refugee program, we built the registration and
+                  case management system that ARRA and UNHCR run their services on. It has carried
+                  more than 2 million refugees from paper files to verified digital records, in
+                  field conditions where connectivity comes and goes.
+                </p>
+              </div>
+            </div>
+            <p className="relative mt-8 max-w-[64ch] text-[16px] leading-[1.7] text-white/65 md:text-[18px]">
+              When you&apos;ve solved complexity at this scale, enterprise transformation becomes a
+              natural extension.
             </p>
             <div className="relative mt-10 grid max-w-[620px] grid-cols-3 gap-6 border-t border-white/10 pt-8">
-              <Stat to={55} label="Nations unified" />
-              <Stat to={84} label="UNHCR country operations" />
+              <Stat to={55} label="Member states unified" />
+              <Stat to={2} suffix="M+" label="Refugees served" />
               <Stat to={0} label="Rip-and-replace" />
             </div>
           </GlassCard>

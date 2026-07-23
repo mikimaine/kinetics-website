@@ -51,7 +51,7 @@ export default function Cta() {
           </div>
           <div className="flex flex-col items-center justify-between gap-4 md:flex-row">
             {/* eslint-disable-next-line @next/next/no-img-element */}
-            <div className="flex items-center gap-3">
+            <div className="flex flex-wrap items-center justify-center gap-3">
               <img
                 src="/kbi-logo.png"
                 alt="Kinetic Business Intelligence"
@@ -59,6 +59,15 @@ export default function Cta() {
                 style={{ filter: "brightness(0) invert(1)" }}
               />
               <span className="eyebrow !text-[9.5px] !text-white/40">Data &amp; AI</span>
+              <span aria-hidden className="text-white/20">·</span>
+              <a
+                href="https://etmsoftwareplc.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="eyebrow !text-[9.5px] !text-white/40 transition-colors hover:!text-white"
+              >
+                Global delivery partner: ETM Software
+              </a>
             </div>
             <div className="eyebrow !text-[9.5px]">
               © 2026 Kinetic · Wilmington, DE · Dallas, TX · info@kineticsbi.com

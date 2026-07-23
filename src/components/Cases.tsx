@@ -27,17 +27,17 @@ const FEATURED: Featured[] = [
     tags: ["Healthcare", "HIPAA", "US"],
   },
   {
-    client: "UNHCR",
-    stat: null,
-    statBig: "Warehouse to dashboard",
-    statLabel: "Digital Partners & Statistical tools",
-    desc: "A data warehouse and ELT pipeline behind UNHCR's partner and statistical reporting, topped with the BI and visualization layer their analysts work in.",
-    tags: ["Humanitarian", "Data warehouse", "BI"],
+    client: "UNHCR · ARRA",
+    stat: { to: 2, suffix: "M+" },
+    statLabel: "refugees registered and served",
+    desc: "The registration and case management system behind Ethiopia's One Stop Shop refugee program. ARRA runs registration and vital services on it, UNHCR runs its own services, and it holds up where connectivity drops.",
+    tags: ["Humanitarian", "Gov & UN", "Field ops"],
   },
 ];
 
 const COMPACT = [
   { client: "Task Force for Global Health", desc: "5× analyst output on a shared AI platform.", tag: "US" },
+  { client: "UNHCR · Statistical tools", desc: "Warehouse, ELT, and BI behind partner and statistical reporting across 84 country operations.", tag: "BI" },
   { client: "Confidential · Media", desc: "Music and video streaming: catalog, delivery, analytics.", tag: "2026" },
   { client: "Confidential · HealthTech", desc: "Agentic AI advisors for medication-therapy management.", tag: "2026" },
 ];
@@ -103,7 +103,7 @@ export default function Cases() {
           ))}
 
           {COMPACT.map((c, i) => (
-            <Reveal key={c.client} className="col-span-12 md:col-span-4" delay={0.1 + i * 0.06}>
+            <Reveal key={c.client} className="col-span-12 md:col-span-6 lg:col-span-3" delay={0.1 + i * 0.06}>
               <GlassCard className="flex h-full items-start justify-between gap-4 p-6">
                 <div>
                   <div className="text-[16px] font-black tracking-[-0.01em] text-white">{c.client}</div>

@@ -7,7 +7,7 @@ export default function Quote() {
       <div className="mx-auto max-w-[1280px] px-6 md:px-8">
         <Reveal blur>
           <GlassCard className="p-8 md:p-14">
-            <div className="eyebrow !text-red/90">On the Africa CDC Central Data Repository engagement</div>
+            <div className="eyebrow !text-red/90">On the Africa CDC Continental Public Health Data Intelligence Platform engagement</div>
             <blockquote className="mt-8 max-w-[26ch] text-[clamp(26px,3.4vw,44px)] font-black leading-[1.06] tracking-[-0.03em] text-white">
               “Kinetic is a{" "}
               <span className="text-glow-red">top-tier development partner</span>. They acted as

@@ -13,6 +13,13 @@ type Featured = {
 
 const FEATURED: Featured[] = [
   {
+    client: "UNHCR · ARRA",
+    stat: { to: 2, suffix: "M+" },
+    statLabel: "refugees registered and served",
+    desc: "The registration and case management system behind UNHCR's One Stop Shop refugee program. ARRA runs registration and vital services on it, UNHCR runs its own services, and it holds up where connectivity drops.",
+    tags: ["Humanitarian", "Gov & UN", "Field ops"],
+  },
+  {
     client: "Africa CDC",
     stat: { to: 55, suffix: "" },
     statLabel: "member states unified",
@@ -26,18 +33,11 @@ const FEATURED: Featured[] = [
     desc: "Case management built to HIPAA from the first commit. PHI stays locked down by default, and the support load dropped.",
     tags: ["Healthcare", "HIPAA", "US"],
   },
-  {
-    client: "UNHCR · ARRA",
-    stat: { to: 2, suffix: "M+" },
-    statLabel: "refugees registered and served",
-    desc: "The registration and case management system behind Ethiopia's One Stop Shop refugee program. ARRA runs registration and vital services on it, UNHCR runs its own services, and it holds up where connectivity drops.",
-    tags: ["Humanitarian", "Gov & UN", "Field ops"],
-  },
 ];
 
 const COMPACT = [
   { client: "Task Force for Global Health", desc: "5× analyst output on a shared AI platform.", tag: "US" },
-  { client: "UNHCR · Statistical tools", desc: "Warehouse, ELT, and BI behind partner and statistical reporting across 84 country operations.", tag: "BI" },
+  { client: "U ̰NHCR · Statistical tools", desc: "Warehouse, ELT, and BI behind partner and statistical reporting across 84 country operations.", tag: "BI" },
   { client: "Confidential · Media", desc: "Music and video streaming: catalog, delivery, analytics.", tag: "2026" },
   { client: "Confidential · HealthTech", desc: "Agentic AI advisors for medication-therapy management.", tag: "2026" },
 ];

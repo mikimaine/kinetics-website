@@ -19,8 +19,8 @@ Kinetic BI (kineticsbi.com) is a data and AI engineering firm. We design and ope
 - [Systems Integration](https://www.kineticsbi.com/products): DHIS2, FHIR, HL7, and legacy API connectivity
 
 ## Selected work
+- [UNHCR & ARRA One Stop Shop](https://www.kineticsbi.com/#work): registration and case management system for UNHCR's One Stop Shop refugee program in Ethiopia, serving 2M+ refugees in low-connectivity field conditions
 - [Africa CDC Continental Public Health Data Intelligence Platform](https://www.kineticsbi.com/#work): unified disease surveillance across 55 African Union Member States on DHIS2, over unreliable networks
-- [UNHCR & ARRA One Stop Shop](https://www.kineticsbi.com/#work): registration and case management system for Ethiopia's refugee services program, serving 2M+ refugees in low-connectivity field conditions
 - [UNHCR statistical tools](https://www.kineticsbi.com/#work): data warehouse and ELT pipeline with a BI visualization layer across 84 country operations
 - [Task Force for Global Health](https://www.kineticsbi.com/#work): 5x analyst output on a shared AI platform
 - [VITAL WorkLife](https://www.kineticsbi.com/#work): HIPAA-compliant case management that reduced support cost

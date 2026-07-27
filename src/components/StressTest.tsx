@@ -67,20 +67,20 @@ export default function StressTest() {
             </div>
             <div className="relative mt-8 grid gap-8 md:grid-cols-2 md:gap-12">
               <div>
+                <div className="eyebrow !text-[10px]">UNHCR &amp; ARRA</div>
+                <p className="mt-3 text-[15.5px] leading-[1.7] text-white/65 md:text-[16.5px]">
+                  For UNHCR&apos;s One Stop Shop refugee program, we built the registration and
+                  case management system that ARRA and UNHCR run their services on. It has carried
+                  more than 2 million refugees from paper files to verified digital records, in
+                  field conditions where connectivity comes and goes.
+                </p>
+              </div>
+              <div>
                 <div className="eyebrow !text-[10px]">Africa CDC</div>
                 <p className="mt-3 text-[15.5px] leading-[1.7] text-white/65 md:text-[16.5px]">
                   The Continental Public Health Data Intelligence Platform we engineered for Africa
                   CDC securely unifies surveillance data across 55 African Union Member States
                   through a standardized, federated, and governed architecture.
-                </p>
-              </div>
-              <div>
-                <div className="eyebrow !text-[10px]">UNHCR &amp; ARRA</div>
-                <p className="mt-3 text-[15.5px] leading-[1.7] text-white/65 md:text-[16.5px]">
-                  For Ethiopia&apos;s One Stop Shop refugee program, we built the registration and
-                  case management system that ARRA and UNHCR run their services on. It has carried
-                  more than 2 million refugees from paper files to verified digital records, in
-                  field conditions where connectivity comes and goes.
                 </p>
               </div>
             </div>
@@ -89,8 +89,8 @@ export default function StressTest() {
               natural extension.
             </p>
             <div className="relative mt-10 grid max-w-[620px] grid-cols-3 gap-6 border-t border-white/10 pt-8">
-              <Stat to={55} label="Member states unified" />
               <Stat to={2} suffix="M+" label="Refugees served" />
+              <Stat to={55} label="Member states unified" />
               <Stat to={0} label="Rip-and-replace" />
             </div>
           </GlassCard>
